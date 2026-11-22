@@ -42,16 +42,16 @@ function buildJsonLd(pathname: string): Record<string, unknown>[] {
     schemas.push({
       "@context": "https://schema.org",
       "@type": "WebSite",
-      name: "Crypto Recovery Assets",
+      name: "Cipher Shield Chain Recovery",
       url: `${SITE_URL}/`,
     });
     schemas.push({
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      name: "Crypto Recovery Assets",
+      name: "Cipher Shield Chain Recovery",
       url: `${SITE_URL}/`,
       telephone: "+1-401-684-4683",
-      email: "info@cryptorecoveryasset.com",
+      email: "info@ciphershieldchain.com",
       sameAs: [
         "https://www.facebook.com/share/1D9wkP3Hoz/",
         "https://www.instagram.com/crypto_recovery_forensic_asset/",
@@ -81,7 +81,7 @@ function buildJsonLd(pathname: string): Record<string, unknown>[] {
         mainEntityOfPage: canonical,
         publisher: {
           "@type": "Organization",
-          name: "Crypto Recovery Assets",
+          name: "Cipher Shield Chain Recovery",
           logo: `${SITE_URL}/brand-icon-512.png`,
         },
       });
@@ -168,7 +168,7 @@ function injectSeo(
     noindex?: boolean;
   }
 ): string {
-  const fullTitle = `${opts.title} | Crypto Recovery Assets`;
+  const fullTitle = `${opts.title} | Cipher Shield Chain Recovery`;
   const robots = opts.noindex
     ? "noindex, nofollow"
     : "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1";

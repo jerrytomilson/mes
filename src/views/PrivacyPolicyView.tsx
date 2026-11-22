@@ -14,7 +14,7 @@ export const PrivacyPolicyView = () => {
           PRIVACY <span className="text-primary italic">POLICY</span>
         </h1>
         <p className="text-slate-400 text-lg leading-relaxed max-w-3xl">
-          Last Updated: May 2026. This document outlines how Crypto Recovery Assets Agency ("the Agency", "we", "us") handles data during high-stakes recovery operations.
+          Last Updated: May 2026. This document outlines how Cipher Shield Chain Recovery Agency ("the Agency", "we", "us") handles data during high-stakes recovery operations.
         </p>
       </div>
 
@@ -95,7 +95,7 @@ export const PrivacyPolicyView = () => {
         <div className="pt-16 border-t border-white/10 text-center">
           <p className="text-slate-500 text-xs font-fira uppercase tracking-widest mb-8">Questions regarding data handled?</p>
           <a
-            href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Privacy inquiry — Crypto Recovery Assets')}&body=${encodeURIComponent('Please describe your privacy question.\n\n')}`}
+            href={`mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Privacy inquiry — Cipher Shield Chain Recovery')}&body=${encodeURIComponent('Please describe your privacy question.\n\n')}`}
             className="inline-block border border-primary/30 text-primary px-8 py-3 rounded-sm font-bold text-xs uppercase tracking-widest hover:bg-primary hover:text-white transition-all cursor-pointer"
           >
             Contact Privacy Officer

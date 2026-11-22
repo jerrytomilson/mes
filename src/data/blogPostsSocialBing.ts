@@ -25,7 +25,7 @@ const FOOT = `
 - [Client reviews](${U}/reviews)
 - [FAQ](${U}/faq)
 
-*Disclaimer: Educational only. Outcomes depend on timing, asset paths, and third-party cooperation. Crypto Recovery Assets never asks for seed phrases. Not legal or financial advice.*
+*Disclaimer: Educational only. Outcomes depend on timing, asset paths, and third-party cooperation. Cipher Shield Chain Recovery never asks for seed phrases. Not legal or financial advice.*
 `.trim();
 
 export const IG_INVESTMENT_SCAM: Post = {
@@ -68,7 +68,7 @@ Do not pay a second fee to “release” funds. Do not share a seed phrase with 
 
 ### How Recovery Actually Works
 
-[Crypto Recovery Assets](${U}/) traces deposits, looks for reused operator wallets, and prepares freeze packets when funds reach KYC exchanges. There is no reverse button on the blockchain. Speed and documentation matter. Start at [contact](${U}/contact).
+[Cipher Shield Chain Recovery](${U}/) traces deposits, looks for reused operator wallets, and prepares freeze packets when funds reach KYC exchanges. There is no reverse button on the blockchain. Speed and documentation matter. Start at [contact](${U}/contact).
 
 ### Share This With Someone Still in the Room
 
@@ -154,7 +154,7 @@ If payroll or a company wallet moved because a WhatsApp message *sounded* like y
 
 ### What Companies Should Capture
 
-Export the WhatsApp thread, note the number change, save TxIDs, and write who approved the payment. Do not accuse staff in the first email. Treat them as hunted. [Crypto Recovery Assets](${U}/) builds a packet exchanges can read: impersonation, amount, hops, and a freeze ask.
+Export the WhatsApp thread, note the number change, save TxIDs, and write who approved the payment. Do not accuse staff in the first email. Treat them as hunted. [Cipher Shield Chain Recovery](${U}/) builds a packet exchanges can read: impersonation, amount, hops, and a freeze ask.
 
 ### Share With Your Ops Chat
 
@@ -361,7 +361,7 @@ Share this list before someone you love sends a “tier unlock.” **Pig butcher
 
 ### If Three Flags Match
 
-Stop sending. Export everything. [Contact Crypto Recovery Assets](${U}/contact). Full playbook: [pig butchering USA guide](${U}/blog/pig-butchering-scam-recovery-usa-victim-guide).
+Stop sending. Export everything. [Contact Cipher Shield Chain Recovery](${U}/contact). Full playbook: [pig butchering USA guide](${U}/blog/pig-butchering-scam-recovery-usa-victim-guide).
 
 ${FOOT}
 `.trim(),
@@ -405,7 +405,7 @@ Type the company domain yourself. Do not click the first ad.
 
 ### Our Standard
 
-[Crypto Recovery Assets](${U}/about) intake is at [cryptorecoveryasset.com/contact](${U}/contact). Compare with [red flags of fake recovery sites](${U}/blog/red-flags-fake-crypto-recovery-websites) and [USA checklist](${U}/blog/legitimate-crypto-recovery-company-united-states-checklist).
+[Cipher Shield Chain Recovery](${U}/about) intake is at [ciphershieldchain.com/contact](${U}/contact). Compare with [red flags of fake recovery sites](${U}/blog/red-flags-fake-crypto-recovery-websites) and [USA checklist](${U}/blog/legitimate-crypto-recovery-company-united-states-checklist).
 
 ${FOOT}
 `.trim(),
@@ -510,7 +510,7 @@ If you hold **other people’s money** in a donation wallet, a drain feels like 
 
 ### For the Board Packet
 
-Timeline, spender approval if any, drain Tx, donor-impact summary, and next steps. [Crypto Recovery Assets](${U}/) writes in language a board can read. [Legal packaging](${U}/legal).
+Timeline, spender approval if any, drain Tx, donor-impact summary, and next steps. [Cipher Shield Chain Recovery](${U}/) writes in language a board can read. [Legal packaging](${U}/legal).
 
 ### Two Threads
 
@@ -721,7 +721,7 @@ Screenshot this list. Send it to the group chat.
 5. Rotate passwords and 2FA on email and exchanges.  
 6. Use official URLs only—type them.  
 7. File a local report if you can, keep the number.  
-8. Open [Crypto Recovery Assets intake](${U}/contact).  
+8. Open [Cipher Shield Chain Recovery intake](${U}/contact).  
 9. Track later at [case lookup](${U}/case-lookup).  
 10. Tell one trusted person so you are not isolated.
 
@@ -770,7 +770,7 @@ export const BING_ADS_FAKE_RECOVERY: Post = {
   slug: "bing-ads-fake-crypto-recovery-sites-how-to-stay-safe",
   title: "Bing Ads and Fake Crypto Recovery Sites: How Victims Get Hit Twice",
   excerpt:
-    "After a theft, sponsored Bing and Google results impersonate real firms. Learn the clone-site tells, how to type a domain yourself, and how to verify Crypto Recovery Assets before you share evidence.",
+    "After a theft, sponsored Bing and Google results impersonate real firms. Learn the clone-site tells, how to type a domain yourself, and how to verify Cipher Shield Chain Recovery before you share evidence.",
   author: "Dr. Aris V.",
   date: "NOV 08, 2026",
   readTime: "13 MIN",
@@ -782,14 +782,14 @@ export const BING_ADS_FAKE_RECOVERY: Post = {
     "fake crypto recovery website",
     "sponsored search recovery scam",
     "verify crypto recovery company",
-    "cryptorecoveryasset.com official",
+    "ciphershieldchain.com official",
   ],
   content: `
 The second scam is often an **ad**. You search **crypto recovery** on Bing, tap a sponsored result, and land on a clone that wants prepaid ETH and a seed.
 
 ### Type This Yourself
 
-[https://cryptorecoveryasset.com/contact](${U}/contact) — do not trust a link from a stranger or from the first ad slot.
+[https://ciphershieldchain.com/contact](${U}/contact) — do not trust a link from a stranger or from the first ad slot.
 
 ### Clone Tells
 

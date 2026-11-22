@@ -217,7 +217,7 @@ export const ClientPortalView = ({ onInitiateRecovery, onNavigate }: ClientPorta
       });
     } catch (error) {
       console.error('Error submitting form:', error);
-      alert('Something went wrong. Please try again or contact us directly at info@cryptorecoveryasset.com.');
+      alert('Something went wrong. Please try again or contact us directly at info@ciphershieldchain.com.');
     } finally {
       setIsSubmitting(false);
     }

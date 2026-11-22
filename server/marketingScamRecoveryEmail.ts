@@ -71,12 +71,12 @@ function emailTrustHeroHeader(): string {
         </tr>
         <tr>
           <td align="center" style="padding-bottom:12px;">
-            <img src="${BRAND_LOGO_URL}" width="44" height="44" alt="Crypto Recovery Asset" style="display:block;border:0;border-radius:10px;margin:0 auto;" />
+            <img src="${BRAND_LOGO_URL}" width="44" height="44" alt="Cipher Shield Chain Recovery" style="display:block;border:0;border-radius:10px;margin:0 auto;" />
           </td>
         </tr>
         <tr>
           <td align="center">
-            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:17px;font-weight:bold;color:#1e3a8a;letter-spacing:-0.2px;">Crypto Recovery <span style="color:#2563eb;">Asset</span></p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:17px;font-weight:bold;color:#1e3a8a;letter-spacing:-0.2px;">Cipher Shield Chain <span style="color:#2563eb;">Recovery</span></p>
             <p style="margin:6px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:#64748b;">Trusted Forensic Recovery · Law-Enforcement Aligned</p>
           </td>
         </tr>
@@ -92,7 +92,7 @@ function emailTrustMarketingFooter(unsubscribeUrl?: string): string {
 
   return `<tr>
     <td align="center" style="padding:28px 24px 32px;background-color:#f8fafc;border-top:1px solid #e2e8f0;border-radius:0 0 16px 16px;">
-      <p style="margin:0 0 4px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#1e40af;">Crypto Recovery Asset</p>
+      <p style="margin:0 0 4px;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;color:#1e40af;">Cipher Shield Chain Recovery</p>
       <p style="margin:0 0 20px;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:0.5px;color:#64748b;">Trusted &nbsp;•&nbsp; Professional &nbsp;•&nbsp; Secure</p>
 
       <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 auto;">
@@ -115,7 +115,7 @@ function emailTrustMarketingFooter(unsubscribeUrl?: string): string {
       <p style="margin:10px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.55;color:#94a3b8;">
         ${BUSINESS_ADDRESS_LINE1}<br/>${BUSINESS_ADDRESS_LINE2}
       </p>
-      <p style="margin:8px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.5;color:#cbd5e1;">© ${new Date().getFullYear()} Crypto Recovery Asset. All rights reserved.</p>
+      <p style="margin:8px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.5;color:#cbd5e1;">© ${new Date().getFullYear()} Cipher Shield Chain Recovery. All rights reserved.</p>
       ${unsub}
     </td>
   </tr>`;
@@ -182,7 +182,7 @@ export function buildScamRecoveryCampaignHtml(
               <td valign="top" style="padding-right:12px;font-size:22px;line-height:1;">⚖️</td>
               <td valign="top">
                 <p style="margin:0 0 10px;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.65;color:#334155;">
-                  At <strong>Crypto Recovery Asset</strong>, we understand how devastating this can be. That is why we work with <strong>blockchain forensic experts</strong> and coordinate with <strong>law enforcement</strong> where appropriate — to trace stolen funds and support victims in building strong, evidence-backed cases.
+                  At <strong>Cipher Shield Chain Recovery</strong>, we understand how devastating this can be. That is why we work with <strong>blockchain forensic experts</strong> and coordinate with <strong>law enforcement</strong> where appropriate — to trace stolen funds and support victims in building strong, evidence-backed cases.
                 </p>
                 <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:14px;line-height:1.65;color:#1e40af;font-weight:bold;">
                   You do not have to face this alone — we are here to help you take action.
@@ -200,7 +200,7 @@ export function buildScamRecoveryCampaignHtml(
       <tr>
         <td style="padding:14px 18px;">
           <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.55;color:#92400e;">
-            <strong>Security note:</strong> We never ask for upfront crypto payments or your seed phrase by email. Official messages come from <strong>@cryptorecoveryasset.com</strong>.
+            <strong>Security note:</strong> We never ask for upfront crypto payments or your seed phrase by email. Official messages come from <strong>@ciphershieldchain.com</strong>.
           </p>
         </td>
       </tr>
@@ -215,7 +215,7 @@ export function buildScamRecoveryCampaignHtml(
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="color-scheme" content="light only" />
   <meta name="supported-color-schemes" content="light" />
-  <title>Crypto scam recovery — Crypto Recovery Asset</title>
+  <title>Crypto scam recovery — Cipher Shield Chain Recovery</title>
 </head>
 <body style="margin:0;padding:0;background-color:#eef2f7;font-family:Arial,Helvetica,sans-serif;color-scheme:light only;">
   ${preheaderBlock}
@@ -256,7 +256,7 @@ export function buildScamRecoveryCampaignText(
     "• Phishing & hacked wallets — private keys stolen.",
     "• Ponzi & pyramid schemes — deposits with no real payout.",
     "",
-    "At Crypto Recovery Asset, we work with blockchain forensic experts and coordinate with law enforcement where appropriate to trace stolen funds and support victims in building strong cases.",
+    "At Cipher Shield Chain Recovery, we work with blockchain forensic experts and coordinate with law enforcement where appropriate to trace stolen funds and support victims in building strong cases.",
     "",
     "You do not have to face this alone — we are here to help you take action.",
     "",
@@ -268,6 +268,6 @@ export function buildScamRecoveryCampaignText(
     `${BUSINESS_ADDRESS_LINE1}`,
     `${BUSINESS_ADDRESS_LINE2}`,
     "",
-    "© Crypto Recovery Asset. All rights reserved.",
+    "© Cipher Shield Chain Recovery. All rights reserved.",
   ].join("\n");
 }

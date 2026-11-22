@@ -49,7 +49,7 @@ export function SeoEnrichment({
         <p className="text-slate-400 leading-relaxed mb-4">
           Chain traceability is the foundation of professional cryptocurrency recovery. When Bitcoin, Ethereum, USDT, or other assets
           move after a scam or hack, investigators reconstruct hop-by-hop paths across wallets, bridges, mixers, and exchange deposit
-          addresses. Crypto Recovery Assets maps those flows into compliance-ready packages that help exchanges evaluate freeze and
+          addresses. Cipher Shield Chain Recovery maps those flows into compliance-ready packages that help exchanges evaluate freeze and
           preservation requests.
         </p>
         <p className="text-slate-400 leading-relaxed mb-4">
@@ -83,7 +83,7 @@ export function SeoEnrichment({
           and clear ownership documentation that compliance teams can act on.
         </p>
         <p className="text-slate-400 leading-relaxed mb-4">
-          Crypto Recovery Assets prepares forensic packets that identify deposit addresses, timelines, and supporting victim evidence.
+          Cipher Shield Chain Recovery prepares forensic packets that identify deposit addresses, timelines, and supporting victim evidence.
           We also help clients avoid secondary recovery scams that demand seed phrases or upfront unlock fees.
         </p>
         <p className="text-slate-400 leading-relaxed">
@@ -112,7 +112,7 @@ export function SeoEnrichment({
           suitable for affidavits, preservation letters, and discovery.
         </p>
         <p className="text-slate-400 leading-relaxed mb-4">
-          Crypto Recovery Assets collaborates with attorneys and victims to prepare court-ready forensic materials, support subpoena
+          Cipher Shield Chain Recovery collaborates with attorneys and victims to prepare court-ready forensic materials, support subpoena
           targeting of VASP endpoints, and explain technical concepts clearly for judges and investigators.
         </p>
         <Links
@@ -242,7 +242,7 @@ export function SeoEnrichment({
             { label: "Services overview", href: "/services" },
             { label: "What to do immediately after a scam", href: "/blog/five-things-to-do-immediately-after-crypto-scam" },
             { label: "Fees: success models vs upfront scams", href: "/blog/crypto-recovery-success-fees-vs-upfront-scams" },
-            { label: "About Crypto Recovery Assets", href: "/about" },
+            { label: "About Cipher Shield Chain Recovery", href: "/about" },
             { label: "FAQ", href: "/faq" },
           ]}
         />

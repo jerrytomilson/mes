@@ -379,7 +379,7 @@ export default function App() {
                 <div className="absolute inset-0 bg-blue-500/10 rounded-full blur-lg group-hover:bg-blue-500/30 transition-all"></div>
                 <img 
                   src={LOGO_URL}
-                  alt="Crypto Recovery Assets Agency Logo"
+                  alt="Cipher Shield Chain Recovery Agency Logo"
                   width={40}
                   height={40}
                   fetchPriority="high"
@@ -389,7 +389,7 @@ export default function App() {
               </div>
               <div className="flex flex-col min-w-0 max-w-[calc(100vw-130px)] sm:max-w-none mr-2 sm:mr-0 overflow-hidden">
                 <div className="text-base sm:text-xl font-black tracking-tighter text-white uppercase font-manrope leading-none">
-                  Crypto Recovery <span className="text-blue-500">Asset</span>
+                  Cipher Shield Chain <span className="text-blue-500">Recovery</span>
                 </div>
                 <span className="text-[7px] sm:text-[8px] font-mono text-blue-400/80 tracking-[0.2em] uppercase mt-1 font-bold">Professional Forensic Analysis & Crypto Recovery Services</span>
               </div>
@@ -471,15 +471,15 @@ export default function App() {
                   <div className="relative w-10 h-10 flex items-center justify-center">
                     <img 
                       src={LOGO_URL}
-                      alt="Crypto Recovery Assets Agency Logo"
+                      alt="Cipher Shield Chain Recovery Agency Logo"
                       width={32}
                       height={32}
                       className="w-8 h-8 object-contain" 
                     />
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-white font-black text-sm uppercase tracking-tighter">Crypto Recovery</span>
-                    <span className="text-blue-500 font-mono text-[9px] uppercase tracking-widest font-bold">Asset</span>
+                    <span className="text-white font-black text-sm uppercase tracking-tighter">Cipher Shield Chain</span>
+                    <span className="text-blue-500 font-mono text-[9px] uppercase tracking-widest font-bold">Recovery</span>
                   </div>
                 </div>
                 <div className="flex flex-col border-l-2 border-blue-500/30 pl-4 mb-2">
@@ -870,14 +870,14 @@ export default function App() {
               <div className="relative w-12 h-12 flex items-center justify-center">
                 <img 
                   src={LOGO_URL}
-                  alt="Crypto Recovery Assets Agency Logo"
+                  alt="Cipher Shield Chain Recovery Agency Logo"
                   width={40}
                   height={40}
                   className="w-10 h-10 object-contain relative z-10" 
                 />
               </div>
               <div className="flex flex-col">
-                <h2 className="text-lg font-black tracking-tighter text-white uppercase font-manrope leading-none">Crypto Recovery <span className="text-blue-500">Asset</span></h2>
+                <h2 className="text-lg font-black tracking-tighter text-white uppercase font-manrope leading-none">Cipher Shield Chain <span className="text-blue-500">Recovery</span></h2>
                 <span className="text-[7px] font-mono text-blue-400/80 tracking-[0.2em] uppercase mt-0.5 font-bold">Professional Forensic Analysis & Crypto Recovery Services</span>
               </div>
             </div>
@@ -1002,7 +1002,7 @@ export default function App() {
             ))}
           </div>
           <p className="text-slate-600 text-[10px] uppercase tracking-widest font-bold">
-            © 2026 CRYPTO RECOVERY ASSETS // NEW HAMPSHIRE, USA REGISTERED LLC // ALL RIGHTS RESERVED // CLASSIFIED
+            © 2026 CIPHER SHIELD CHAIN RECOVERY // NEW HAMPSHIRE, USA REGISTERED LLC // ALL RIGHTS RESERVED // CLASSIFIED
           </p>
         </div>
       </footer>

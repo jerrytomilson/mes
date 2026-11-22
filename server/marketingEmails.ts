@@ -123,7 +123,7 @@ const nurture72Hour: MarketingEmailTemplate = {
       <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#fffbeb;border:1px solid #fde68a;border-radius:10px;">
         <tr>
           <td style="padding:14px 18px;">
-            <p style="margin:0;font-size:12px;line-height:1.55;color:#92400e;"><strong>Reminder:</strong> Crypto Recovery Asset operates on a success-contingency model — we do not request upfront crypto payments or gift cards. Official communication comes from <strong>@cryptorecoveryasset.com</strong>.</p>
+            <p style="margin:0;font-size:12px;line-height:1.55;color:#92400e;"><strong>Reminder:</strong> Cipher Shield Chain Recovery operates on a success-contingency model — we do not request upfront crypto payments or gift cards. Official communication comes from <strong>@ciphershieldchain.com</strong>.</p>
           </td>
         </tr>
       </table>`;
@@ -173,7 +173,7 @@ const trustSocialProof: MarketingEmailTemplate = {
   name: "Trust & social proof",
   description:
     "Builds credibility — success rate, process transparency, and link to verified reviews.",
-  subject: () => "Why victims choose Crypto Recovery Asset for forensic recovery",
+  subject: () => "Why victims choose Cipher Shield Chain Recovery for forensic recovery",
   preheader:
     "94.2% documented success rate · Zero upfront fees · Global exchange coordination.",
   buildHtml(vars) {
@@ -220,7 +220,7 @@ const trustSocialProof: MarketingEmailTemplate = {
     return [
       `Hello ${name},`,
       "",
-      "Crypto Recovery Asset — forensic blockchain recovery with zero upfront fees.",
+      "Cipher Shield Chain Recovery — forensic blockchain recovery with zero upfront fees.",
       "• 94.2% documented success rate",
       "• Success-contingency fee model",
       "• 24/7 case monitoring",
@@ -255,10 +255,10 @@ const educationalRedFlags: MarketingEmailTemplate = {
         "<strong>Guaranteed 100% recovery</strong> — no ethical analyst can promise full recovery; outcomes depend on fund location.",
         "<strong>Pressure to share seed phrases</strong> — never provide private keys or seed words by email or chat.",
         "<strong>No verifiable business address</strong> — check domain age, reviews, and corporate registration.",
-        "<strong>Anonymous Telegram-only support</strong> — insist on official domain email (@cryptorecoveryasset.com).",
+        "<strong>Anonymous Telegram-only support</strong> — insist on official domain email (@ciphershieldchain.com).",
       ])}
 
-      <p style="margin:24px 0 16px;font-size:14px;line-height:1.65;color:#475569;">Crypto Recovery Asset publishes transparent procedures, verified reviews, and secure client portals. If you are comparing providers, we welcome due diligence.</p>
+      <p style="margin:24px 0 16px;font-size:14px;line-height:1.65;color:#475569;">Cipher Shield Chain Recovery publishes transparent procedures, verified reviews, and secure client portals. If you are comparing providers, we welcome due diligence.</p>
 
       ${emailCtaLink(`${SITE_URL}/blog`, "Read forensic guides on our blog", "#2563eb")}
       ${emailCtaLink(WHATSAPP_MESSAGE_URL, "Ask us a question on WhatsApp", "#16a34a")}`;
@@ -332,7 +332,7 @@ const reEngagement: MarketingEmailTemplate = {
       "",
       vars.caseId
         ? `Case reference: ${vars.caseId}`
-        : "You previously contacted Crypto Recovery Asset.",
+        : "You previously contacted Cipher Shield Chain Recovery.",
       "",
       "Reply when ready — we can continue your recovery intake.",
       `Portal: ${portalUrl(vars.caseId)}`,

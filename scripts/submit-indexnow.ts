@@ -2,7 +2,7 @@
  * IndexNow — notify Bing, Yandex, Seznam, Naver, Yep, Amazon of URL updates.
  *
  * Setup:
- * 1. Key file must be live at: https://cryptorecoveryasset.com/{INDEXNOW_KEY}.txt
+ * 1. Key file must be live at: https://ciphershieldchain.com/{INDEXNOW_KEY}.txt
  * 2. After deploy: npm run indexnow
  *
  * Docs: https://www.indexnow.org/documentation

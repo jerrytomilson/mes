@@ -294,7 +294,7 @@ export const BlogView = () => {
                   },
                   publisher: {
                     "@type": "Organization",
-                    name: "Crypto Recovery Assets",
+                    name: "Cipher Shield Chain Recovery",
                     logo: {
                       "@type": "ImageObject",
                       url: `${SITE_URL}/brand-icon-512.png`,

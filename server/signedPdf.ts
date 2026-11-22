@@ -246,7 +246,7 @@ export async function buildSignedPdfBuffer(
     if (y - need < FOOTER_RESERVE) newPage();
   };
 
-  page.drawText("CRYPTO RECOVERY ASSETS AGENCY", {
+  page.drawText("CIPHER SHIELD CHAIN RECOVERY AGENCY", {
     x: MARGIN,
     y,
     size: 9,
@@ -423,7 +423,7 @@ export async function buildSignedPdfBuffer(
     navy,
     rgb(0.91, 0.83, 0.55),
     gold,
-    "CRYPTO RECOVERY ASSETS",
+    "CIPHER SHIELD CHAIN RECOVERY",
     "AGENCY  ·  OFFICIAL SEAL",
     "SEAL"
   );

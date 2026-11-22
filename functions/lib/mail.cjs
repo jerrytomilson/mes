@@ -18,7 +18,7 @@ function getSmtpConfig(env = process.env) {
   const SMTP_USER = cleanEnvVar(env.SMTP_USER);
   const SMTP_PASS = cleanEnvVar(env.SMTP_PASS);
   const ADMIN_EMAIL =
-    cleanEnvVar(env.ADMIN_EMAIL) || "info@cryptorecoveryasset.com";
+    cleanEnvVar(env.ADMIN_EMAIL) || "info@ciphershieldchain.com";
 
   return { SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, ADMIN_EMAIL };
 }
@@ -96,7 +96,7 @@ async function sendRecoveryEmails(safeData, env = process.env) {
   });
 
   if (clientEmail) {
-    const lookupUrl = `https://cryptorecoveryasset.com/case-lookup?ref=${encodeURIComponent(generatedCaseId)}`;
+    const lookupUrl = `https://ciphershieldchain.com/case-lookup?ref=${encodeURIComponent(generatedCaseId)}`;
     const textBody = [
       "CRYPTO RECOVERY ASSET — INTAKE CONFIRMATION",
       "",
@@ -108,11 +108,11 @@ async function sendRecoveryEmails(safeData, env = process.env) {
       "",
       `Track status: ${lookupUrl}`,
       "",
-      "Reply to this email or contact info@cryptorecoveryasset.com if you need help.",
+      "Reply to this email or contact info@ciphershieldchain.com if you need help.",
     ].join("\n");
 
     await transporter.sendMail({
-      from: `"Crypto Recovery" <${SMTP_USER}>`,
+      from: `"Cipher Shield Chain Recovery" <${SMTP_USER}>`,
       to: clientEmail,
       subject: `Case received — ${generatedCaseId}`,
       text: textBody,
@@ -120,9 +120,9 @@ async function sendRecoveryEmails(safeData, env = process.env) {
         <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; color: #334155; line-height: 1.65;">
           <p style="display:none;max-height:0;overflow:hidden;opacity:0;">We received your intake form. Reference ${generatedCaseId}.</p>
           <p>Hello <strong>${clientName}</strong>,</p>
-          <p>Thank you for submitting your intake form to <strong>Crypto Recovery Asset</strong>. Your reference is <strong>${generatedCaseId}</strong>.</p>
+          <p>Thank you for submitting your intake form to <strong>Cipher Shield Chain Recovery</strong>. Your reference is <strong>${generatedCaseId}</strong>.</p>
           <p><a href="${lookupUrl}" style="background:#2563eb;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;display:inline-block;font-weight:bold;">Check case status</a></p>
-          <p style="font-size:12px;color:#64748b;">Questions? Reply to this email or write to info@cryptorecoveryasset.com</p>
+          <p style="font-size:12px;color:#64748b;">Questions? Reply to this email or write to info@ciphershieldchain.com</p>
         </div>
       `,
       headers: {

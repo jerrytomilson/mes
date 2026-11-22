@@ -1,6 +1,6 @@
 # Marketing email templates
 
-Professional HTML campaigns for Crypto Recovery Asset, using the same table-based layout as the case confirmation email (Gmail-safe CTAs, light theme).
+Professional HTML campaigns for Cipher Shield Chain Recovery, using the same table-based layout as the case confirmation email (Gmail-safe CTAs, light theme).
 
 ## Templates
 
@@ -50,7 +50,7 @@ GET /api/marketing-email-preview?template=nurture_72_hour&firstName=Alex&caseId=
 ## Send a test email (admin)
 
 ```bash
-curl -X POST https://cryptorecoveryasset.com/api/send-marketing-email \
+curl -X POST https://ciphershieldchain.com/api/send-marketing-email \
   -H "Authorization: Bearer YOUR_ADMIN_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{

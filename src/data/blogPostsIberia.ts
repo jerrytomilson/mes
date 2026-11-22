@@ -50,7 +50,7 @@ export const CRYPTO_RECOVERY_SPAIN_GUIDE: Post = {
     "recuperación USDT España",
   ],
   content: `
-Victims across **Spain** lose cryptocurrency to cloned trading apps, romance and pig-butchering desks, phishing pages that mimic Spanish banks, and wallet drainers. If you are searching **crypto recovery services Spain**, **recuperación de criptomonedas España**, or **estafa crypto ayuda España**, this national guide covers forensic recovery, CNMV-related reporting paths, and how [Crypto Recovery Asset](${U}/) supports Spanish victims remotely.
+Victims across **Spain** lose cryptocurrency to cloned trading apps, romance and pig-butchering desks, phishing pages that mimic Spanish banks, and wallet drainers. If you are searching **crypto recovery services Spain**, **recuperación de criptomonedas España**, or **estafa crypto ayuda España**, this national guide covers forensic recovery, CNMV-related reporting paths, and how [Cipher Shield Chain Recovery](${U}/) supports Spanish victims remotely.
 
 ### How Crypto Recovery Works in Spain
 
@@ -61,7 +61,7 @@ Professional **recover stolen crypto Spain** programs follow a documented sequen
 3. **Exchange compliance liaison** — when stolen assets reach KYC platforms that serve Spanish residents.  
 4. **Reporting** — CNMV investor alerts where relevant, **Policía Nacional**, **Guardia Civil** cyber units, and counsel-ready files via [crypto fraud investigation Spain](${U}/legal).
 
-Start intake: [cryptorecoveryasset.com/contact](${U}/contact)
+Start intake: [ciphershieldchain.com/contact](${U}/contact)
 
 ### Recover Stolen Bitcoin Spain / Recuperación Bitcoin Robado
 
@@ -189,7 +189,7 @@ Stolen funds often leave through TRC-20 USDT peels before landing at offshore de
 
 ### Secondary Scammer Warning
 
-Victims in Barcelona are contacted within hours by fake “recovery companies.” Only use official intake at [cryptorecoveryasset.com/contact](${U}/contact). Track milestones at [case lookup](${U}/case-lookup).
+Victims in Barcelona are contacted within hours by fake “recovery companies.” Only use official intake at [ciphershieldchain.com/contact](${U}/contact). Track milestones at [case lookup](${U}/case-lookup).
 
 **Related:** [Spain guide](${U}/blog/crypto-recovery-services-spain-guide-2026) · [Valencia & East Coast](${U}/blog/crypto-recovery-valencia-east-spain-cities)
 
@@ -387,7 +387,7 @@ export const CRYPTO_RECOVERY_PORTUGAL_GUIDE: Post = {
     "recuperação USDT Portugal",
   ],
   content: `
-Victims in **Portugal** lose Bitcoin, Ethereum, and USDT to fake brokers, romance investment desks, phishing clones of Portuguese banks, and wallet drainers. If you are searching **crypto recovery services Portugal**, **recuperação de criptomoedas Portugal**, or **burla crypto ajuda Portugal**, this national guide explains forensic recovery, CMVM-related reporting, and how [Crypto Recovery Asset](${U}/) supports Portuguese victims remotely.
+Victims in **Portugal** lose Bitcoin, Ethereum, and USDT to fake brokers, romance investment desks, phishing clones of Portuguese banks, and wallet drainers. If you are searching **crypto recovery services Portugal**, **recuperação de criptomoedas Portugal**, or **burla crypto ajuda Portugal**, this national guide explains forensic recovery, CMVM-related reporting, and how [Cipher Shield Chain Recovery](${U}/) supports Portuguese victims remotely.
 
 ### How Crypto Recovery Works in Portugal
 
@@ -398,7 +398,7 @@ Professional **recover stolen crypto Portugal** work is evidence-first:
 3. **Compliance liaison** — when stolen assets hit KYC platforms serving Portuguese clients.  
 4. **Reporting** — CMVM investor complaints where relevant, **Polícia Judiciária**, and counsel-ready files via [crypto fraud investigation Portugal](${U}/legal).
 
-Start intake: [cryptorecoveryasset.com/contact](${U}/contact)
+Start intake: [ciphershieldchain.com/contact](${U}/contact)
 
 ### Recover Stolen Bitcoin Portugal / Recuperação Bitcoin Roubado
 
@@ -466,7 +466,7 @@ export const CRYPTO_RECOVERY_LISBON_CENTRE: Post = {
 
 ### Secondary Recovery Scams in Lisbon
 
-Fake “recovery agents” scrape victim groups within hours. They will ask for seed phrases or remote-desktop access. Only use [cryptorecoveryasset.com/contact](${U}/contact). Track the file at [case lookup](${U}/case-lookup).
+Fake “recovery agents” scrape victim groups within hours. They will ask for seed phrases or remote-desktop access. Only use [ciphershieldchain.com/contact](${U}/contact). Track the file at [case lookup](${U}/case-lookup).
 
 **Related:** [Portugal master guide](${U}/blog/crypto-recovery-services-portugal-guide-2026) · [Porto & North](${U}/blog/crypto-recovery-porto-north-portugal-cities)
 

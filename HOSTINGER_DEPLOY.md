@@ -2,7 +2,7 @@
 
 ## Why `/api/health` returns HTML or 404
 
-If `https://cryptorecoveryasset.com/api/health` is **not** JSON (`{"status":"online","runtime":"node",...}`), the domain is **not** hitting the Node process. Common causes:
+If `https://ciphershieldchain.com/api/health` is **not** JSON (`{"status":"online","runtime":"node",...}`), the domain is **not** hitting the Node process. Common causes:
 
 1. **Output directory** set to `dist` → Hostinger serves static files only; the API never runs.
 2. A **separate static website** is still attached to the domain.
@@ -25,7 +25,7 @@ If `https://cryptorecoveryasset.com/api/health` is **not** JSON (`{"status":"onl
 | **Output directory** | **leave empty** (do not use `dist` for static-only) |
 | **Entry file** | **`app.cjs`** |
 
-**Domain:** In the Node.js app → **Domains**, attach `cryptorecoveryasset.com` (and `www` if used). Remove or disable any **other** website on the same domain (old static upload / “Website Builder”).
+**Domain:** In the Node.js app → **Domains**, attach `ciphershieldchain.com` (and `www` if used). Remove or disable any **other** website on the same domain (old static upload / “Website Builder”).
 
 After saving, click **Deploy** or **Redeploy**.
 
@@ -41,7 +41,7 @@ Linux error **-122** is **EDQUOT** (disk quota or inode/file-count limit exceede
 
 The failing path is usually:
 
-`/home/u695441817/domains/cryptorecoveryasset.com/.builds/source/repository/node_modules/...`
+`/home/u695441817/domains/ciphershieldchain.com/.builds/source/repository/node_modules/...`
 
 `.builds` is Hostinger’s Git deploy cache. Failed installs leave half-written `node_modules` behind, so the next deploy has even less space.
 
@@ -56,7 +56,7 @@ hPanel → **Usage** (or **Disk Usage**). Note both:
 
 In **File Manager** (enable hidden files) or SSH, go to:
 
-`/home/u695441817/domains/cryptorecoveryasset.com/`
+`/home/u695441817/domains/ciphershieldchain.com/`
 
 Delete these if they exist (do **not** delete `data`, `case-data`, or `cryptorecovery-case-data`):
 
@@ -69,7 +69,7 @@ Delete these if they exist (do **not** delete `data`, `case-data`, or `cryptorec
 SSH (if enabled):
 
 ```bash
-cd /home/u695441817/domains/cryptorecoveryasset.com
+cd /home/u695441817/domains/ciphershieldchain.com
 rm -rf .builds .npm
 find . -name node_modules -type d -prune -print
 # review the list, then remove leftover install folders only — never data/case-data
@@ -101,9 +101,9 @@ If it still fails at `-122`, the account is still over quota. Upgrade the Hostin
 NODE_ENV=production
 SMTP_HOST=smtp.titan.email
 SMTP_PORT=465
-SMTP_USER=info@cryptorecoveryasset.com
+SMTP_USER=info@ciphershieldchain.com
 SMTP_PASS=your_titan_app_password
-ADMIN_EMAIL=info@cryptorecoveryasset.com
+ADMIN_EMAIL=info@ciphershieldchain.com
 ```
 
 Or **Resend** — see **EMAIL_SETUP.md**. SMTP is used when both are set.
@@ -151,14 +151,14 @@ Full feature checklist: **`docs/PRODUCTION_CHECKLIST.md`**
 
 ## Verify after deploy
 
-1. `https://cryptorecoveryasset.com/api/health`  
+1. `https://ciphershieldchain.com/api/health`  
    - **Good:** `{"status":"online","runtime":"node","smtpConfigured":true,"caseStore":{"writable":true},...}`  
    - **Bad:** HTML or Hostinger 404 → domain still on static hosting; fix table above
 
 2. Test email:  
-   `https://cryptorecoveryasset.com/api/debug-email?to=info@cryptorecoveryasset.com`
+   `https://ciphershieldchain.com/api/debug-email?to=info@ciphershieldchain.com`
 
-3. Submit the intake form; check **info@cryptorecoveryasset.com** (and spam).
+3. Submit the intake form; check **info@ciphershieldchain.com** (and spam).
 
 4. Admin: `/admin/login` → cases list → messaging + milestones on a test case.
 
@@ -174,7 +174,7 @@ If you keep static-only hosting, set **build-time** variables in Hostinger and r
 VITE_EMAILJS_SERVICE_ID=...
 VITE_EMAILJS_TEMPLATE_ID=...
 VITE_EMAILJS_PUBLIC_KEY=...
-VITE_ADMIN_EMAIL=info@cryptorecoveryasset.com
+VITE_ADMIN_EMAIL=info@ciphershieldchain.com
 ```
 
 The form will send via EmailJS from the browser. SMTP env vars only apply when Node is running.

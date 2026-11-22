@@ -1,6 +1,6 @@
-export const SITE_URL = "https://cryptorecoveryasset.com";
+export const SITE_URL = "https://ciphershieldchain.com";
 export const CASE_LOOKUP_URL = `${SITE_URL}/case-lookup`;
-export const CONTACT_EMAIL = "info@cryptorecoveryasset.com";
+export const CONTACT_EMAIL = "info@ciphershieldchain.com";
 export const SUPPORT_PHONE_DISPLAY = "+1 (401) 684-4683";
 /** Site support line — matches footer / structured data */
 export const SUPPORT_PHONE_E164 = "14016844683";
@@ -31,7 +31,7 @@ export function buildClientCaseEmailText(
     "",
     `Hello ${clientName},`,
     "",
-    "Thank you for trusting Crypto Recovery Asset. Your intake submission has been received and queued for forensic review.",
+    "Thank you for trusting Cipher Shield Chain Recovery. Your intake submission has been received and queued for forensic review.",
     "",
     `Case ID: ${caseId}`,
     `Status: PENDING — Intake review`,
@@ -49,7 +49,7 @@ export function buildClientCaseEmailText(
     "WHILE YOU WAIT",
     "• Save your Case ID in a secure place.",
     "• Gather transaction hashes, wallet addresses, and screenshots if you have them.",
-    "• Watch for email from our team — we reply from official @cryptorecoveryasset.com addresses.",
+    "• Watch for email from our team — we reply from official @ciphershieldchain.com addresses.",
     "• Do not share seed phrases or private keys with anyone except through our secure portal when requested.",
     "",
     "CONTACT",
@@ -61,7 +61,7 @@ export function buildClientCaseEmailText(
     "",
     "This message is private and confidential. Unauthorized disclosure is prohibited.",
     "",
-    "© Crypto Recovery Asset. All rights reserved.",
+    "© Cipher Shield Chain Recovery. All rights reserved.",
     "Professional Forensic Analysis & Crypto Recovery Services",
   ].join("\n");
 }
@@ -81,7 +81,7 @@ export function buildClientIntakeConfirmationEmailText(
 ): string {
   const lookupUrl = buildCaseLookupUrl(caseId);
   return [
-    "Intake confirmation — Crypto Recovery Asset",
+    "Intake confirmation — Cipher Shield Chain Recovery",
     "",
     `Hello ${clientName},`,
     "",
@@ -128,7 +128,7 @@ export function buildClientIntakeConfirmationEmailHtml(
         <table width="560" cellpadding="0" cellspacing="0" role="presentation" style="max-width:560px;background:#ffffff;border:1px solid #e2e8f0;border-radius:8px;">
           <tr>
             <td style="padding:28px 32px 8px;">
-              <p style="margin:0 0 6px;font-size:13px;color:#64748b;">Crypto Recovery Asset</p>
+              <p style="margin:0 0 6px;font-size:13px;color:#64748b;">Cipher Shield Chain Recovery</p>
               <h1 style="margin:0 0 20px;font-size:20px;font-weight:bold;color:#0f172a;">Intake confirmation</h1>
               <p style="margin:0 0 16px;font-size:15px;line-height:1.6;color:#334155;">Hello ${safeName},</p>
               <p style="margin:0 0 24px;font-size:15px;line-height:1.6;color:#334155;">We received your intake form. Save the reference below to track your submission.</p>
@@ -233,10 +233,10 @@ export function buildClientCaseEmailHtml(
               <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
                 <tr>
                   <td width="56" valign="middle" style="padding:0 16px 0 0;">
-                    <img src="${BRAND_LOGO_URL}" width="48" height="48" alt="Crypto Recovery Asset" style="display:block;border:0;border-radius:10px;" />
+                    <img src="${BRAND_LOGO_URL}" width="48" height="48" alt="Cipher Shield Chain Recovery" style="display:block;border:0;border-radius:10px;" />
                   </td>
                   <td valign="middle">
-                    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;color:#ffffff;letter-spacing:-0.3px;">Crypto Recovery <span style="color:#3b82f6;">Asset</span></p>
+                    <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;color:#ffffff;letter-spacing:-0.3px;">Cipher Shield Chain <span style="color:#3b82f6;">Recovery</span></p>
                     <p style="margin:4px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:#94a3b8;">Professional Forensic Analysis &amp; Recovery</p>
                   </td>
                 </tr>
@@ -256,7 +256,7 @@ export function buildClientCaseEmailHtml(
             <td style="padding:32px;font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.65;color:#334155;">
 
               <p style="margin:0 0 8px;font-size:15px;color:#0f172a;">Hello <strong>${safeName}</strong>,</p>
-              <p style="margin:0 0 24px;">Thank you for contacting <strong>Crypto Recovery Asset</strong>. Your intake submission is now in our secure recovery queue. A member of our forensic team will review your file and reach out using the email address you provided.</p>
+              <p style="margin:0 0 24px;">Thank you for contacting <strong>Cipher Shield Chain Recovery</strong>. Your intake submission is now in our secure recovery queue. A member of our forensic team will review your file and reach out using the email address you provided.</p>
 
               <!-- Case ID card -->
               <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="margin:0 0 28px;background-color:#f8fafc;border:1px solid #e2e8f0;border-radius:12px;">
@@ -310,7 +310,7 @@ export function buildClientCaseEmailHtml(
                     <p style="margin:0 0 12px;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#0f172a;">While you wait — recommended actions</p>
                     <p style="margin:0 0 8px;font-size:13px;line-height:1.6;color:#475569;">• Save your Case ID (<strong style="font-family:Courier,monospace;">${safeId}</strong>) in a secure location.</p>
                     <p style="margin:0 0 8px;font-size:13px;line-height:1.6;color:#475569;">• Gather transaction hashes, wallet addresses, exchange records, and screenshots if available.</p>
-                    <p style="margin:0 0 8px;font-size:13px;line-height:1.6;color:#475569;">• Watch for replies from <strong>info@cryptorecoveryasset.com</strong> — verify the sender before sharing sensitive data.</p>
+                    <p style="margin:0 0 8px;font-size:13px;line-height:1.6;color:#475569;">• Watch for replies from <strong>info@ciphershieldchain.com</strong> — verify the sender before sharing sensitive data.</p>
                     <p style="margin:0;font-size:13px;line-height:1.6;color:#475569;">• Never share seed phrases or private keys except through our secure portal when explicitly requested by your assigned analyst.</p>
                   </td>
                 </tr>
@@ -323,7 +323,7 @@ export function buildClientCaseEmailHtml(
                     <p style="margin:0 0 12px;font-size:13px;font-weight:bold;letter-spacing:1px;text-transform:uppercase;color:#0f172a;">Need immediate assistance?</p>
                     <p style="margin:0 0 6px;font-size:14px;color:#475569;">Email: <a href="${mailtoUrl}" style="color:#2563eb;font-weight:bold;text-decoration:none;">${CONTACT_EMAIL}</a></p>
                     <p style="margin:0 0 6px;font-size:14px;color:#475569;">Phone: <a href="tel:+${SUPPORT_PHONE_E164}" style="color:#2563eb;font-weight:bold;text-decoration:none;">${SUPPORT_PHONE_DISPLAY}</a></p>
-                    <p style="margin:0;font-size:14px;color:#475569;">Website: <a href="${SITE_URL}" target="_blank" rel="noopener noreferrer" style="color:#2563eb;font-weight:bold;text-decoration:none;">cryptorecoveryasset.com</a></p>
+                    <p style="margin:0;font-size:14px;color:#475569;">Website: <a href="${SITE_URL}" target="_blank" rel="noopener noreferrer" style="color:#2563eb;font-weight:bold;text-decoration:none;">ciphershieldchain.com</a></p>
                   </td>
                 </tr>
               </table>
@@ -332,7 +332,7 @@ export function buildClientCaseEmailHtml(
               <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background-color:#fffbeb;border:1px solid #fde68a;border-radius:10px;">
                 <tr>
                   <td style="padding:14px 18px;">
-                    <p style="margin:0;font-size:12px;line-height:1.55;color:#92400e;"><strong>Security notice:</strong> Crypto Recovery Asset will never ask for upfront payment via cryptocurrency, gift cards, or wire transfer to an unverified account. This message is private and confidential.</p>
+                    <p style="margin:0;font-size:12px;line-height:1.55;color:#92400e;"><strong>Security notice:</strong> Cipher Shield Chain Recovery will never ask for upfront payment via cryptocurrency, gift cards, or wire transfer to an unverified account. This message is private and confidential.</p>
                   </td>
                 </tr>
               </table>
@@ -343,9 +343,9 @@ export function buildClientCaseEmailHtml(
           <!-- Footer -->
           <tr>
             <td align="center" style="padding:24px 32px;background-color:#f8fafc;border-top:1px solid #e2e8f0;border-radius:0 0 16px 16px;">
-              <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#64748b;">Crypto Recovery Asset</p>
+              <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#64748b;">Cipher Shield Chain Recovery</p>
               <p style="margin:0 0 10px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.5;color:#94a3b8;">${BUSINESS_ADDRESS_INLINE}</p>
-              <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.5;color:#94a3b8;">© ${new Date().getFullYear()} Crypto Recovery Asset. All rights reserved.<br/>Private &amp; Confidential · Forensic Intelligence Services</p>
+              <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.5;color:#94a3b8;">© ${new Date().getFullYear()} Cipher Shield Chain Recovery. All rights reserved.<br/>Private &amp; Confidential · Forensic Intelligence Services</p>
             </td>
           </tr>
 

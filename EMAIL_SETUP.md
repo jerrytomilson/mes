@@ -14,9 +14,9 @@ Otherwise **Resend** is used if `RESEND_API_KEY` is set.
 ```
 SMTP_HOST=smtp.titan.email
 SMTP_PORT=465
-SMTP_USER=info@cryptorecoveryasset.com
+SMTP_USER=info@ciphershieldchain.com
 SMTP_PASS=your_app_password
-ADMIN_EMAIL=info@cryptorecoveryasset.com
+ADMIN_EMAIL=info@ciphershieldchain.com
 ```
 
 **Titan tips:**
@@ -37,9 +37,9 @@ SMTP_HOST_IP=3.234.93.86
 
 **Test after redeploy:**
 
-1. `https://cryptorecoveryasset.com/api/health` → `"emailProvider":"smtp"`
-2. `https://cryptorecoveryasset.com/api/debug-email?to=info@cryptorecoveryasset.com`
-3. Check Titan inbox + spam for `info@cryptorecoveryasset.com`
+1. `https://ciphershieldchain.com/api/health` → `"emailProvider":"smtp"`
+2. `https://ciphershieldchain.com/api/debug-email?to=info@ciphershieldchain.com`
+3. Check Titan inbox + spam for `info@ciphershieldchain.com`
 
 ---
 
@@ -47,19 +47,19 @@ SMTP_HOST_IP=3.234.93.86
 
 ```
 RESEND_API_KEY=re_...
-RESEND_FROM=Crypto Recovery <info@cryptorecoveryasset.com>
-ADMIN_EMAIL=info@cryptorecoveryasset.com
+RESEND_FROM=Cipher Shield Chain Recovery <info@ciphershieldchain.com>
+ADMIN_EMAIL=info@ciphershieldchain.com
 ```
 
 Verify domain at resend.com. Used only when SMTP is not configured.
 
 **Deliverability guardrails (important):**
 
-- Do **not** use `onboarding@resend.dev` in production. Use your verified `@cryptorecoveryasset.com` sender.
+- Do **not** use `onboarding@resend.dev` in production. Use your verified `@ciphershieldchain.com` sender.
 - Keep sender alignment strict:
-  - `From`: `info@cryptorecoveryasset.com`
+  - `From`: `info@ciphershieldchain.com`
   - `Reply-To`: same domain where possible
-- Publish SPF, DKIM, and DMARC for `cryptorecoveryasset.com`:
+- Publish SPF, DKIM, and DMARC for `ciphershieldchain.com`:
   - SPF: include only your active sender(s) (Titan and/or Resend)
   - DKIM: enable provider DKIM records exactly as issued
   - DMARC: start with `p=none`, then move to `quarantine/reject` after monitoring
@@ -69,7 +69,7 @@ Example DMARC starter record:
 ```
 Host: _dmarc
 Type: TXT
-Value: v=DMARC1; p=none; rua=mailto:info@cryptorecoveryasset.com; adkim=s; aspf=s; pct=100
+Value: v=DMARC1; p=none; rua=mailto:info@ciphershieldchain.com; adkim=s; aspf=s; pct=100
 ```
 
 ---

@@ -48,7 +48,7 @@ export async function fetchAdminCases(): Promise<{
       error ||
       data?.error ||
       (status === 401
-        ? "Unauthorized — sign in with an admin email (e.g. info@cryptorecoveryasset.com)"
+        ? "Unauthorized — sign in with an admin email (e.g. info@ciphershieldchain.com)"
         : "Could not load server cases"),
   };
 }

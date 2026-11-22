@@ -49,9 +49,9 @@ export const SEO_ROUTES: SeoRouteConfig[] = [
   },
   {
     path: "/about",
-    title: "About Crypto Recovery Assets Investigators",
+    title: "About Cipher Shield Chain Recovery Investigators",
     description:
-      "Founded in 2019, Crypto Recovery Assets is a blockchain forensics team that traces stolen crypto, builds exchange freeze packages, and never asks for seed phrases.",
+      "Founded in 2019, Cipher Shield Chain Recovery is a blockchain forensics team that traces stolen crypto, builds exchange freeze packages, and never asks for seed phrases.",
     keywords: "crypto recovery company, blockchain investigation firm, about crypto recovery assets",
     changefreq: "monthly",
     priority: 0.8,
@@ -166,7 +166,7 @@ export const SEO_ROUTES: SeoRouteConfig[] = [
     path: "/privacy",
     title: "Privacy Policy for Recovery Case Data",
     description:
-      "How Crypto Recovery Assets collects, stores, and protects personal and case evidence during cryptocurrency investigations.",
+      "How Cipher Shield Chain Recovery collects, stores, and protects personal and case evidence during cryptocurrency investigations.",
     changefreq: "yearly",
     priority: 0.3,
   },
@@ -174,7 +174,7 @@ export const SEO_ROUTES: SeoRouteConfig[] = [
     path: "/terms",
     title: "Terms of Service for Recovery Engagements",
     description:
-      "Legal terms for using cryptorecoveryasset.com and engaging investigative recovery services, including scope and outcome limitations.",
+      "Legal terms for using ciphershieldchain.com and engaging investigative recovery services, including scope and outcome limitations.",
     changefreq: "yearly",
     priority: 0.3,
   },
@@ -249,7 +249,7 @@ export function getSeoForPath(
       path,
       title: "Crypto Recovery Insights",
       description:
-        "Guides on stolen crypto, scam recovery, wallet tracing, and blockchain forensics from Crypto Recovery Assets.",
+        "Guides on stolen crypto, scam recovery, wallet tracing, and blockchain forensics from Cipher Shield Chain Recovery.",
       changefreq: "monthly",
       priority: 0.72,
       canonical: `${SITE_URL}${path}`,
@@ -273,7 +273,7 @@ export function getSeoForPath(
     return {
       path,
       title: "Page Not Found",
-      description: "This page is not available. Return to Crypto Recovery Assets for crypto recovery services and case intake.",
+      description: "This page is not available. Return to Cipher Shield Chain Recovery for crypto recovery services and case intake.",
       canonical: `${SITE_URL}${path}`,
       noindex: true,
       priority: 0.1,
@@ -306,13 +306,13 @@ export function buildWebSiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Crypto Recovery Assets",
+    name: "Cipher Shield Chain Recovery",
     url: `${SITE_URL}/`,
     description:
       "Professional cryptocurrency recovery, blockchain forensics, and digital asset investigation services.",
     publisher: {
       "@type": "Organization",
-      name: "Crypto Recovery Assets",
+      name: "Cipher Shield Chain Recovery",
       logo: {
         "@type": "ImageObject",
         url: `${SITE_URL}/brand-icon-512.png`,
@@ -325,11 +325,11 @@ export function buildProfessionalServiceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Crypto Recovery Assets",
+    name: "Cipher Shield Chain Recovery",
     url: `${SITE_URL}/`,
     image: `${SITE_URL}/og-image.png`,
     telephone: "+1-401-684-4683",
-    email: "info@cryptorecoveryasset.com",
+    email: "info@ciphershieldchain.com",
     address: {
       "@type": "PostalAddress",
       streetAddress: "One World Trade Center, Suite 850",

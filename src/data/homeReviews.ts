@@ -6,7 +6,7 @@ export const HOME_CAROUSEL_REVIEWS = [
     platform: "TRUSTPILOT",
     rating: 5,
     content:
-      "A fake label advance took $26,400 USDT I needed for a van and studio time. Crypto Recovery Assets matched the wallets to other musician-advance fakes and recovered every dollar.",
+      "A fake label advance took $26,400 USDT I needed for a van and studio time. Cipher Shield Chain Recovery matched the wallets to other musician-advance fakes and recovered every dollar.",
     tag: "FAKE_LABEL_ADVANCE",
     platformType: "TRUSTPILOT" as const,
   },
@@ -16,7 +16,7 @@ export const HOME_CAROUSEL_REVIEWS = [
     platform: "GOOGLE_REV",
     rating: 5,
     content:
-      "A Zoom 'pension advisor' took $81,300 of my father's teaching savings. Crypto Recovery Assets put us on one call, traced the USDC, and every dollar came home.",
+      "A Zoom 'pension advisor' took $81,300 of my father's teaching savings. Cipher Shield Chain Recovery put us on one call, traced the USDC, and every dollar came home.",
     tag: "PENSION_ANNUITY_ZOOM",
     platformType: "GOOGLE" as const,
   },
@@ -26,7 +26,7 @@ export const HOME_CAROUSEL_REVIEWS = [
     platform: "TRUSTPILOT",
     rating: 5,
     content:
-      "A lookalike produce invoice drained $18,650 from my taco shop. Crypto Recovery Assets treated it like wire fraud, froze the cash-out, and we opened Saturday.",
+      "A lookalike produce invoice drained $18,650 from my taco shop. Cipher Shield Chain Recovery treated it like wire fraud, froze the cash-out, and we opened Saturday.",
     tag: "SUPPLIER_INVOICE_CLONE",
     platformType: "TRUSTPILOT" as const,
   },
@@ -36,7 +36,7 @@ export const HOME_CAROUSEL_REVIEWS = [
     platform: "GOOGLE_REV",
     rating: 5,
     content:
-      "A fake rental hold took 2.04 ETH I had saved for a studio. Crypto Recovery Assets traced the listing kit and my Ethereum came back. I still teach in that room.",
+      "A fake rental hold took 2.04 ETH I had saved for a studio. Cipher Shield Chain Recovery traced the listing kit and my Ethereum came back. I still teach in that room.",
     tag: "RENTAL_HOLD_CRYPTO",
     platformType: "GOOGLE" as const,
   },
@@ -46,7 +46,7 @@ export const HOME_CAROUSEL_REVIEWS = [
     platform: "TRUSTPILOT",
     rating: 5,
     content:
-      "A fake court portal emptied $94,000 USDC from my divorce award. Crypto Recovery Assets showed it was a third party, recovered the funds, and kept the file discreet.",
+      "A fake court portal emptied $94,000 USDC from my divorce award. Cipher Shield Chain Recovery showed it was a third party, recovered the funds, and kept the file discreet.",
     tag: "DIVORCE_DISBURSEMENT_PORTAL",
     platformType: "TRUSTPILOT" as const,
   },

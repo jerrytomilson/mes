@@ -261,7 +261,7 @@ async function startServer() {
         error: errMsg,
         suggestions: [
           "Titan SMTP: use App Password as SMTP_PASS if 2FA is on",
-          "SMTP_HOST=smtp.titan.email SMTP_PORT=465 SMTP_USER=info@cryptorecoveryasset.com",
+          "SMTP_HOST=smtp.titan.email SMTP_PORT=465 SMTP_USER=info@ciphershieldchain.com",
           "Or remove SMTP_* and use RESEND_API_KEY instead",
         ],
       });

@@ -45,7 +45,7 @@ export const OfficialDocument = ({
         <header className="flex flex-col gap-3 md:flex-row md:items-start md:justify-between md:gap-6 border-b border-[#d4c7a1] pb-3 sm:pb-4">
           <div className="min-w-0">
             <p className="text-[8px] sm:text-[9px] font-mono tracking-[0.18em] sm:tracking-[0.35em] uppercase text-[#1e3a5f] break-words">
-              Crypto Recovery Assets Agency
+              Cipher Shield Chain Recovery Agency
             </p>
             <h2 className="text-lg sm:text-2xl font-serif font-bold text-[#0f172a] mt-1 leading-snug">
               {preview.title}

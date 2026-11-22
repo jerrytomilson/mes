@@ -42,7 +42,7 @@ export const FAQView = ({ onNavigate }: FAQViewProps) => {
         title="Crypto Recovery FAQ: Seeds, Wallets & Scams"
         description="Clear answers on MetaMask and Ledger recovery, partial seed phrases, FBI/IC3 reporting, and how to hire a legitimate specialist without falling for secondary scams."
         keywords="crypto recovery faq, how to recover lost crypto, recover metamask wallet help, trust wallet recovery guide, ledger nano recovery help"
-        canonical="https://cryptorecoveryasset.com/faq"
+        canonical="https://ciphershieldchain.com/faq"
         jsonLd={[
           buildFaqPageSchema(),
           buildBreadcrumbSchema([

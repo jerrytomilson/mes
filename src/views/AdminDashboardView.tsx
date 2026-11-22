@@ -613,7 +613,7 @@ const CaseManagerView: React.FC = () => {
                   <p className="opacity-50 text-xs uppercase font-mono">No cases yet</p>
                   {errorStatus === 'NO_DATA_CONNECTED' && (
                     <p className="text-[9px] text-slate-600 font-mono max-w-xs mx-auto">
-                      Sign in with info@cryptorecoveryasset.com (or another admin email).
+                      Sign in with info@ciphershieldchain.com (or another admin email).
                       New submissions appear here after deploy. Deploy Firestore rules if Firestore is empty but email works.
                     </p>
                   )}
@@ -979,7 +979,7 @@ const CaseManagerView: React.FC = () => {
 const SMTPDiagnosticsPanel: React.FC = () => {
   const [healthData, setHealthData] = React.useState<any>(null);
   const [healthLoading, setHealthLoading] = React.useState(true);
-  const [testEmail, setTestEmail] = React.useState('info@cryptorecoveryasset.com');
+  const [testEmail, setTestEmail] = React.useState('info@ciphershieldchain.com');
   const [testLoading, setTestLoading] = React.useState(false);
   const [testResult, setTestResult] = React.useState<any>(null);
 
@@ -992,7 +992,7 @@ const SMTPDiagnosticsPanel: React.FC = () => {
         setHealthData({
           status: 'offline',
           smtpConfigured: false,
-          adminEmail: 'info@cryptorecoveryasset.com',
+          adminEmail: 'info@ciphershieldchain.com',
           smtpDetails: { host: '', user: '', passSet: false },
           staticOnlyHosting: true,
         });
@@ -1109,7 +1109,7 @@ const SMTPDiagnosticsPanel: React.FC = () => {
               {/* Admin Target Email */}
               <DiagnosticField 
                 label="ADMIN_EMAIL" 
-                value="info@cryptorecoveryasset.com" 
+                value="info@ciphershieldchain.com" 
                 status="VALID"
                 onCopy={() => copyToClipboard("ADMIN_EMAIL")}
               />

@@ -1,4 +1,4 @@
-# https://cryptorecoveryasset.com/robots.txt
+# https://ciphershieldchain.com/robots.txt
 # Crawl rules for Google, Bing, and other search engines
 
 User-agent: *
@@ -63,5 +63,5 @@ Allow: /
 User-agent: LinkedInBot
 Allow: /
 
-Sitemap: https://cryptorecoveryasset.com/sitemap.xml
-Sitemap: https://cryptorecoveryasset.com/sitemap-images.xml
+Sitemap: https://ciphershieldchain.com/sitemap.xml
+Sitemap: https://ciphershieldchain.com/sitemap-images.xml

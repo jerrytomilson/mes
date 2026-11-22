@@ -34,7 +34,7 @@ export async function sendIntakeEmailViaEmailJs(payload: IntakePayload): Promise
   }
 
   const adminEmail =
-    getEnv("VITE_ADMIN_EMAIL") || "info@cryptorecoveryasset.com";
+    getEnv("VITE_ADMIN_EMAIL") || "info@ciphershieldchain.com";
 
   const templateParams = {
     to_email: adminEmail,

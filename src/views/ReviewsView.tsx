@@ -250,7 +250,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I was devastated after losing nearly $180,000 USDT to a fake investment platform that looked identical to a legitimate DeFi protocol. Every other 'recovery' company I contacted demanded thousands upfront. Crypto Recovery Assets was different from the first call: they explained the forensic process, gave me a realistic timeline, and never asked for a retainer. Over six weeks their analysts mapped the flow through multiple chains, identified deposit addresses on a major exchange, and worked with compliance to freeze the balance. I received structured updates twice a week with transaction graphs I could actually show my lawyer. In the end we recovered 92% of the principal. I cannot overstate how professional, patient, and technically competent this team is. If you are sitting on the fence because you have been burned before, start here.",
+      "I was devastated after losing nearly $180,000 USDT to a fake investment platform that looked identical to a legitimate DeFi protocol. Every other 'recovery' company I contacted demanded thousands upfront. Cipher Shield Chain Recovery was different from the first call: they explained the forensic process, gave me a realistic timeline, and never asked for a retainer. Over six weeks their analysts mapped the flow through multiple chains, identified deposit addresses on a major exchange, and worked with compliance to freeze the balance. I received structured updates twice a week with transaction graphs I could actually show my lawyer. In the end we recovered 92% of the principal. I cannot overstate how professional, patient, and technically competent this team is. If you are sitting on the fence because you have been burned before, start here.",
     date: '2026-05-25',
     verified: true,
     tag: 'FULL_RECOVERY'
@@ -325,7 +325,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "Fake Coinbase support on Twitter/X walked me through 'securing' my account and drained $47k in under an hour. I called Crypto Recovery Assets the same night. By morning they had flagged the destination cluster, by day three the exchange had a hold on the account, and within a month most funds were returned. The success-only fee model meant I only paid when money actually hit my bank-linked account. Legitimate operation.",
+      "Fake Coinbase support on Twitter/X walked me through 'securing' my account and drained $47k in under an hour. I called Cipher Shield Chain Recovery the same night. By morning they had flagged the destination cluster, by day three the exchange had a hold on the account, and within a month most funds were returned. The success-only fee model meant I only paid when money actually hit my bank-linked account. Legitimate operation.",
     date: '2026-05-28',
     verified: true,
     tag: 'IMPERSONATION_SCAM'
@@ -336,7 +336,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 4,
     content:
-      "Very thorough forensic report for our insurance claim. Insurer initially denied coverage citing 'user negligence'; CRA's documentation on the exploit vector and third-party bridge vulnerability helped overturn that decision. Recovery amount was partial because assets had already been bridged to a high-risk jurisdiction, but the investigative quality was exceptional.",
+      "Very thorough forensic report for our insurance claim. Insurer initially denied coverage citing 'user negligence'; Cipher Shield Chain Recovery's documentation on the exploit vector and third-party bridge vulnerability helped overturn that decision. Recovery amount was partial because assets had already been bridged to a high-risk jurisdiction, but the investigative quality was exceptional.",
     date: '2026-05-29',
     verified: true,
     tag: 'INSURANCE_CLAIM'
@@ -368,7 +368,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I run a small mining operation and had a payroll wallet compromised via a malicious browser extension. CRA isolated the malware IOCs, traced outflows to mixers and then to a regional exchange, and prepared evidence for Australian cybercrime authorities. The written report alone was worth the engagement—clear exhibits, hashes, timestamps, USD valuations at each hop. Funds recovered: 78%. Process was intense but fair. They told me upfront when odds were low and still pushed. This is the standard every recovery firm should meet.",
+      "I run a small mining operation and had a payroll wallet compromised via a malicious browser extension. Cipher Shield Chain Recovery isolated the malware IOCs, traced outflows to mixers and then to a regional exchange, and prepared evidence for Australian cybercrime authorities. The written report alone was worth the engagement—clear exhibits, hashes, timestamps, USD valuations at each hop. Funds recovered: 78%. Process was intense but fair. They told me upfront when odds were low and still pushed. This is the standard every recovery firm should meet.",
     date: '2026-05-30',
     verified: true,
     tag: 'FORENSIC_REPORT'
@@ -678,7 +678,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'MARCUS_CHI',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I lost just over $210,000 in USDT after wiring funds into what I believed was a regulated offshore trading desk. For weeks I was stuck talking to fake 'compliance officers' who kept asking for more deposits. Crypto Recovery Assets took my case seriously from the first call. They rebuilt the entire money trail, identified the exchange deposit addresses used by the operators, and prepared a freeze packet that compliance actually acted on. It took about eleven weeks, but we recovered a substantial majority of the stolen balance. What stood out most was how honest they were about what could and could not be recovered — no miracle promises, just disciplined forensic work.",
+    content: "I lost just over $210,000 in USDT after wiring funds into what I believed was a regulated offshore trading desk. For weeks I was stuck talking to fake 'compliance officers' who kept asking for more deposits. Cipher Shield Chain Recovery took my case seriously from the first call. They rebuilt the entire money trail, identified the exchange deposit addresses used by the operators, and prepared a freeze packet that compliance actually acted on. It took about eleven weeks, but we recovered a substantial majority of the stolen balance. What stood out most was how honest they were about what could and could not be recovered — no miracle promises, just disciplined forensic work.",
     date: '2026-06-04',
     verified: true,
     tag: 'OTC_DESK_FRAUD'
@@ -688,7 +688,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'LINDA_ORL',
     platform: 'GOOGLE',
     rating: 5,
-    content: "After a romance scam drained my savings, I felt completely broken and ashamed. I had already paid two so-called recovery companies that vanished with my remaining cash. A friend pushed me toward Crypto Recovery Assets, and the difference was immediate. They never asked for seed phrases, never requested upfront payment, and assigned a case analyst who walked me through every hop on the blockchain like I was a person, not a ticket number. Their report was clear enough for my attorney and for the bank fraud department. We did not get everything back, but we got enough to stabilize my life again. I will always be grateful for how carefully they handled both the technical and the human side of this.",
+    content: "After a romance scam drained my savings, I felt completely broken and ashamed. I had already paid two so-called recovery companies that vanished with my remaining cash. A friend pushed me toward Cipher Shield Chain Recovery, and the difference was immediate. They never asked for seed phrases, never requested upfront payment, and assigned a case analyst who walked me through every hop on the blockchain like I was a person, not a ticket number. Their report was clear enough for my attorney and for the bank fraud department. We did not get everything back, but we got enough to stabilize my life again. I will always be grateful for how carefully they handled both the technical and the human side of this.",
     date: '2026-06-05',
     verified: true,
     tag: 'ROMANCE_RECOVERY'
@@ -698,7 +698,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'YUSUF_IST',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "My SIM was swapped overnight and within forty minutes the attackers emptied my exchange accounts and drained two hot wallets. Local police were sympathetic but had no crypto expertise. CRA moved incredibly fast. Within the first forty-eight hours they had mapped the outbound transactions, flagged the destination clusters, and opened escalation channels with two major exchanges. Their client portal showed live milestones so I always knew what was happening. Roughly two months later we secured a freeze and eventual release of a large share of the assets. Speed mattered more than anything in my case, and they understood that from minute one.",
+    content: "My SIM was swapped overnight and within forty minutes the attackers emptied my exchange accounts and drained two hot wallets. Local police were sympathetic but had no crypto expertise. Cipher Shield Chain Recovery moved incredibly fast. Within the first forty-eight hours they had mapped the outbound transactions, flagged the destination clusters, and opened escalation channels with two major exchanges. Their client portal showed live milestones so I always knew what was happening. Roughly two months later we secured a freeze and eventual release of a large share of the assets. Speed mattered more than anything in my case, and they understood that from minute one.",
     date: '2026-06-06',
     verified: true,
     tag: 'SIM_SWAP_FAST'
@@ -708,7 +708,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'CLAIRE_LYON',
     platform: 'GOOGLE',
     rating: 4,
-    content: "I approached Crypto Recovery Assets after a bridge exploit moved my ETH through several chains and into mixer-linked wallets. Their analysts produced a visual hop map that my French counsel said was among the clearest forensic packages they had seen. The recovery itself took longer than I hoped because of offshore compliance delays, which is why I am leaving four stars rather than five. Still, communication never dropped off, deadlines were explained honestly, and the final outcome was far better than what any other firm I consulted even claimed was possible. If you need serious chain analysis rather than marketing slogans, this is the team.",
+    content: "I approached Cipher Shield Chain Recovery after a bridge exploit moved my ETH through several chains and into mixer-linked wallets. Their analysts produced a visual hop map that my French counsel said was among the clearest forensic packages they had seen. The recovery itself took longer than I hoped because of offshore compliance delays, which is why I am leaving four stars rather than five. Still, communication never dropped off, deadlines were explained honestly, and the final outcome was far better than what any other firm I consulted even claimed was possible. If you need serious chain analysis rather than marketing slogans, this is the team.",
     date: '2026-06-07',
     verified: true,
     tag: 'BRIDGE_EXPLOIT'
@@ -718,7 +718,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'ANDRE_SAO',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I was targeted through a Discord NFT mint that silently approved a malicious spender. In under an hour my wallet was drained of ETH and several blue-chip NFTs. Most people online told me it was hopeless. Crypto Recovery Assets disagreed. They reconstructed the approval transaction, traced the secondary sales of my NFTs, and worked with marketplace compliance teams while simultaneously pursuing the ETH trail. Their documentation was meticulous — timestamps, tx hashes, counterparties, everything. We recovered a meaningful portion of the value and, just as importantly, I finally understood exactly how the attack worked so I could harden my setup going forward.",
+    content: "I was targeted through a Discord NFT mint that silently approved a malicious spender. In under an hour my wallet was drained of ETH and several blue-chip NFTs. Most people online told me it was hopeless. Cipher Shield Chain Recovery disagreed. They reconstructed the approval transaction, traced the secondary sales of my NFTs, and worked with marketplace compliance teams while simultaneously pursuing the ETH trail. Their documentation was meticulous — timestamps, tx hashes, counterparties, everything. We recovered a meaningful portion of the value and, just as importantly, I finally understood exactly how the attack worked so I could harden my setup going forward.",
     date: '2026-06-08',
     verified: true,
     tag: 'NFT_APPROVAL_DRAIN'
@@ -728,7 +728,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'HELEN_TOR',
     platform: 'GOOGLE',
     rating: 5,
-    content: "Our family office lost a six-figure amount to a sophisticated phishing kit that cloned a Tier-1 exchange login page. Because multiple beneficiaries were involved, we needed institutional-grade handling, not a consumer support chat. CRA assigned a senior analyst and coordinated cleanly with our outside counsel. Their chain-of-custody notes, wallet clustering methodology, and exchange liaison letters were all court-ready. The process took several months, but every week we received a structured update with next actions. We recovered the majority of the stolen funds and now use their post-incident hardening checklist across our wallets. Highly professional from intake to closeout.",
+    content: "Our family office lost a six-figure amount to a sophisticated phishing kit that cloned a Tier-1 exchange login page. Because multiple beneficiaries were involved, we needed institutional-grade handling, not a consumer support chat. Cipher Shield Chain Recovery assigned a senior analyst and coordinated cleanly with our outside counsel. Their chain-of-custody notes, wallet clustering methodology, and exchange liaison letters were all court-ready. The process took several months, but every week we received a structured update with next actions. We recovered the majority of the stolen funds and now use their post-incident hardening checklist across our wallets. Highly professional from intake to closeout.",
     date: '2026-06-09',
     verified: true,
     tag: 'FAMILY_OFFICE'
@@ -738,7 +738,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'RAVI_BLR',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I fell for a fake mining contract sold through Telegram. After months of fabricated dashboards showing 'profits,' withdrawals were blocked and the operators disappeared. I was terrified I had lost everything I had saved for my sister's education. Crypto Recovery Assets reviewed my chat logs, payment hashes, and wallet history, then identified the laundering path into exchange deposit addresses in two jurisdictions. They were patient with me when I struggled to gather old screenshots and never made me feel foolish. The recovery was partial but substantial, and their fee structure only applied to what they actually brought back. That alone separates them from the recovery scams flooding Instagram.",
+    content: "I fell for a fake mining contract sold through Telegram. After months of fabricated dashboards showing 'profits,' withdrawals were blocked and the operators disappeared. I was terrified I had lost everything I had saved for my sister's education. Cipher Shield Chain Recovery reviewed my chat logs, payment hashes, and wallet history, then identified the laundering path into exchange deposit addresses in two jurisdictions. They were patient with me when I struggled to gather old screenshots and never made me feel foolish. The recovery was partial but substantial, and their fee structure only applied to what they actually brought back. That alone separates them from the recovery scams flooding Instagram.",
     date: '2026-06-10',
     verified: true,
     tag: 'FAKE_MINING'
@@ -748,7 +748,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'NADIA_AMS',
     platform: 'GOOGLE',
     rating: 5,
-    content: "As a DeFi power user I thought I could investigate my own exploit. After two sleepless nights I realized I was out of my depth. The attacker had hopped through a flash-loan-assisted drain, bridged to another L2, then split funds across dozens of wallets. CRA's team produced a clustering analysis that connected those wallets to known infrastructure and prior scam campaigns. Their report helped a European exchange freeze remaining balances before they could be fully cashed out. I especially appreciated that they explained uncertainties instead of pretending every hop was a certainty. That intellectual honesty is rare in this industry.",
+    content: "As a DeFi power user I thought I could investigate my own exploit. After two sleepless nights I realized I was out of my depth. The attacker had hopped through a flash-loan-assisted drain, bridged to another L2, then split funds across dozens of wallets. Cipher Shield Chain Recovery's team produced a clustering analysis that connected those wallets to known infrastructure and prior scam campaigns. Their report helped a European exchange freeze remaining balances before they could be fully cashed out. I especially appreciated that they explained uncertainties instead of pretending every hop was a certainty. That intellectual honesty is rare in this industry.",
     date: '2026-06-11',
     verified: true,
     tag: 'FLASH_LOAN_TRACE'
@@ -758,7 +758,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'TOMAS_PRG',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "Someone impersonating Coinbase support contacted me after I posted about a failed login on social media. Within hours I had given them remote access and watched my account get cleaned out. Shame does not begin to cover it. Crypto Recovery Assets treated the case like an investigation, not a lecture. They captured device indicators, reconstructed the social-engineering timeline, and linked the stolen assets to cash-out routes. Working with exchange security and local authorities, they helped recover a large percentage of what was taken. Their secure portal and refusal to ever request private keys gave me confidence I had finally found a legitimate firm.",
+    content: "Someone impersonating Coinbase support contacted me after I posted about a failed login on social media. Within hours I had given them remote access and watched my account get cleaned out. Shame does not begin to cover it. Cipher Shield Chain Recovery treated the case like an investigation, not a lecture. They captured device indicators, reconstructed the social-engineering timeline, and linked the stolen assets to cash-out routes. Working with exchange security and local authorities, they helped recover a large percentage of what was taken. Their secure portal and refusal to ever request private keys gave me confidence I had finally found a legitimate firm.",
     date: '2026-06-12',
     verified: true,
     tag: 'SUPPORT_IMPERSONATION'
@@ -768,7 +768,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'AISHA_LAG',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I was caught in a pig-butchering investment scheme that spanned nearly eight months. By the time I understood what was happening, more than $95,000 was gone. Friends told me recovery was impossible. CRA proved otherwise. They analyzed every USDT transfer, identified intermediary wallets, and built a narrative report that law enforcement could actually use. Updates arrived on schedule, questions were answered in plain language, and the team never pressured me for additional payments. We recovered a significant share through exchange freezes. If you are reading this after a similar scam, please contact them before you lose more money to fake recovery agents.",
+    content: "I was caught in a pig-butchering investment scheme that spanned nearly eight months. By the time I understood what was happening, more than $95,000 was gone. Friends told me recovery was impossible. Cipher Shield Chain Recovery proved otherwise. They analyzed every USDT transfer, identified intermediary wallets, and built a narrative report that law enforcement could actually use. Updates arrived on schedule, questions were answered in plain language, and the team never pressured me for additional payments. We recovered a significant share through exchange freezes. If you are reading this after a similar scam, please contact them before you lose more money to fake recovery agents.",
     date: '2026-06-13',
     verified: true,
     tag: 'PIG_BUTCHERING'
@@ -778,7 +778,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'GREG_PHX',
     platform: 'TRUSTPILOT',
     rating: 4,
-    content: "My hardware wallet seed was compromised after I stored a poorly protected backup photo in cloud storage. Attackers swept BTC and ETH the same week. Crypto Recovery Assets were transparent that full recovery was unlikely once funds hit mixers, and I respect them for saying that upfront. Even so, they traced residual amounts that had not yet been obfuscated and secured freezes on those portions. The process was slower than advertised timelines for simpler cases, which is why this is four stars. But the quality of the forensic work, the calm communication, and the ethical standards were excellent. I would hire them again without hesitation.",
+    content: "My hardware wallet seed was compromised after I stored a poorly protected backup photo in cloud storage. Attackers swept BTC and ETH the same week. Cipher Shield Chain Recovery were transparent that full recovery was unlikely once funds hit mixers, and I respect them for saying that upfront. Even so, they traced residual amounts that had not yet been obfuscated and secured freezes on those portions. The process was slower than advertised timelines for simpler cases, which is why this is four stars. But the quality of the forensic work, the calm communication, and the ethical standards were excellent. I would hire them again without hesitation.",
     date: '2026-06-14',
     verified: true,
     tag: 'SEED_COMPROMISE'
@@ -788,7 +788,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'YUKI_OSAKA',
     platform: 'GOOGLE',
     rating: 5,
-    content: "Clipboard malware replaced a withdrawal address on my desktop and I sent a large ETH transfer to an attacker before noticing. Panic set in immediately. Within hours of contacting Crypto Recovery Assets, an analyst had confirmed the destination cluster and begun monitoring for exchange deposits. Their speed and precision were remarkable. They prepared a legal-ready incident package in both English and a format my Japanese counsel could work with. Several weeks later we obtained a successful freeze and recovery of most of the transfer. I have recommended them to two colleagues who were similarly targeted. Outstanding technical work paired with genuine care for the client.",
+    content: "Clipboard malware replaced a withdrawal address on my desktop and I sent a large ETH transfer to an attacker before noticing. Panic set in immediately. Within hours of contacting Cipher Shield Chain Recovery, an analyst had confirmed the destination cluster and begun monitoring for exchange deposits. Their speed and precision were remarkable. They prepared a legal-ready incident package in both English and a format my Japanese counsel could work with. Several weeks later we obtained a successful freeze and recovery of most of the transfer. I have recommended them to two colleagues who were similarly targeted. Outstanding technical work paired with genuine care for the client.",
     date: '2026-06-15',
     verified: true,
     tag: 'CLIPBOARD_MALWARE'
@@ -798,7 +798,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'PATRICIA_MAD',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I am not a crypto native. My late husband left wallets I barely understood, and when a 'helpful' recovery specialist online asked for the seed phrase, I almost handed it over. Thankfully I found Crypto Recovery Assets first. They guided me through legitimate wallet restoration, verified ownership carefully, and helped recover access without ever putting the keys at risk. Along the way they also spotted unauthorized small drains that had already started and stopped further loss. For families dealing with inheritance and digital assets, this kind of careful, ethical help is invaluable. Five stars is not enough.",
+    content: "I am not a crypto native. My late husband left wallets I barely understood, and when a 'helpful' recovery specialist online asked for the seed phrase, I almost handed it over. Thankfully I found Cipher Shield Chain Recovery first. They guided me through legitimate wallet restoration, verified ownership carefully, and helped recover access without ever putting the keys at risk. Along the way they also spotted unauthorized small drains that had already started and stopped further loss. For families dealing with inheritance and digital assets, this kind of careful, ethical help is invaluable. Five stars is not enough.",
     date: '2026-06-16',
     verified: true,
     tag: 'INHERITANCE_WALLET'
@@ -808,7 +808,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'OMAR_CAS',
     platform: 'GOOGLE',
     rating: 5,
-    content: "Our small trading desk was hit by an insider-assisted withdrawal scheme. We needed discretion, speed, and forensic clarity for both insurance and potential litigation. CRA delivered all three. Their analysts reconstructed privileged access timelines, correlated on-chain movements with internal logs we provided, and produced a report our insurer accepted without major pushback. The recovery pathway involved multi-jurisdictional exchange outreach, which they handled professionally. Throughout the engagement they treated sensitive business information with care. This was not consumer-level support — it felt like hiring a specialized investigative unit.",
+    content: "Our small trading desk was hit by an insider-assisted withdrawal scheme. We needed discretion, speed, and forensic clarity for both insurance and potential litigation. Cipher Shield Chain Recovery delivered all three. Their analysts reconstructed privileged access timelines, correlated on-chain movements with internal logs we provided, and produced a report our insurer accepted without major pushback. The recovery pathway involved multi-jurisdictional exchange outreach, which they handled professionally. Throughout the engagement they treated sensitive business information with care. This was not consumer-level support — it felt like hiring a specialized investigative unit.",
     date: '2026-06-17',
     verified: true,
     tag: 'INSIDER_THEFT'
@@ -818,7 +818,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'SOPHIE_EDI',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "A fake airdrop site drained approvals from my wallet while I was traveling. I discovered the theft late at night in a hotel room and felt completely helpless. Crypto Recovery Assets responded the next morning with a clear intake, immediate revoke guidance for remaining approvals, and a full trace of the stolen tokens. Their portal made it easy to upload evidence and track progress across time zones. Over the following weeks they coordinated with two exchanges and recovered a large portion of what was taken. The combination of technical competence and steady communication made an awful situation manageable.",
+    content: "A fake airdrop site drained approvals from my wallet while I was traveling. I discovered the theft late at night in a hotel room and felt completely helpless. Cipher Shield Chain Recovery responded the next morning with a clear intake, immediate revoke guidance for remaining approvals, and a full trace of the stolen tokens. Their portal made it easy to upload evidence and track progress across time zones. Over the following weeks they coordinated with two exchanges and recovered a large portion of what was taken. The combination of technical competence and steady communication made an awful situation manageable.",
     date: '2026-06-18',
     verified: true,
     tag: 'AIRDROP_DRAINER'
@@ -828,7 +828,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'KEVIN_SEA',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I had already filed an IC3 report and spoken with my bank before finding Crypto Recovery Assets. What they added was the blockchain expertise those channels lacked. They translated my case into a forensic package with annotated transaction graphs, counterparties, and recommended freeze targets. That package materially improved engagement with exchange compliance teams. Recovery was not instantaneous — anyone promising that is lying — but it was methodical and ultimately successful for a major share of the loss. I also valued their post-case security review. They helped me lock down 2FA, withdrawal whitelists, and device hygiene so this does not happen again.",
+    content: "I had already filed an IC3 report and spoken with my bank before finding Cipher Shield Chain Recovery. What they added was the blockchain expertise those channels lacked. They translated my case into a forensic package with annotated transaction graphs, counterparties, and recommended freeze targets. That package materially improved engagement with exchange compliance teams. Recovery was not instantaneous — anyone promising that is lying — but it was methodical and ultimately successful for a major share of the loss. I also valued their post-case security review. They helped me lock down 2FA, withdrawal whitelists, and device hygiene so this does not happen again.",
     date: '2026-06-19',
     verified: true,
     tag: 'IC3_SUPPORT'
@@ -838,7 +838,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'INES_LIS',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "After sending USDT to a fraudulent 'guaranteed yield' platform, I contacted several recovery services. Most replied with WhatsApp messages demanding Bitcoin fees. Crypto Recovery Assets was the first firm that felt legitimate. Their website matched their process: secure portal, written agreements, no private-key requests, and success-aligned fees. The investigation uncovered that my funds had been pooled with other victims and partially parked on a KYC exchange. That finding changed everything. With their documentation, a freeze request succeeded. It took patience, but the outcome restored both money and my faith that ethical recovery work still exists.",
+    content: "After sending USDT to a fraudulent 'guaranteed yield' platform, I contacted several recovery services. Most replied with WhatsApp messages demanding Bitcoin fees. Cipher Shield Chain Recovery was the first firm that felt legitimate. Their website matched their process: secure portal, written agreements, no private-key requests, and success-aligned fees. The investigation uncovered that my funds had been pooled with other victims and partially parked on a KYC exchange. That finding changed everything. With their documentation, a freeze request succeeded. It took patience, but the outcome restored both money and my faith that ethical recovery work still exists.",
     date: '2026-06-20',
     verified: true,
     tag: 'YIELD_SCAM'
@@ -848,7 +848,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'BRETT_AUCK',
     platform: 'GOOGLE',
     rating: 4,
-    content: "Cross-border recovery is messy, and my case involved wallets touching Asia, Eastern Europe, and a Caribbean-facing exchange. CRA never sugarcoated the complexity. They set realistic checkpoints and hit most of them. The final recovery percentage was solid though not complete, and a couple of update cycles slipped during holiday periods, hence four stars. Even with those caveats, their forensic quality and legal packaging were excellent. My solicitor in Auckland said the evidence bundle saved weeks of work. If your case spans multiple jurisdictions, these are people who already know how painful that is and plan accordingly.",
+    content: "Cross-border recovery is messy, and my case involved wallets touching Asia, Eastern Europe, and a Caribbean-facing exchange. Cipher Shield Chain Recovery never sugarcoated the complexity. They set realistic checkpoints and hit most of them. The final recovery percentage was solid though not complete, and a couple of update cycles slipped during holiday periods, hence four stars. Even with those caveats, their forensic quality and legal packaging were excellent. My solicitor in Auckland said the evidence bundle saved weeks of work. If your case spans multiple jurisdictions, these are people who already know how painful that is and plan accordingly.",
     date: '2026-06-21',
     verified: true,
     tag: 'MULTI_JURISDICTION'
@@ -858,7 +858,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'CHIOMA_ABJ',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I nearly destroyed what little I had left by paying a Telegram 'recovery agent' who claimed he needed gas fees to unlock my funds. Thankfully I stopped and searched for real companies instead. Crypto Recovery Assets explained, calmly and clearly, how those secondary scams work and why no legitimate firm needs your seed phrase. Then they actually investigated my original investment fraud case. Their analyst showed me hop by hop where the money went and which portions were still potentially recoverable. We succeeded in reclaiming a meaningful amount. More than the money, they protected me from being scammed twice.",
+    content: "I nearly destroyed what little I had left by paying a Telegram 'recovery agent' who claimed he needed gas fees to unlock my funds. Thankfully I stopped and searched for real companies instead. Cipher Shield Chain Recovery explained, calmly and clearly, how those secondary scams work and why no legitimate firm needs your seed phrase. Then they actually investigated my original investment fraud case. Their analyst showed me hop by hop where the money went and which portions were still potentially recoverable. We succeeded in reclaiming a meaningful amount. More than the money, they protected me from being scammed twice.",
     date: '2026-06-22',
     verified: true,
     tag: 'SECONDARY_SCAM_STOP'
@@ -868,7 +868,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'ERIC_MTL',
     platform: 'GOOGLE',
     rating: 5,
-    content: "Our company treasury wallet was drained after a compromised employee browser session approved a malicious contract. We needed enterprise responsiveness and airtight documentation for board reporting. CRA delivered a full incident timeline within days, including first-seen indicators, affected assets, and recommended containment steps. They then pursued recovery through exchange channels while our internal security team remediated access controls. Weekly executive summaries were concise and useful. We recovered a majority of the stolen crypto and walked away with better controls than we had before the incident. Rare to find a vendor that improves both outcome and process maturity.",
+    content: "Our company treasury wallet was drained after a compromised employee browser session approved a malicious contract. We needed enterprise responsiveness and airtight documentation for board reporting. Cipher Shield Chain Recovery delivered a full incident timeline within days, including first-seen indicators, affected assets, and recommended containment steps. They then pursued recovery through exchange channels while our internal security team remediated access controls. Weekly executive summaries were concise and useful. We recovered a majority of the stolen crypto and walked away with better controls than we had before the incident. Rare to find a vendor that improves both outcome and process maturity.",
     date: '2026-06-23',
     verified: true,
     tag: 'TREASURY_INCIDENT'
@@ -878,7 +878,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'LAURA_VIE',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I lost funds to a fake OTC broker who used deepfake video calls to appear as a known market maker. It felt surreal. Crypto Recovery Assets treated it as a serious financial crime case. They correlated payment rails, wallet clustering, and messaging metadata I provided into one coherent narrative. That narrative unlocked cooperation from an exchange that had previously ignored my solo tickets. Recovery took time, but every milestone in the portal was real. I especially appreciated that they never overstated probabilities. When they said a path looked promising, it usually was. Professional, humane, and technically sharp.",
+    content: "I lost funds to a fake OTC broker who used deepfake video calls to appear as a known market maker. It felt surreal. Cipher Shield Chain Recovery treated it as a serious financial crime case. They correlated payment rails, wallet clustering, and messaging metadata I provided into one coherent narrative. That narrative unlocked cooperation from an exchange that had previously ignored my solo tickets. Recovery took time, but every milestone in the portal was real. I especially appreciated that they never overstated probabilities. When they said a path looked promising, it usually was. Professional, humane, and technically sharp.",
     date: '2026-06-24',
     verified: true,
     tag: 'DEEPFAKE_OTC'
@@ -888,7 +888,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'NOAH_TLV',
     platform: 'GOOGLE',
     rating: 5,
-    content: "A malicious browser extension drained SOL and associated tokens from my Phantom wallet. I contacted CRA expecting a long shot. Instead I got a structured investigation that identified the cash-out pattern within days. Their team monitored for consolidation events and moved quickly when funds hit a centralized venue. The freeze request succeeded. Communication across time zones was smooth, and their explanations helped me understand Solana-specific nuances I had never considered. If you are dealing with an extension or approval-based drain, do not waste weeks on forums — get a real forensic team involved early.",
+    content: "A malicious browser extension drained SOL and associated tokens from my Phantom wallet. I contacted Cipher Shield Chain Recovery expecting a long shot. Instead I got a structured investigation that identified the cash-out pattern within days. Their team monitored for consolidation events and moved quickly when funds hit a centralized venue. The freeze request succeeded. Communication across time zones was smooth, and their explanations helped me understand Solana-specific nuances I had never considered. If you are dealing with an extension or approval-based drain, do not waste weeks on forums — get a real forensic team involved early.",
     date: '2026-06-25',
     verified: true,
     tag: 'EXTENSION_DRAIN'
@@ -898,7 +898,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'MARIA_BOG',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "Escribí primero en español porque estaba demasiado nerviosa para pensar en inglés, and their team still handled everything with patience. My case involved a fake forex-crypto hybrid platform that pushed constant deposits. Crypto Recovery Assets reconstructed the flow of USDT across several intermediaries and prepared bilingual materials I could share with local counsel. They never rushed me, never shamed me, and never asked for unsafe access to my wallets. After months of work we recovered enough to make a real difference for my family. Competence plus compassion is a rare combination, and they have both.",
+    content: "Escribí primero en español porque estaba demasiado nerviosa para pensar en inglés, and their team still handled everything with patience. My case involved a fake forex-crypto hybrid platform that pushed constant deposits. Cipher Shield Chain Recovery reconstructed the flow of USDT across several intermediaries and prepared bilingual materials I could share with local counsel. They never rushed me, never shamed me, and never asked for unsafe access to my wallets. After months of work we recovered enough to make a real difference for my family. Competence plus compassion is a rare combination, and they have both.",
     date: '2026-06-26',
     verified: true,
     tag: 'BILINGUAL_CASE'
@@ -908,7 +908,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'HANS_MUC',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I am an engineer, so I evaluate vendors harshly. Crypto Recovery Assets passed. Their methodology for wallet clustering, change-address heuristics, and exchange attribution was explained with enough rigor that I could independently sanity-check key claims. When evidence was weak, they labeled it as such. When a hop was high-confidence, they showed why. That discipline produced a report German counsel and a compliance team both trusted. Recovery outcome exceeded my conservative expectations. If you want forensics that can survive scrutiny rather than a glossy PDF full of buzzwords, hire these people.",
+    content: "I am an engineer, so I evaluate vendors harshly. Cipher Shield Chain Recovery passed. Their methodology for wallet clustering, change-address heuristics, and exchange attribution was explained with enough rigor that I could independently sanity-check key claims. When evidence was weak, they labeled it as such. When a hop was high-confidence, they showed why. That discipline produced a report German counsel and a compliance team both trusted. Recovery outcome exceeded my conservative expectations. If you want forensics that can survive scrutiny rather than a glossy PDF full of buzzwords, hire these people.",
     date: '2026-06-27',
     verified: true,
     tag: 'ENGINEER_REVIEW'
@@ -918,7 +918,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'RACHEL_PHIL',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "My elderly father was socially engineered into transferring BTC to a 'secure vault' address controlled by scammers. Watching him realize what happened was devastating. Crypto Recovery Assets spoke with us gently, gathered every detail without overwhelm, and began tracing immediately. They coordinated with the exchange side while helping us file the right reports at home. The case took persistence — scammers tried to hop quickly — but CRA stayed ahead of several movements. We recovered a large portion of the Bitcoin. More than that, they helped my father feel less alone in a situation he barely understood. Exceptional service.",
+    content: "My elderly father was socially engineered into transferring BTC to a 'secure vault' address controlled by scammers. Watching him realize what happened was devastating. Cipher Shield Chain Recovery spoke with us gently, gathered every detail without overwhelm, and began tracing immediately. They coordinated with the exchange side while helping us file the right reports at home. The case took persistence — scammers tried to hop quickly — but Cipher Shield Chain Recovery stayed ahead of several movements. We recovered a large portion of the Bitcoin. More than that, they helped my father feel less alone in a situation he barely understood. Exceptional service.",
     date: '2026-06-28',
     verified: true,
     tag: 'ELDER_FRAUD'
@@ -928,7 +928,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'VIKTOR_KRK',
     platform: 'GOOGLE',
     rating: 4,
-    content: "Solid work on a messy DeFi rug-pull where liquidity was yanked and tokens collapsed. CRA traced insider wallets and linked them to earlier campaigns, which was useful even beyond my personal recovery. Funds that remained on-ramped to exchanges were partially frozen and returned. I mark it four stars only because absolute recovery was limited by how quickly the operators off-ramped through privacy tools — a limitation of the case, not a failure of effort. Still, their transparency about those limits and their refusal to invent false hope earned my trust. Worth every bit of the contingency fee.",
+    content: "Solid work on a messy DeFi rug-pull where liquidity was yanked and tokens collapsed. Cipher Shield Chain Recovery traced insider wallets and linked them to earlier campaigns, which was useful even beyond my personal recovery. Funds that remained on-ramped to exchanges were partially frozen and returned. I mark it four stars only because absolute recovery was limited by how quickly the operators off-ramped through privacy tools — a limitation of the case, not a failure of effort. Still, their transparency about those limits and their refusal to invent false hope earned my trust. Worth every bit of the contingency fee.",
     date: '2026-06-29',
     verified: true,
     tag: 'RUG_PULL_TRACE'
@@ -938,7 +938,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'AMINA_DOH',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I transferred a large USDT sum to what looked like a licensed broker website complete with fake certificates and fabricated testimonials. When withdrawals failed, the website went dark. Crypto Recovery Assets started with a calm evidence intake and then mapped every transaction into a forensic timeline. They identified exchange landing points I would never have found alone and drafted freeze language that compliance teams responded to. Throughout the process the client portal kept me informed without forcing me to chase people on chat apps. We recovered the majority of the loss. Professional, secure, and results-driven.",
+    content: "I transferred a large USDT sum to what looked like a licensed broker website complete with fake certificates and fabricated testimonials. When withdrawals failed, the website went dark. Cipher Shield Chain Recovery started with a calm evidence intake and then mapped every transaction into a forensic timeline. They identified exchange landing points I would never have found alone and drafted freeze language that compliance teams responded to. Throughout the process the client portal kept me informed without forcing me to chase people on chat apps. We recovered the majority of the loss. Professional, secure, and results-driven.",
     date: '2026-06-30',
     verified: true,
     tag: 'BROKER_CLONE'
@@ -948,7 +948,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'JONAS_CPH',
     platform: 'GOOGLE',
     rating: 5,
-    content: "After a sophisticated email compromise, attackers requested a crypto payment from our accounts payable wallet using a forged invoice thread. By the time we noticed, the transaction had confirmed. CRA treated it as both a crypto and a business-email-compromise case. They correlated mail headers we provided with on-chain activity and pursued the destination aggressively. Their report was detailed enough for cyber insurance and for internal audit. We recovered a significant amount and received practical recommendations to prevent recurrence. Hiring them felt like bringing in specialists who already knew the playbook for this exact failure mode.",
+    content: "After a sophisticated email compromise, attackers requested a crypto payment from our accounts payable wallet using a forged invoice thread. By the time we noticed, the transaction had confirmed. Cipher Shield Chain Recovery treated it as both a crypto and a business-email-compromise case. They correlated mail headers we provided with on-chain activity and pursued the destination aggressively. Their report was detailed enough for cyber insurance and for internal audit. We recovered a significant amount and received practical recommendations to prevent recurrence. Hiring them felt like bringing in specialists who already knew the playbook for this exact failure mode.",
     date: '2026-07-01',
     verified: true,
     tag: 'BEC_CRYPTO'
@@ -958,7 +958,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'SANA_KHI',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I was drowning in shame after losing money to a fake celebrity investment channel on social media. Crypto Recovery Assets never made me feel stupid. They focused on facts: payment proofs, wallet addresses, chat exports, and timelines. Their investigation showed my funds had been aggregated with other victims and partially held on an exchange still reachable through compliance. That finding became the turning point. Weeks of coordinated work later, a freeze and recovery process succeeded for a large share of what I lost. The team was respectful, relentless, and clear at every stage. I recommend them without reservation.",
+    content: "I was drowning in shame after losing money to a fake celebrity investment channel on social media. Cipher Shield Chain Recovery never made me feel stupid. They focused on facts: payment proofs, wallet addresses, chat exports, and timelines. Their investigation showed my funds had been aggregated with other victims and partially held on an exchange still reachable through compliance. That finding became the turning point. Weeks of coordinated work later, a freeze and recovery process succeeded for a large share of what I lost. The team was respectful, relentless, and clear at every stage. I recommend them without reservation.",
     date: '2026-07-02',
     verified: true,
     tag: 'SOCIAL_CELEB_SCAM'
@@ -968,7 +968,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'DREW_ATL',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I work in compliance myself, so I am allergic to vague recovery claims. Crypto Recovery Assets impressed me with process discipline. Intake was structured. Evidence requests were specific. Attribution language in their reports carefully distinguished confirmed links from probable clustering. When they engaged exchange partners, the packets looked like something a real investigations unit would send. We achieved a strong recovery outcome on a phishing-driven USDC theft. Beyond the money, their work product was something I would be comfortable putting in front of regulators or auditors. That is the standard this industry needs.",
+    content: "I work in compliance myself, so I am allergic to vague recovery claims. Cipher Shield Chain Recovery impressed me with process discipline. Intake was structured. Evidence requests were specific. Attribution language in their reports carefully distinguished confirmed links from probable clustering. When they engaged exchange partners, the packets looked like something a real investigations unit would send. We achieved a strong recovery outcome on a phishing-driven USDC theft. Beyond the money, their work product was something I would be comfortable putting in front of regulators or auditors. That is the standard this industry needs.",
     date: '2026-07-03',
     verified: true,
     tag: 'COMPLIANCE_GRADE'
@@ -978,7 +978,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'ELENA_BUC',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "My case involved stolen funds moved through multiple mixers and then into fresh wallets. Many firms told me it was impossible and hung up. CRA did not promise miracles, but they also did not quit. They waited for operational mistakes by the thieves — consolidation events, exchange deposits, reusable infrastructure — and struck when opportunities appeared. That patience paid off. We recovered less than a total win but far more than zero, which is what every other conversation had offered me. If your trail looks 'too mixed' for amateurs, these analysts still know how to work the edges of the problem.",
+    content: "My case involved stolen funds moved through multiple mixers and then into fresh wallets. Many firms told me it was impossible and hung up. Cipher Shield Chain Recovery did not promise miracles, but they also did not quit. They waited for operational mistakes by the thieves — consolidation events, exchange deposits, reusable infrastructure — and struck when opportunities appeared. That patience paid off. We recovered less than a total win but far more than zero, which is what every other conversation had offered me. If your trail looks 'too mixed' for amateurs, these analysts still know how to work the edges of the problem.",
     date: '2026-07-04',
     verified: true,
     tag: 'MIXER_EDGE_CASE'
@@ -988,7 +988,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'CHRIS_VANC',
     platform: 'GOOGLE',
     rating: 5,
-    content: "A fake customer-support pop-up on a phishing domain harvested my exchange credentials and drained BTC overnight. I contacted Crypto Recovery Assets the next morning. Their rapid-response playbook was obvious: confirm remaining exposure, preserve evidence, begin destination monitoring, and escalate freeze requests as soon as funds touched a cooperative venue. I received daily updates during the critical first week and weekly deep-dives afterward. We recovered most of the Bitcoin. The experience was stressful, but never chaotic, because they ran the case like professionals who have done this hundreds of times.",
+    content: "A fake customer-support pop-up on a phishing domain harvested my exchange credentials and drained BTC overnight. I contacted Cipher Shield Chain Recovery the next morning. Their rapid-response playbook was obvious: confirm remaining exposure, preserve evidence, begin destination monitoring, and escalate freeze requests as soon as funds touched a cooperative venue. I received daily updates during the critical first week and weekly deep-dives afterward. We recovered most of the Bitcoin. The experience was stressful, but never chaotic, because they ran the case like professionals who have done this hundreds of times.",
     date: '2026-07-05',
     verified: true,
     tag: 'EXCHANGE_PHISH'
@@ -998,7 +998,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'NOOR_AMM',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I had almost given up after months of silence from an offshore platform that froze withdrawals. Crypto Recovery Assets reviewed my account statements, blockchain deposits, and the platform's historical wallet patterns. They demonstrated that operators were still moving assets through identifiable channels. That evidence changed the posture of the conversation with intermediaries. Eventually we secured a substantial recovery. What I valued most was consistency — same analyst, same portal, same standards from first call to final settlement. No disappearing account managers, no sudden new fees. Just disciplined work until there was a real result.",
+    content: "I had almost given up after months of silence from an offshore platform that froze withdrawals. Cipher Shield Chain Recovery reviewed my account statements, blockchain deposits, and the platform's historical wallet patterns. They demonstrated that operators were still moving assets through identifiable channels. That evidence changed the posture of the conversation with intermediaries. Eventually we secured a substantial recovery. What I valued most was consistency — same analyst, same portal, same standards from first call to final settlement. No disappearing account managers, no sudden new fees. Just disciplined work until there was a real result.",
     date: '2026-07-06',
     verified: true,
     tag: 'WITHDRAWAL_FREEZE'
@@ -1008,7 +1008,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'LUCA_MIL',
     platform: 'GOOGLE',
     rating: 4,
-    content: "Very strong forensic team and excellent portal experience. My recovery involved Tron USDT moved across many peels and exchange deposit addresses. CRA mapped it clearly and pushed freezes where possible. Some counterparties were slow, and a slice of funds was already gone beyond reach, so this is four stars for outcome completeness rather than effort. Communication remained first-class even when news was imperfect. I would still choose them again over any alternative I researched. In a space full of fake recovery ads, they operate like an actual investigative firm.",
+    content: "Very strong forensic team and excellent portal experience. My recovery involved Tron USDT moved across many peels and exchange deposit addresses. Cipher Shield Chain Recovery mapped it clearly and pushed freezes where possible. Some counterparties were slow, and a slice of funds was already gone beyond reach, so this is four stars for outcome completeness rather than effort. Communication remained first-class even when news was imperfect. I would still choose them again over any alternative I researched. In a space full of fake recovery ads, they operate like an actual investigative firm.",
     date: '2026-07-07',
     verified: true,
     tag: 'TRON_USDT_PEEL'
@@ -1018,7 +1018,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'HANNAH_OSL',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I lost funds after approving a malicious Permit2 signature I did not fully understand. Crypto Recovery Assets not only traced the theft but taught me what went wrong in language I could follow. Their incident report included the exact signature components, spender contract, and subsequent asset movements. That educational clarity mattered almost as much as the recovery itself. Working with exchange compliance, they helped reclaim a major portion of the stolen tokens. Since then I have used their hardening guidance religiously. Competent, ethical, and unusually good at explaining complex crypto mechanics to regular people.",
+    content: "I lost funds after approving a malicious Permit2 signature I did not fully understand. Cipher Shield Chain Recovery not only traced the theft but taught me what went wrong in language I could follow. Their incident report included the exact signature components, spender contract, and subsequent asset movements. That educational clarity mattered almost as much as the recovery itself. Working with exchange compliance, they helped reclaim a major portion of the stolen tokens. Since then I have used their hardening guidance religiously. Competent, ethical, and unusually good at explaining complex crypto mechanics to regular people.",
     date: '2026-07-08',
     verified: true,
     tag: 'PERMIT2_DRAIN'
@@ -1028,7 +1028,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'JAMES_CAPE',
     platform: 'GOOGLE',
     rating: 5,
-    content: "Our nonprofit received a crypto donation that was later disputed as stolen funds moving through our wallet. We were caught in the middle and needed an independent forensic review fast. Crypto Recovery Assets produced a neutral, carefully sourced analysis showing provenance and onward flows. That report protected our organization in discussions with counsel and payment partners. They were sensitive to the reputational stakes and extremely precise with wording. Not every case is a simple 'get my coins back' story — sometimes you need trusted chain analysis. They delivered exactly that.",
+    content: "Our nonprofit received a crypto donation that was later disputed as stolen funds moving through our wallet. We were caught in the middle and needed an independent forensic review fast. Cipher Shield Chain Recovery produced a neutral, carefully sourced analysis showing provenance and onward flows. That report protected our organization in discussions with counsel and payment partners. They were sensitive to the reputational stakes and extremely precise with wording. Not every case is a simple 'get my coins back' story — sometimes you need trusted chain analysis. They delivered exactly that.",
     date: '2026-07-09',
     verified: true,
     tag: 'PROVENANCE_REVIEW'
@@ -1038,7 +1038,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'FARAH_KUL',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I was scammed by a fake crypto escrow service during a peer-to-peer trade. The escrow site looked polished and even had live chat. Once my BTC was gone, so were they. CRA reconstructed the flow, identified reuse of infrastructure from prior escrow scams, and found an exchange offramp window that was still actionable. Their persistence over several weeks made the difference. I always knew who owned my case and what the next action was. We recovered a large percentage of the Bitcoin. If you trade P2P, save this company in your notes before you ever need them.",
+    content: "I was scammed by a fake crypto escrow service during a peer-to-peer trade. The escrow site looked polished and even had live chat. Once my BTC was gone, so were they. Cipher Shield Chain Recovery reconstructed the flow, identified reuse of infrastructure from prior escrow scams, and found an exchange offramp window that was still actionable. Their persistence over several weeks made the difference. I always knew who owned my case and what the next action was. We recovered a large percentage of the Bitcoin. If you trade P2P, save this company in your notes before you ever need them.",
     date: '2026-07-10',
     verified: true,
     tag: 'FAKE_ESCROW'
@@ -1048,7 +1048,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'OWEN_DUB',
     platform: 'GOOGLE',
     rating: 5,
-    content: "After a SIM-swap adjacent account takeover on my email, attackers reset exchange access and drained holdings over a weekend. Local responders were out of their depth with crypto rails. Crypto Recovery Assets stepped in with a clear command of both the identity-theft angle and the on-chain pursuit. They helped me secure remaining accounts while simultaneously tracing stolen assets. The dual-track approach prevented further loss and created a viable recovery path. Final outcome was strong. Documentation quality was superb for insurance. I cannot recommend them highly enough for account-takeover cases.",
+    content: "After a SIM-swap adjacent account takeover on my email, attackers reset exchange access and drained holdings over a weekend. Local responders were out of their depth with crypto rails. Cipher Shield Chain Recovery stepped in with a clear command of both the identity-theft angle and the on-chain pursuit. They helped me secure remaining accounts while simultaneously tracing stolen assets. The dual-track approach prevented further loss and created a viable recovery path. Final outcome was strong. Documentation quality was superb for insurance. I cannot recommend them highly enough for account-takeover cases.",
     date: '2026-07-11',
     verified: true,
     tag: 'ACCOUNT_TAKEOVER'
@@ -1058,7 +1058,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'MEI_TPE',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I invested through a friend-of-a-friend into what turned out to be a closed Ponzi using crypto deposits. When the scheme collapsed, chaos followed. Crypto Recovery Assets ignored the noise and focused on wallet-level truth. They identified operator-controlled addresses, tracked distributions, and prepared materials that a group of victims could use consistently with exchanges and counsel. Coordinating many victims is hard; CRA brought order. My personal recovery was meaningful, and the collective documentation helped others too. Professional leadership in a moment when everyone else was panicking.",
+    content: "I invested through a friend-of-a-friend into what turned out to be a closed Ponzi using crypto deposits. When the scheme collapsed, chaos followed. Cipher Shield Chain Recovery ignored the noise and focused on wallet-level truth. They identified operator-controlled addresses, tracked distributions, and prepared materials that a group of victims could use consistently with exchanges and counsel. Coordinating many victims is hard; Cipher Shield Chain Recovery brought order. My personal recovery was meaningful, and the collective documentation helped others too. Professional leadership in a moment when everyone else was panicking.",
     date: '2026-07-12',
     verified: true,
     tag: 'PONZI_COLLAPSE'
@@ -1068,7 +1068,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'BRAD_SLC',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I am leaving this review months after case close because the result held up. CRA recovered a significant amount of stolen ETH from a phishing incident, and the funds remained securely returned with clean documentation for my records. During the case they were responsive, sober in their forecasts, and excellent about security hygiene. No one ever asked for my seed phrase. No one pushed weird urgency tactics. Just methodical investigation and exchange coordination. In hindsight, hiring them early — instead of waiting while I 'watched the wallets myself' — would have improved odds even more. Still, outstanding work.",
+    content: "I am leaving this review months after case close because the result held up. Cipher Shield Chain Recovery recovered a significant amount of stolen ETH from a phishing incident, and the funds remained securely returned with clean documentation for my records. During the case they were responsive, sober in their forecasts, and excellent about security hygiene. No one ever asked for my seed phrase. No one pushed weird urgency tactics. Just methodical investigation and exchange coordination. In hindsight, hiring them early — instead of waiting while I 'watched the wallets myself' — would have improved odds even more. Still, outstanding work.",
     date: '2026-07-13',
     verified: true,
     tag: 'LONG_TERM_RESULT'
@@ -1078,7 +1078,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'GABRIELA_SCL',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "My husband and I lost a large USDT sum to a trading-signal group that slowly groomed us into bigger deposits. When we tried to withdraw, the excuses started. Crypto Recovery Assets handled the case with discretion and empathy. They collected chat evidence carefully, traced every transfer, and built a package strong enough for both exchange compliance and our attorney. Updates arrived even when there was no dramatic news, which I appreciated — silence is torture during these cases. Recovery was substantial. We are rebuilding, and we finally feel like someone competent stood with us.",
+    content: "My husband and I lost a large USDT sum to a trading-signal group that slowly groomed us into bigger deposits. When we tried to withdraw, the excuses started. Cipher Shield Chain Recovery handled the case with discretion and empathy. They collected chat evidence carefully, traced every transfer, and built a package strong enough for both exchange compliance and our attorney. Updates arrived even when there was no dramatic news, which I appreciated — silence is torture during these cases. Recovery was substantial. We are rebuilding, and we finally feel like someone competent stood with us.",
     date: '2026-07-14',
     verified: true,
     tag: 'SIGNAL_GROUP_SCAM'
@@ -1088,7 +1088,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'ARJUN_HYD',
     platform: 'GOOGLE',
     rating: 4,
-    content: "Good experience overall on a complex cross-chain theft involving BTC wrapped assets and an L2 bridge. The forensic graphs were excellent and helped my counsel immediately. Recovery took longer than the initial estimate because one exchange's compliance queue moved slowly. CRA kept pressure on without creating false expectations, which I respect. Final recovered amount was still life-changing for me. Four stars for timeline variance, five for integrity and skill. If your funds have hopped chains, do not try to DIY this — the tooling and relationships these analysts have are the real advantage.",
+    content: "Good experience overall on a complex cross-chain theft involving BTC wrapped assets and an L2 bridge. The forensic graphs were excellent and helped my counsel immediately. Recovery took longer than the initial estimate because one exchange's compliance queue moved slowly. Cipher Shield Chain Recovery kept pressure on without creating false expectations, which I respect. Final recovered amount was still life-changing for me. Four stars for timeline variance, five for integrity and skill. If your funds have hopped chains, do not try to DIY this — the tooling and relationships these analysts have are the real advantage.",
     date: '2026-07-15',
     verified: true,
     tag: 'WRAPPED_ASSET_TRACE'
@@ -1098,7 +1098,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'CATHERINE_ZRH',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "As a private-client advisor, I referred a victim to Crypto Recovery Assets after screening multiple vendors. Their intake professionalism, conflict handling, and evidence standards were clearly above the rest. The client's funds had been stolen via a cloned wealth-management crypto portal. CRA produced an investigation file that our external counsel described as 'unusually complete.' Recovery proceedings with intermediaries succeeded for a majority share. I now keep them on my shortlist for digital-asset incidents. Rare endorsement from me, but they earned it through process quality, not marketing.",
+    content: "As a private-client advisor, I referred a victim to Cipher Shield Chain Recovery after screening multiple vendors. Their intake professionalism, conflict handling, and evidence standards were clearly above the rest. The client's funds had been stolen via a cloned wealth-management crypto portal. Cipher Shield Chain Recovery produced an investigation file that our external counsel described as 'unusually complete.' Recovery proceedings with intermediaries succeeded for a majority share. I now keep them on my shortlist for digital-asset incidents. Rare endorsement from me, but they earned it through process quality, not marketing.",
     date: '2026-07-16',
     verified: true,
     tag: 'ADVISOR_REFERRAL'
@@ -1108,7 +1108,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'SAMIR_BEY',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I was hit by a fake job-offer scam that required purchasing equipment crypto 'training credits.' It sounds ridiculous writing it now, but the recruiters were polished and persistent. When I realized the fraud, Crypto Recovery Assets traced the payments and identified cash-out points still within reach. They were kind about the social-engineering aspect and ruthless about the blockchain pursuit. We recovered a large portion of what I lost. The secure portal, written case plan, and refusal to handle private keys all signaled legitimacy immediately. I tell everyone in my network: if you need recovery help, start here and ignore the WhatsApp impostors.",
+    content: "I was hit by a fake job-offer scam that required purchasing equipment crypto 'training credits.' It sounds ridiculous writing it now, but the recruiters were polished and persistent. When I realized the fraud, Cipher Shield Chain Recovery traced the payments and identified cash-out points still within reach. They were kind about the social-engineering aspect and ruthless about the blockchain pursuit. We recovered a large portion of what I lost. The secure portal, written case plan, and refusal to handle private keys all signaled legitimacy immediately. I tell everyone in my network: if you need recovery help, start here and ignore the WhatsApp impostors.",
     date: '2026-07-17',
     verified: true,
     tag: 'FAKE_JOB_SCAM'
@@ -1118,7 +1118,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'EMILY_CGY',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "After my wallet was drained through a malicious dApp front-end that had been DNS-hijacked, I needed experts who understood both web compromise and crypto tracing. CRA connected those dots. They documented the hijack window, correlated victim transactions in that period, and pursued aggregated attacker wallets. Their report helped the legitimate project team as well, which I did not expect but deeply appreciated. Personally, we recovered a major share of my lost assets. The whole engagement felt collaborative, transparent, and highly competent. This is what real incident response looks like in crypto.",
+    content: "After my wallet was drained through a malicious dApp front-end that had been DNS-hijacked, I needed experts who understood both web compromise and crypto tracing. Cipher Shield Chain Recovery connected those dots. They documented the hijack window, correlated victim transactions in that period, and pursued aggregated attacker wallets. Their report helped the legitimate project team as well, which I did not expect but deeply appreciated. Personally, we recovered a major share of my lost assets. The whole engagement felt collaborative, transparent, and highly competent. This is what real incident response looks like in crypto.",
     date: '2026-07-18',
     verified: true,
     tag: 'DNS_HIJACK_DAPP'
@@ -1128,7 +1128,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'PEDRO_LIM',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I contacted Crypto Recovery Assets after losing BTC to a fraudulent mining-cloud dashboard. Other companies wanted large retainers before doing anything. CRA explained their contingency model clearly and began analysis only after a proper evidence review. Their findings showed repeated reuse of deposit addresses tied to earlier complaints, which strengthened the freeze narrative. Over the following weeks they coordinated the recovery path and kept me updated in plain language. We got back far more than I thought possible after the first month of despair. Honest pricing plus serious forensics — that combination won my trust.",
+    content: "I contacted Cipher Shield Chain Recovery after losing BTC to a fraudulent mining-cloud dashboard. Other companies wanted large retainers before doing anything. Cipher Shield Chain Recovery explained their contingency model clearly and began analysis only after a proper evidence review. Their findings showed repeated reuse of deposit addresses tied to earlier complaints, which strengthened the freeze narrative. Over the following weeks they coordinated the recovery path and kept me updated in plain language. We got back far more than I thought possible after the first month of despair. Honest pricing plus serious forensics — that combination won my trust.",
     date: '2026-07-19',
     verified: true,
     tag: 'CLOUD_MINING_FRAUD'
@@ -1138,7 +1138,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'IRIS_HKG',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "High-value cases attract fake helpers. After my loss, I was flooded with LinkedIn messages from people claiming they could reverse blockchain transactions. Crypto Recovery Assets was the only firm that immediately called out those claims as impossible and focused on real recovery mechanisms: tracing, attribution, exchange freezes, and legal packaging. That honesty sold me. Their work then backed it up. We recovered a substantial percentage of stolen USDT through persistent compliance escalation. The analysts were discreet, precise, and always prepared. If you are dealing with a large loss, skip the magicians and hire investigators.",
+    content: "High-value cases attract fake helpers. After my loss, I was flooded with LinkedIn messages from people claiming they could reverse blockchain transactions. Cipher Shield Chain Recovery was the only firm that immediately called out those claims as impossible and focused on real recovery mechanisms: tracing, attribution, exchange freezes, and legal packaging. That honesty sold me. Their work then backed it up. We recovered a substantial percentage of stolen USDT through persistent compliance escalation. The analysts were discreet, precise, and always prepared. If you are dealing with a large loss, skip the magicians and hire investigators.",
     date: '2026-07-20',
     verified: true,
     tag: 'HIGH_VALUE_CASE'
@@ -1148,7 +1148,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'NATHAN_BOS',
     platform: 'GOOGLE',
     rating: 4,
-    content: "Thorough, ethical, and technically strong. My stolen funds had already been through several swaps by the time I hired CRA, so expectations had to be realistic. They recovered a partial but important amount and produced a report my attorney called 'court-ready.' A few communications landed later than promised during a heavy workload week, which keeps this at four stars. Everything else — security posture, no-key policy, portal clarity, forensic depth — was excellent. I would still recommend them as the first call after a theft, especially if you need documentation that holds up outside Twitter screenshots.",
+    content: "Thorough, ethical, and technically strong. My stolen funds had already been through several swaps by the time I hired Cipher Shield Chain Recovery, so expectations had to be realistic. They recovered a partial but important amount and produced a report my attorney called 'court-ready.' A few communications landed later than promised during a heavy workload week, which keeps this at four stars. Everything else — security posture, no-key policy, portal clarity, forensic depth — was excellent. I would still recommend them as the first call after a theft, especially if you need documentation that holds up outside Twitter screenshots.",
     date: '2026-07-21',
     verified: true,
     tag: 'PARTIAL_BUT_SOLID'
@@ -1158,7 +1158,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'LEILA_TUN',
     platform: 'TRUSTPILOT',
     rating: 5,
-    content: "I sent USDT to a fraudulent 'account upgrade' address after receiving a convincing in-app style email. The moment it confirmed, I knew I had made a catastrophic mistake. Crypto Recovery Assets responded quickly, confirmed the destination pattern matched a known campaign, and began monitoring for exchange deposits. When the opportunity appeared, they moved. The freeze and recovery process that followed restored most of what I lost. Beyond the result, their kindness during the worst week of my financial life mattered enormously. They combine elite chain skills with basic human decency. That is why this review is five stars.",
+    content: "I sent USDT to a fraudulent 'account upgrade' address after receiving a convincing in-app style email. The moment it confirmed, I knew I had made a catastrophic mistake. Cipher Shield Chain Recovery responded quickly, confirmed the destination pattern matched a known campaign, and began monitoring for exchange deposits. When the opportunity appeared, they moved. The freeze and recovery process that followed restored most of what I lost. Beyond the result, their kindness during the worst week of my financial life mattered enormously. They combine elite chain skills with basic human decency. That is why this review is five stars.",
     date: '2026-07-22',
     verified: true,
     tag: 'ACCOUNT_UPGRADE_SCAM'
@@ -1168,7 +1168,7 @@ export const REVIEWS_DATA: Review[] = [
     user: 'STEVEN_PERTH',
     platform: 'GOOGLE',
     rating: 5,
-    content: "I waited too long before getting help, convinced I could watch the attacker wallets myself with free explorers. All I did was burn time. When I finally contacted Crypto Recovery Assets, they rebuilt the trail properly, identified consolidation behavior I had missed, and opened the right exchange channels. Their client portal made the process feel organized instead of hopeless. We recovered a majority of the stolen ETH and I received a post-incident briefing that permanently changed how I store and move assets. If you take one thing from this review: get professional forensic help early. These are the people I wish I had called on day one.",
+    content: "I waited too long before getting help, convinced I could watch the attacker wallets myself with free explorers. All I did was burn time. When I finally contacted Cipher Shield Chain Recovery, they rebuilt the trail properly, identified consolidation behavior I had missed, and opened the right exchange channels. Their client portal made the process feel organized instead of hopeless. We recovered a majority of the stolen ETH and I received a post-incident briefing that permanently changed how I store and move assets. If you take one thing from this review: get professional forensic help early. These are the people I wish I had called on day one.",
     date: '2026-07-23',
     verified: true,
     tag: 'EARLY_HELP_LESSON'
@@ -1179,7 +1179,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "A man I met on a dating app spent four months becoming my closest friend before he ever mentioned crypto. When he finally did, it was framed as a private 'wealth desk' used by his colleagues. The website had live charts, a named account manager, and withdrawal screenshots from other 'clients.' I sent $40,000 first, then another $102,800 as 'profits' piled up and they asked me to unlock a higher tier. Withdrawals were delayed, then blocked for a fabricated tax. I felt sick. Crypto Recovery Assets did not lecture me. They reconstructed every USDT transfer, showed me the consolidation wallets, and found two exchange deposit addresses still holding the funds. Over seven weeks they coordinated freeze packets and kept me updated twice a week. When it was over, $142,800 was back in my account — every dollar I had sent. I still have the hop map they sent my lawyer. If you are in this situation, do not send another dollar to unlock anything. Call a real forensic team.",
+      "A man I met on a dating app spent four months becoming my closest friend before he ever mentioned crypto. When he finally did, it was framed as a private 'wealth desk' used by his colleagues. The website had live charts, a named account manager, and withdrawal screenshots from other 'clients.' I sent $40,000 first, then another $102,800 as 'profits' piled up and they asked me to unlock a higher tier. Withdrawals were delayed, then blocked for a fabricated tax. I felt sick. Cipher Shield Chain Recovery did not lecture me. They reconstructed every USDT transfer, showed me the consolidation wallets, and found two exchange deposit addresses still holding the funds. Over seven weeks they coordinated freeze packets and kept me updated twice a week. When it was over, $142,800 was back in my account — every dollar I had sent. I still have the hop map they sent my lawyer. If you are in this situation, do not send another dollar to unlock anything. Call a real forensic team.",
     date: '2026-08-03',
     verified: true,
     tag: 'PIG_BUTCHERING'
@@ -1190,7 +1190,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I posted on X about a login loop on Coinbase. Within an hour a 'support' account DMed me a help-desk link that looked identical to the real site. I entered 2FA. They drained 3.18 ETH before I could revoke anything. I contacted Crypto Recovery Assets the same night. By morning they had clustered the destination, flagged a deposit that hit a KYC exchange, and prepared a freeze request my bank's fraud team could actually understand. They froze it on the exchange before it could be mixed, and I have my 3.18 ETH again. The post-case review they did on my devices—password manager, hardware key, withdrawal whitelist—was as valuable as the money. I tell everyone: never click support links from social DMs.",
+      "I posted on X about a login loop on Coinbase. Within an hour a 'support' account DMed me a help-desk link that looked identical to the real site. I entered 2FA. They drained 3.18 ETH before I could revoke anything. I contacted Cipher Shield Chain Recovery the same night. By morning they had clustered the destination, flagged a deposit that hit a KYC exchange, and prepared a freeze request my bank's fraud team could actually understand. They froze it on the exchange before it could be mixed, and I have my 3.18 ETH again. The post-case review they did on my devices—password manager, hardware key, withdrawal whitelist—was as valuable as the money. I tell everyone: never click support links from social DMs.",
     date: '2026-08-06',
     verified: true,
     tag: 'PHISHING_SUPPORT'
@@ -1201,7 +1201,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I am a widow. Someone spent five months messaging me every morning, sending photos from 'business trips,' and never asking for money until I trusted him. Then there was a customs hold, a hospital bill, a partnership opportunity that required BTC. I sent 1.62 Bitcoin in pieces because I believed I was helping the person I loved. When the account vanished I was too ashamed to tell my children. A friend found Crypto Recovery Assets. Their intake person let me cry through the first call and then asked only for hashes and dates. They traced the coins through two hops into an exchange cluster already tied to other romance complaints. The freeze took patience. My 1.62 Bitcoin is home. They never made me feel stupid. That dignity is why this review is so long—I needed someone to treat me like a person, and they did, while still doing serious chain work.",
+      "I am a widow. Someone spent five months messaging me every morning, sending photos from 'business trips,' and never asking for money until I trusted him. Then there was a customs hold, a hospital bill, a partnership opportunity that required BTC. I sent 1.62 Bitcoin in pieces because I believed I was helping the person I loved. When the account vanished I was too ashamed to tell my children. A friend found Cipher Shield Chain Recovery. Their intake person let me cry through the first call and then asked only for hashes and dates. They traced the coins through two hops into an exchange cluster already tied to other romance complaints. The freeze took patience. My 1.62 Bitcoin is home. They never made me feel stupid. That dignity is why this review is so long—I needed someone to treat me like a person, and they did, while still doing serious chain work.",
     date: '2026-08-09',
     verified: true,
     tag: 'ROMANCE_SCAM'
@@ -1212,7 +1212,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 4,
     content:
-      "I copied a withdrawal address from my hardware wallet software. What I pasted into the exchange was one character off—malware on my desktop had swapped the clipboard. 18.4 ETH went to an attacker. I noticed twelve minutes later. Panic does not describe it. Crypto Recovery Assets took the case within the hour, confirmed the destination cluster, and watched for exchange deposits while I was still on the phone with my bank. They tracked every hop onto a KYC venue, got a freeze in place, and the 18.4 ETH is back in my wallet. One star off only because the first 48 hours felt like forever, which is on the exchanges, not them. Their incident packet was good enough for my attorney and for the exchange ticket. I now use an address book and I verify the first and last six characters out loud.",
+      "I copied a withdrawal address from my hardware wallet software. What I pasted into the exchange was one character off—malware on my desktop had swapped the clipboard. 18.4 ETH went to an attacker. I noticed twelve minutes later. Panic does not describe it. Cipher Shield Chain Recovery took the case within the hour, confirmed the destination cluster, and watched for exchange deposits while I was still on the phone with my bank. They tracked every hop onto a KYC venue, got a freeze in place, and the 18.4 ETH is back in my wallet. One star off only because the first 48 hours felt like forever, which is on the exchanges, not them. Their incident packet was good enough for my attorney and for the exchange ticket. I now use an address book and I verify the first and last six characters out loud.",
     date: '2026-08-12',
     verified: true,
     tag: 'CLIPBOARD_MALWARE'
@@ -1223,7 +1223,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I needed to move a large USDT position off an exchange without moving the market. A contact introduced an 'OTC desk' with Bloomberg-looking chats, a Singapore entity name, and a contract PDF. I sent $210,000 in two tranches. The second never arrived on my side. The chat went silent. Crypto Recovery Assets asked for the contract, Telegram exports, and every txid. They showed me the desk was recycling deposit addresses used in at least four prior OTC frauds. That reuse was the break. Funds had been pooled and partly parked on a regulated exchange. Their compliance package got a hold placed. Eleven weeks later the $210,000 was sitting with me again. They were blunt about timelines and process—no miracle promises. I respected that more than the Instagram 'agents' who guaranteed the impossible. If you use OTC, verify the firm independently—or call these people the minute something feels wrong.",
+      "I needed to move a large USDT position off an exchange without moving the market. A contact introduced an 'OTC desk' with Bloomberg-looking chats, a Singapore entity name, and a contract PDF. I sent $210,000 in two tranches. The second never arrived on my side. The chat went silent. Cipher Shield Chain Recovery asked for the contract, Telegram exports, and every txid. They showed me the desk was recycling deposit addresses used in at least four prior OTC frauds. That reuse was the break. Funds had been pooled and partly parked on a regulated exchange. Their compliance package got a hold placed. Eleven weeks later the $210,000 was sitting with me again. They were blunt about timelines and process—no miracle promises. I respected that more than the Instagram 'agents' who guaranteed the impossible. If you use OTC, verify the firm independently—or call these people the minute something feels wrong.",
     date: '2026-08-15',
     verified: true,
     tag: 'OTC_FRAUD'
@@ -1234,7 +1234,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "A Telegram channel sold me a 'cloud mining' contract with daily dashboards showing 1.8% returns. I deposited $47,250 over two months because the first small withdrawal worked—classic bait. Then withdrawals required a 'network upgrade fee.' I almost paid it. A coworker stopped me and sent me to Crypto Recovery Assets. They pulled the payment hashes, mapped the pool wallets, and found the operators were cashing out through two P2P corridors and one exchange deposit. I had messy screenshots and half-deleted chats. They waited while I recovered them from my cloud backup. I have my $47,250 again. Their fee applied only to what they actually brought back. That single fact is how you tell a real firm from a second scam.",
+      "A Telegram channel sold me a 'cloud mining' contract with daily dashboards showing 1.8% returns. I deposited $47,250 over two months because the first small withdrawal worked—classic bait. Then withdrawals required a 'network upgrade fee.' I almost paid it. A coworker stopped me and sent me to Cipher Shield Chain Recovery. They pulled the payment hashes, mapped the pool wallets, and found the operators were cashing out through two P2P corridors and one exchange deposit. I had messy screenshots and half-deleted chats. They waited while I recovered them from my cloud backup. I have my $47,250 again. Their fee applied only to what they actually brought back. That single fact is how you tell a real firm from a second scam.",
     date: '2026-08-18',
     verified: true,
     tag: 'MINING_CONTRACT'
@@ -1245,7 +1245,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "Someone ported my phone number on a Saturday morning. By the time I got a new SIM, my exchange 2FA SMS codes had been used to empty BTC and USDC—about $63,400. I sat in a carrier store crying. Crypto Recovery Assets opened a case before I even had my number back. They contacted the exchange security desk with device indicators, login timestamps, and a reconstructed timeline. The destination wallets were already being monitored. A freeze landed before the funds could hit a mixer, and they put the $63,400 back. They also walked me through app-based 2FA, a hardware key, and a carrier PIN so this cannot happen the same way twice. Fast, calm, and specific. I keep their case ID in my notes app.",
+      "Someone ported my phone number on a Saturday morning. By the time I got a new SIM, my exchange 2FA SMS codes had been used to empty BTC and USDC—about $63,400. I sat in a carrier store crying. Cipher Shield Chain Recovery opened a case before I even had my number back. They contacted the exchange security desk with device indicators, login timestamps, and a reconstructed timeline. The destination wallets were already being monitored. A freeze landed before the funds could hit a mixer, and they put the $63,400 back. They also walked me through app-based 2FA, a hardware key, and a carrier PIN so this cannot happen the same way twice. Fast, calm, and specific. I keep their case ID in my notes app.",
     date: '2026-08-21',
     verified: true,
     tag: 'SIM_SWAP'
@@ -1256,7 +1256,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I sold a car and the buyer wanted to pay in Bitcoin through an escrow site that looked more polished than the actual marketplace I use. Live chat, a countdown timer, a 'funds locked' badge. I sent 0.88 BTC. The buyer and the site disappeared. Crypto Recovery Assets rebuilt the flow in a day, matched the infrastructure to earlier escrow clones, and caught an offramp window on an exchange that was still open. They told me exactly when they were waiting versus when they were acting. I never sat in the dark. A few weeks later the 0.88 BTC from the car sale was back. If you trade P2P, screenshot everything and save this company before you ever need them.",
+      "I sold a car and the buyer wanted to pay in Bitcoin through an escrow site that looked more polished than the actual marketplace I use. Live chat, a countdown timer, a 'funds locked' badge. I sent 0.88 BTC. The buyer and the site disappeared. Cipher Shield Chain Recovery rebuilt the flow in a day, matched the infrastructure to earlier escrow clones, and caught an offramp window on an exchange that was still open. They told me exactly when they were waiting versus when they were acting. I never sat in the dark. A few weeks later the 0.88 BTC from the car sale was back. If you trade P2P, screenshot everything and save this company before you ever need them.",
     date: '2026-08-24',
     verified: true,
     tag: 'FAKE_ESCROW'
@@ -1267,7 +1267,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I claimed a fake airdrop on a site that asked for a wallet connect. I approved a spender I did not read. In under ten minutes ETH and several tokens left my wallet. I was in a hotel in another time zone and felt completely helpless. Crypto Recovery Assets answered the next morning, told me how to revoke remaining approvals first so the bleeding stopped, then traced the stolen assets. They worked two exchanges and a marketplace compliance team on the token side. A few weeks later $81,600 was in my account again — same as what left that night. The portal made it easy to upload the original approval tx and keep files straight across time zones. I now use a burner wallet for any mint or airdrop. Painful lesson, professional rescue.",
+      "I claimed a fake airdrop on a site that asked for a wallet connect. I approved a spender I did not read. In under ten minutes ETH and several tokens left my wallet. I was in a hotel in another time zone and felt completely helpless. Cipher Shield Chain Recovery answered the next morning, told me how to revoke remaining approvals first so the bleeding stopped, then traced the stolen assets. They worked two exchanges and a marketplace compliance team on the token side. A few weeks later $81,600 was in my account again — same as what left that night. The portal made it easy to upload the original approval tx and keep files straight across time zones. I now use a burner wallet for any mint or airdrop. Painful lesson, professional rescue.",
     date: '2026-08-27',
     verified: true,
     tag: 'AIRDROP_DRAIN'
@@ -1278,7 +1278,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "This review is for my father. He is 78. Someone posing as an exchange security officer told him his wallet was 'flagged' and walked him into sending 0.94 BTC to a 'secure vault' address. Watching him realize the truth was worse than the money. Crypto Recovery Assets spoke slowly, never talked over him, and still moved fast on-chain. They coordinated with the exchange side and helped us file the right reports at home. Scammers tried to hop. CRA stayed on those movements. Dad has his 0.94 BTC back. They also sat with us on a call to explain, in plain language, why nobody legitimate will ever ask you to move coins to a vault they control. Exceptional technical work and exceptional patience.",
+      "This review is for my father. He is 78. Someone posing as an exchange security officer told him his wallet was 'flagged' and walked him into sending 0.94 BTC to a 'secure vault' address. Watching him realize the truth was worse than the money. Cipher Shield Chain Recovery spoke slowly, never talked over him, and still moved fast on-chain. They coordinated with the exchange side and helped us file the right reports at home. Scammers tried to hop. Cipher Shield Chain Recovery stayed on those movements. Dad has his 0.94 BTC back. They also sat with us on a call to explain, in plain language, why nobody legitimate will ever ask you to move coins to a vault they control. Exceptional technical work and exceptional patience.",
     date: '2026-08-30',
     verified: true,
     tag: 'ELDER_FRAUD'
@@ -1289,7 +1289,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I was unemployed and desperate. Recruiters with real-looking LinkedIn profiles offered a remote 'blockchain operations' role. The catch was purchasing equipment and training credits in USDT—$28,400 before I understood it was theater. Writing it now it sounds ridiculous. It did not feel ridiculous when rent was due. Crypto Recovery Assets traced the payments, identified cash-out points still in reach, and were kind about the social-engineering piece while being ruthless on the chain. The $28,400 is in my account again. Written case plan, no seed-phrase requests, success-aligned fees. I tell my whole network: ignore WhatsApp recovery strangers and start here.",
+      "I was unemployed and desperate. Recruiters with real-looking LinkedIn profiles offered a remote 'blockchain operations' role. The catch was purchasing equipment and training credits in USDT—$28,400 before I understood it was theater. Writing it now it sounds ridiculous. It did not feel ridiculous when rent was due. Cipher Shield Chain Recovery traced the payments, identified cash-out points still in reach, and were kind about the social-engineering piece while being ruthless on the chain. The $28,400 is in my account again. Written case plan, no seed-phrase requests, success-aligned fees. I tell my whole network: ignore WhatsApp recovery strangers and start here.",
     date: '2026-09-02',
     verified: true,
     tag: 'JOB_OFFER_SCAM'
@@ -1300,7 +1300,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I was first hit by a fake yield platform for about $64,000. Then a Telegram 'recovery agent' said he needed gas and unlock fees. I sent another $8,200 before I stopped. I had almost nothing left. Crypto Recovery Assets explained, calmly, how the second scam works and why no legitimate firm needs your seed or an unlock tax. Then they investigated the original fraud. Their analyst showed me hop by hop where both losses went. Both hits came back: the $64,000 from the yield site and the $8,200 I stupidly sent on Telegram. They told me on day one what they would pursue and they delivered. That honesty is why I trust them. They protected me from being ruined twice.",
+      "I was first hit by a fake yield platform for about $64,000. Then a Telegram 'recovery agent' said he needed gas and unlock fees. I sent another $8,200 before I stopped. I had almost nothing left. Cipher Shield Chain Recovery explained, calmly, how the second scam works and why no legitimate firm needs your seed or an unlock tax. Then they investigated the original fraud. Their analyst showed me hop by hop where both losses went. Both hits came back: the $64,000 from the yield site and the $8,200 I stupidly sent on Telegram. They told me on day one what they would pursue and they delivered. That honesty is why I trust them. They protected me from being ruined twice.",
     date: '2026-09-05',
     verified: true,
     tag: 'SECONDARY_RECOVERY_SCAM'
@@ -1311,7 +1311,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "A Discord signal group promised a 'proprietary bot' that needed USDT deposited to a shared vault. Screenshots of 40% months were everywhere. I deposited $36,750. The bot 'worked' on a dashboard for three weeks. Then the admin said a liquidity event required a top-up. I refused. The dashboard went dark. Crypto Recovery Assets treated it like an investigation, not a lecture. They tied the vault to a small set of operator wallets and an exchange desk used by similar signal scams. A freeze succeeded on the still-held balance, and my $36,750 is back. Weekly written updates, no drama, no extra invoices. If a stranger wants you to fund their bot, it is not a bot.",
+      "A Discord signal group promised a 'proprietary bot' that needed USDT deposited to a shared vault. Screenshots of 40% months were everywhere. I deposited $36,750. The bot 'worked' on a dashboard for three weeks. Then the admin said a liquidity event required a top-up. I refused. The dashboard went dark. Cipher Shield Chain Recovery treated it like an investigation, not a lecture. They tied the vault to a small set of operator wallets and an exchange desk used by similar signal scams. A freeze succeeded on the still-held balance, and my $36,750 is back. Weekly written updates, no drama, no extra invoices. If a stranger wants you to fund their bot, it is not a bot.",
     date: '2026-09-08',
     verified: true,
     tag: 'TRADING_BOT_SCAM'
@@ -1322,7 +1322,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "A livestream that looked like a well-known founder announced a 2-for-1 Bitcoin giveaway. The comments were flooded with fake 'I received mine' posts. I sent 0.41 BTC. It confirmed and nothing came back. I felt like an idiot. Crypto Recovery Assets did not pile on. They traced the giveaway address into a sweep wallet already associated with a known campaign and found a cash-out attempt on an exchange that still had a compliance window. They got me my 0.41 BTC. They also sent me a one-page checklist I now keep: no giveaway that asks you to send first is real, ever. Short case, clear communication, real money back.",
+      "A livestream that looked like a well-known founder announced a 2-for-1 Bitcoin giveaway. The comments were flooded with fake 'I received mine' posts. I sent 0.41 BTC. It confirmed and nothing came back. I felt like an idiot. Cipher Shield Chain Recovery did not pile on. They traced the giveaway address into a sweep wallet already associated with a known campaign and found a cash-out attempt on an exchange that still had a compliance window. They got me my 0.41 BTC. They also sent me a one-page checklist I now keep: no giveaway that asks you to send first is real, ever. Short case, clear communication, real money back.",
     date: '2026-09-11',
     verified: true,
     tag: 'GIVEAWAY_SCAM'
@@ -1333,7 +1333,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "For eight months I believed I was in a relationship with someone building a future with me. The 'broker' he introduced had a license number I later learned was copied from a real firm. I sent $95,200 in USDT. Friends said recovery was impossible. Crypto Recovery Assets analyzed every transfer, identified intermediary wallets, and wrote a narrative report my local police could file without drowning in jargon. Updates arrived when they said they would. Nobody asked me for extra fees to 'release' anything. I have my $95,200 again. If you are reading this in the middle of a similar scheme, stop sending money and contact them before fake recovery agents find you first.",
+      "For eight months I believed I was in a relationship with someone building a future with me. The 'broker' he introduced had a license number I later learned was copied from a real firm. I sent $95,200 in USDT. Friends said recovery was impossible. Cipher Shield Chain Recovery analyzed every transfer, identified intermediary wallets, and wrote a narrative report my local police could file without drowning in jargon. Updates arrived when they said they would. Nobody asked me for extra fees to 'release' anything. I have my $95,200 again. If you are reading this in the middle of a similar scheme, stop sending money and contact them before fake recovery agents find you first.",
     date: '2026-09-14',
     verified: true,
     tag: 'PIG_BUTCHERING'
@@ -1344,7 +1344,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 4,
     content:
-      "I received a phone call and a follow-up email that looked like a tax notice: unpaid crypto gains, a 48-hour deadline, pay in USDC to avoid a lien. I am not proud of it. I sent $22,600. An hour later I called the real IRS line and learned it was a scam. Crypto Recovery Assets started the same afternoon. The destination was already splitting. They caught the legs on an exchange before a mixer could finish the job, and the $22,600 is back. Four stars only because the first stretch of waiting on compliance felt longer than I wanted—that is exchange timelines, not a failure of effort. Their report helped me document the loss for my accountant. Call a real number from the official website before you ever pay a 'tax' in crypto.",
+      "I received a phone call and a follow-up email that looked like a tax notice: unpaid crypto gains, a 48-hour deadline, pay in USDC to avoid a lien. I am not proud of it. I sent $22,600. An hour later I called the real IRS line and learned it was a scam. Cipher Shield Chain Recovery started the same afternoon. The destination was already splitting. They caught the legs on an exchange before a mixer could finish the job, and the $22,600 is back. Four stars only because the first stretch of waiting on compliance felt longer than I wanted—that is exchange timelines, not a failure of effort. Their report helped me document the loss for my accountant. Call a real number from the official website before you ever pay a 'tax' in crypto.",
     date: '2026-09-17',
     verified: true,
     tag: 'TAX_IMPERSONATION'
@@ -1355,7 +1355,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "It started as companionship after a divorce and turned into a 'joint account' on a trading app he claimed his firm used internally. I sent USDT and later BTC—$71,500 total—because I thought we were building something together. When I asked to withdraw my share, he became angry, then vanished. I was embarrassed to tell my sister. She made me call Crypto Recovery Assets. They separated the emotion from the ledger: every deposit, every hop, every reuse of addresses from other romance-investment cases in their files. That pattern evidence mattered to the exchange. They returned the $71,500. The analyst never once said 'how could you.' He said 'here is exactly what we are going to do.' I needed both the money and that sentence.",
+      "It started as companionship after a divorce and turned into a 'joint account' on a trading app he claimed his firm used internally. I sent USDT and later BTC—$71,500 total—because I thought we were building something together. When I asked to withdraw my share, he became angry, then vanished. I was embarrassed to tell my sister. She made me call Cipher Shield Chain Recovery. They separated the emotion from the ledger: every deposit, every hop, every reuse of addresses from other romance-investment cases in their files. That pattern evidence mattered to the exchange. They returned the $71,500. The analyst never once said 'how could you.' He said 'here is exactly what we are going to do.' I needed both the money and that sentence.",
     date: '2026-09-20',
     verified: true,
     tag: 'ROMANCE_INVESTMENT'
@@ -1366,7 +1366,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I used a Google ad for a 'faster bridge' to move ETH to another network. The site cloned a real UI. I signed a transaction I thought was a bridge deposit. It was a drain. 11.6 ETH left. Crypto Recovery Assets reconstructed the approval, traced secondary movements, and worked marketplace and exchange channels in parallel. Their package had timestamps, counterparties, and annotated graphs my counsel said were unusually clear. My 11.6 ETH is back. They also walked me through revoking leftover approvals and using bookmarks instead of search ads for DeFi. I lost sleep for a week. They were the first people who sounded like they had done this a hundred times and still cared about this one.",
+      "I used a Google ad for a 'faster bridge' to move ETH to another network. The site cloned a real UI. I signed a transaction I thought was a bridge deposit. It was a drain. 11.6 ETH left. Cipher Shield Chain Recovery reconstructed the approval, traced secondary movements, and worked marketplace and exchange channels in parallel. Their package had timestamps, counterparties, and annotated graphs my counsel said were unusually clear. My 11.6 ETH is back. They also walked me through revoking leftover approvals and using bookmarks instead of search ads for DeFi. I lost sleep for a week. They were the first people who sounded like they had done this a hundred times and still cared about this one.",
     date: '2026-09-23',
     verified: true,
     tag: 'FAKE_BRIDGE'
@@ -1377,7 +1377,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "Someone from a community group I trusted introduced a private 'crypto circle' with monthly statements and a kind older couple who said they had already withdrawn profits. I put in $54,800. The statements were PDFs. The profits were fiction. When withdrawals froze, three of us realized we had been used to recruit each other. Crypto Recovery Assets took our hashes as one investigation without making us feel like a mob. They found the operator wallets pooling victim funds and a cash-out route that was still intact. I got my $54,800 back. They were careful with confidentiality so our names were not thrown around. In a small community that mattered as much as the money.",
+      "Someone from a community group I trusted introduced a private 'crypto circle' with monthly statements and a kind older couple who said they had already withdrawn profits. I put in $54,800. The statements were PDFs. The profits were fiction. When withdrawals froze, three of us realized we had been used to recruit each other. Cipher Shield Chain Recovery took our hashes as one investigation without making us feel like a mob. They found the operator wallets pooling victim funds and a cash-out route that was still intact. I got my $54,800 back. They were careful with confidentiality so our names were not thrown around. In a small community that mattered as much as the money.",
     date: '2026-09-25',
     verified: true,
     tag: 'AFFINITY_FRAUD'
@@ -1388,7 +1388,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I received an email that looked like my exchange: new device detected, confirm by sending a test USDT amount to an 'upgrade address' to keep the account open. It even used my last four login city. I sent $39,900 because I was traveling and scared of being locked out. The moment it confirmed I knew. Crypto Recovery Assets matched the destination to a known campaign, monitored for exchange deposits, and moved when the window opened. They froze the balance and the $39,900 landed back in my wallet. They were kind during the worst week of my financial life and still elite on the chain. I now have a rule: no email ever requires you to send crypto to stay safe.",
+      "I received an email that looked like my exchange: new device detected, confirm by sending a test USDT amount to an 'upgrade address' to keep the account open. It even used my last four login city. I sent $39,900 because I was traveling and scared of being locked out. The moment it confirmed I knew. Cipher Shield Chain Recovery matched the destination to a known campaign, monitored for exchange deposits, and moved when the window opened. They froze the balance and the $39,900 landed back in my wallet. They were kind during the worst week of my financial life and still elite on the chain. I now have a rule: no email ever requires you to send crypto to stay safe.",
     date: '2026-09-27',
     verified: true,
     tag: 'ACCOUNT_UPGRADE_SCAM'
@@ -1399,7 +1399,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I am a single mother. The money was not 'play money.' It was the account I had been filling since my daughter was three so she could go to school without drowning in loans. A Facebook 'wealth coach' with a polished page and video testimonials walked me into a private trading room. I sent $58,900 in USDT over six weeks because the first tiny withdrawal worked and I wanted to believe I was finally catching up. When they asked for a 'tier unlock' I almost paid it. I sat on the bathroom floor and searched for help instead. Crypto Recovery Assets took the case the same day. They reconstructed every transfer, showed me the operator wallets pooling other parents like me, and stayed with the exchange until a freeze held. My $58,900 is back. The analyst said, 'You are not the first mother in this chair, and you will not be the last we help.' I cried on that call. If you are reading this at 2 a.m. thinking you ruined your child's future, you are not alone. Recovery is possible. Call them before you send one more dollar.",
+      "I am a single mother. The money was not 'play money.' It was the account I had been filling since my daughter was three so she could go to school without drowning in loans. A Facebook 'wealth coach' with a polished page and video testimonials walked me into a private trading room. I sent $58,900 in USDT over six weeks because the first tiny withdrawal worked and I wanted to believe I was finally catching up. When they asked for a 'tier unlock' I almost paid it. I sat on the bathroom floor and searched for help instead. Cipher Shield Chain Recovery took the case the same day. They reconstructed every transfer, showed me the operator wallets pooling other parents like me, and stayed with the exchange until a freeze held. My $58,900 is back. The analyst said, 'You are not the first mother in this chair, and you will not be the last we help.' I cried on that call. If you are reading this at 2 a.m. thinking you ruined your child's future, you are not alone. Recovery is possible. Call them before you send one more dollar.",
     date: '2026-09-29',
     verified: true,
     tag: 'PARENT_SAVINGS'
@@ -1410,7 +1410,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "My 'boss' messaged me on WhatsApp from a new number, said his phone had broken, and asked me to pay a supplier in USDT before a shipment would clear. The tone was exactly him. I sent $44,200 from the company wallet because I did not want to be the person who delayed payroll goods. Twenty minutes later the real boss walked into the office. I thought I would be fired. Crypto Recovery Assets opened a business-incident file that night. They treated it like a crime, not a joke at my expense. They traced the payment into a cluster already tied to executive-impersonation cash-outs, caught an exchange deposit still sitting, and coordinated with our bank's fraud desk so the story matched. The $44,200 came home. Nobody in that firm laughed at me after they read the report. If your CEO suddenly needs crypto from a new chat, stop. Then call these people. They made me feel like an employee who got hunted, not a fool.",
+      "My 'boss' messaged me on WhatsApp from a new number, said his phone had broken, and asked me to pay a supplier in USDT before a shipment would clear. The tone was exactly him. I sent $44,200 from the company wallet because I did not want to be the person who delayed payroll goods. Twenty minutes later the real boss walked into the office. I thought I would be fired. Cipher Shield Chain Recovery opened a business-incident file that night. They treated it like a crime, not a joke at my expense. They traced the payment into a cluster already tied to executive-impersonation cash-outs, caught an exchange deposit still sitting, and coordinated with our bank's fraud desk so the story matched. The $44,200 came home. Nobody in that firm laughed at me after they read the report. If your CEO suddenly needs crypto from a new chat, stop. Then call these people. They made me feel like an employee who got hunted, not a fool.",
     date: '2026-10-01',
     verified: true,
     tag: 'WHATSAPP_CEO_FRAUD'
@@ -1421,7 +1421,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I am 71. I bought a hardware wallet because my grandson said it was safer. A pop-up said the device needed a 'firmware sync' and a live agent would walk me through it. The person on the screen was patient. He had me open a site that looked like the real wallet software. I followed every click. 1.05 BTC left. I did not sleep. I thought I had thrown away the last independent money I had after my husband died. Crypto Recovery Assets spoke to me like a person, not a headline about 'old people and scams.' They asked for the transaction ID, the time, and what the screen looked like. They found the sweep wallet, stayed on the hops, and got a freeze through before the coins disappeared into a mixer. My 1.05 Bitcoin is in a new wallet my grandson helped me set with a written checklist they sent us. They never asked for my seed. They never raised their voice. I tell my church group now: a real company will never remote-control your wallet. These investigators proved recovery is not a fantasy.",
+      "I am 71. I bought a hardware wallet because my grandson said it was safer. A pop-up said the device needed a 'firmware sync' and a live agent would walk me through it. The person on the screen was patient. He had me open a site that looked like the real wallet software. I followed every click. 1.05 BTC left. I did not sleep. I thought I had thrown away the last independent money I had after my husband died. Cipher Shield Chain Recovery spoke to me like a person, not a headline about 'old people and scams.' They asked for the transaction ID, the time, and what the screen looked like. They found the sweep wallet, stayed on the hops, and got a freeze through before the coins disappeared into a mixer. My 1.05 Bitcoin is in a new wallet my grandson helped me set with a written checklist they sent us. They never asked for my seed. They never raised their voice. I tell my church group now: a real company will never remote-control your wallet. These investigators proved recovery is not a fantasy.",
     date: '2026-10-02',
     verified: true,
     tag: 'FAKE_WALLET_SUPPORT'
@@ -1432,7 +1432,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I am an international student. The $31,400 was tuition and six months of rent I had converted to USDT because a 'campus housing partner' said crypto cleared faster than a wire. The listing was stolen photos. The chat vanished after the transfer. I called my parents in tears. They had already sacrificed to send that money. I felt like I had failed an entire family. Crypto Recovery Assets did not talk down to me. They mapped the payment, found reuse of the deposit address in other housing scams, and pushed an exchange hold while I was still collecting screenshots from my phone. Weeks later the $31,400 was returned. They also told me, plainly, that shame is what scammers count on so you stay quiet. I am writing this so another student sees it. You are not foolish for trusting a professional-looking page. You were targeted. With this team, getting it back is not a miracle story. It is the work they do.",
+      "I am an international student. The $31,400 was tuition and six months of rent I had converted to USDT because a 'campus housing partner' said crypto cleared faster than a wire. The listing was stolen photos. The chat vanished after the transfer. I called my parents in tears. They had already sacrificed to send that money. I felt like I had failed an entire family. Cipher Shield Chain Recovery did not talk down to me. They mapped the payment, found reuse of the deposit address in other housing scams, and pushed an exchange hold while I was still collecting screenshots from my phone. Weeks later the $31,400 was returned. They also told me, plainly, that shame is what scammers count on so you stay quiet. I am writing this so another student sees it. You are not foolish for trusting a professional-looking page. You were targeted. With this team, getting it back is not a miracle story. It is the work they do.",
     date: '2026-10-03',
     verified: true,
     tag: 'STUDENT_HOUSING_SCAM'
@@ -1443,7 +1443,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I run a small kitchen. Friday payroll lives in a wallet so I can pay two cooks who asked for USDT. I installed a 'gas fee optimizer' Chrome extension from a forum post. Sunday morning the payroll wallet was empty—$52,800. I pictured telling them I could not pay. I pictured closing. Crypto Recovery Assets answered on a Sunday. That still matters to me. They had me revoke what was left, then traced the drain through a swap into an exchange deposit that had not finished KYC off-ramp. They built a packet with timestamps my bookkeeper could follow. The $52,800 came back. I paid my people on time, one week late, with an apology and the truth. The analyst said small businesses get hit because we are tired and we click. I did not feel lectured. I felt accompanied. If your operating money just vanished, do not sit with it alone. These people work weekends for a reason.",
+      "I run a small kitchen. Friday payroll lives in a wallet so I can pay two cooks who asked for USDT. I installed a 'gas fee optimizer' Chrome extension from a forum post. Sunday morning the payroll wallet was empty—$52,800. I pictured telling them I could not pay. I pictured closing. Cipher Shield Chain Recovery answered on a Sunday. That still matters to me. They had me revoke what was left, then traced the drain through a swap into an exchange deposit that had not finished KYC off-ramp. They built a packet with timestamps my bookkeeper could follow. The $52,800 came back. I paid my people on time, one week late, with an apology and the truth. The analyst said small businesses get hit because we are tired and we click. I did not feel lectured. I felt accompanied. If your operating money just vanished, do not sit with it alone. These people work weekends for a reason.",
     date: '2026-10-04',
     verified: true,
     tag: 'MALICIOUS_EXTENSION'
@@ -1454,7 +1454,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "After my brother died, I inherited a wallet he had shown me once. I did not know how to move anything. A 'family friend' offered to help me 'consolidate for taxes' and had me approve transactions I did not understand. 2.4 ETH and a chunk of USDT left—$19,600 equivalent at the time, which was the funeral, the flight, and what was left of his emergency fund. I could not tell our mother. Crypto Recovery Assets treated the case as both theft and grief. They reconstructed the approvals, showed me which signature was the drain, and pursued the destination until an exchange window opened. Everything that left is back. They put the explanation in a letter I could keep, because I needed something on paper when I finally told Mum. If you are handling a loved one's coins while you are still in shock, do not let a helpful stranger drive. Let investigators drive. I did not feel alone in that file. That is the highest compliment I can give.",
+      "After my brother died, I inherited a wallet he had shown me once. I did not know how to move anything. A 'family friend' offered to help me 'consolidate for taxes' and had me approve transactions I did not understand. 2.4 ETH and a chunk of USDT left—$19,600 equivalent at the time, which was the funeral, the flight, and what was left of his emergency fund. I could not tell our mother. Cipher Shield Chain Recovery treated the case as both theft and grief. They reconstructed the approvals, showed me which signature was the drain, and pursued the destination until an exchange window opened. Everything that left is back. They put the explanation in a letter I could keep, because I needed something on paper when I finally told Mum. If you are handling a loved one's coins while you are still in shock, do not let a helpful stranger drive. Let investigators drive. I did not feel alone in that file. That is the highest compliment I can give.",
     date: '2026-10-05',
     verified: true,
     tag: 'INHERITANCE_THEFT'
@@ -1465,7 +1465,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "A YouTube 'market hour' livestream with a familiar thumbnail told viewers to deposit into a vault so the analyst's bot could copy trades. Comments were full of people posting profit screenshots. I sent $67,300 because I had just sold a property share and I wanted the money to work before I bought another. The dashboard looked alive for eleven days. Then withdrawals needed a liquidity insurance payment. I refused. The site died. I told my wife that night and we barely spoke. Crypto Recovery Assets took the video URL, the deposit hashes, and the comment-bot pattern and treated it like a campaign, not my personal humiliation. They found the operator cluster and a still-open cash-out. My $67,300 is in our account again. We are okay. If you are sitting on the couch after a livestream emptied you, please know this: thousands of people have been walked through the same script. This firm already knows the script. They got us home.",
+      "A YouTube 'market hour' livestream with a familiar thumbnail told viewers to deposit into a vault so the analyst's bot could copy trades. Comments were full of people posting profit screenshots. I sent $67,300 because I had just sold a property share and I wanted the money to work before I bought another. The dashboard looked alive for eleven days. Then withdrawals needed a liquidity insurance payment. I refused. The site died. I told my wife that night and we barely spoke. Cipher Shield Chain Recovery took the video URL, the deposit hashes, and the comment-bot pattern and treated it like a campaign, not my personal humiliation. They found the operator cluster and a still-open cash-out. My $67,300 is in our account again. We are okay. If you are sitting on the couch after a livestream emptied you, please know this: thousands of people have been walked through the same script. This firm already knows the script. They got us home.",
     date: '2026-10-06',
     verified: true,
     tag: 'LIVESTREAM_TRADING'
@@ -1476,7 +1476,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I needed an apartment. The listing asked for a crypto holding deposit because the landlord 'traveled.' Photos were real enough. I sent $18,250 USDT. The keys never came. The number died. I had already given notice at my old place. I slept at a friend's for two weeks and searched recovery scams at night, terrified of a second hit. Crypto Recovery Assets was the first firm that said they do not take unlock fees or seed phrases. That sentence let me breathe. They traced the deposit, matched it to a handful of fake-rental wallets, and caught funds at an exchange that still had a compliance queue. I have my $18,250. I also have a one-page 'never pay rent in a wallet address' note they wrote for me. I was this close to believing I would be on the street and broke. I was not alone. They proved the money could come back. I found a real lease after.",
+      "I needed an apartment. The listing asked for a crypto holding deposit because the landlord 'traveled.' Photos were real enough. I sent $18,250 USDT. The keys never came. The number died. I had already given notice at my old place. I slept at a friend's for two weeks and searched recovery scams at night, terrified of a second hit. Cipher Shield Chain Recovery was the first firm that said they do not take unlock fees or seed phrases. That sentence let me breathe. They traced the deposit, matched it to a handful of fake-rental wallets, and caught funds at an exchange that still had a compliance queue. I have my $18,250. I also have a one-page 'never pay rent in a wallet address' note they wrote for me. I was this close to believing I would be on the street and broke. I was not alone. They proved the money could come back. I found a real lease after.",
     date: '2026-10-07',
     verified: true,
     tag: 'FAKE_RENTAL_DEPOSIT'
@@ -1487,7 +1487,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "Men in a video call said they were from a 'cybercrime unit' and that my wallet was used in a money-laundering case. They had a case number. They had my name. They told me to move $88,400 in BTC to a 'sealed evidence address' to prove I was cooperating or I would be arrested in 24 hours. I was shaking. I moved it. An hour later a friend made me call the real police line. There was no case. Crypto Recovery Assets started before I had even finished explaining. They were calm in a way I could borrow. They traced the coins, flagged the cluster against other impersonation warrants, and reached an exchange in time. The $88,400 is back. They never mocked the fear. Fear is the product those callers sell. If you are reading this with a timer in your ear, hang up. Call a real investigator. These ones brought my life back in two pieces: the bitcoin, and the ability to sleep.",
+      "Men in a video call said they were from a 'cybercrime unit' and that my wallet was used in a money-laundering case. They had a case number. They had my name. They told me to move $88,400 in BTC to a 'sealed evidence address' to prove I was cooperating or I would be arrested in 24 hours. I was shaking. I moved it. An hour later a friend made me call the real police line. There was no case. Cipher Shield Chain Recovery started before I had even finished explaining. They were calm in a way I could borrow. They traced the coins, flagged the cluster against other impersonation warrants, and reached an exchange in time. The $88,400 is back. They never mocked the fear. Fear is the product those callers sell. If you are reading this with a timer in your ear, hang up. Call a real investigator. These ones brought my life back in two pieces: the bitcoin, and the ability to sleep.",
     date: '2026-10-08',
     verified: true,
     tag: 'FAKE_LAW_ENFORCEMENT'
@@ -1498,7 +1498,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I organize a small medical fund for a neighbor's surgery. Donations sat in a wallet I controlled because the hospital wanted a lump sum. I clicked a 'security alert' on my phone that looked like my wallet app. It was a cloned APK from an ad. $41,150 left—other people's money. I wanted to disappear. Crypto Recovery Assets understood immediately that this was not just my loss. They treated every donor tx as a thread in one investigation, traced the drain, and worked the exchange side with a narrative that made the communal harm clear. The $41,150 returned. I could look people in the eye again. The analyst said, 'You were targeted because you were trying to help.' I needed that. If you are holding community money and something just went wrong, you are not a thief and you are not alone. Get a forensic team that can talk to exchanges in complete sentences. This is that team.",
+      "I organize a small medical fund for a neighbor's surgery. Donations sat in a wallet I controlled because the hospital wanted a lump sum. I clicked a 'security alert' on my phone that looked like my wallet app. It was a cloned APK from an ad. $41,150 left—other people's money. I wanted to disappear. Cipher Shield Chain Recovery understood immediately that this was not just my loss. They treated every donor tx as a thread in one investigation, traced the drain, and worked the exchange side with a narrative that made the communal harm clear. The $41,150 returned. I could look people in the eye again. The analyst said, 'You were targeted because you were trying to help.' I needed that. If you are holding community money and something just went wrong, you are not a thief and you are not alone. Get a forensic team that can talk to exchanges in complete sentences. This is that team.",
     date: '2026-10-09',
     verified: true,
     tag: 'COMMUNITY_FUND_THEFT'
@@ -1509,7 +1509,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "My brother-in-law introduced a 'private Swiss desk' that only took clients by referral. There were monthly PDFs on thick letterhead. I sent $124,000 because family vouched and I did not want to look ungrateful. Withdrawals became 'compliance reviews,' then silence. Thanksgiving was ruined before it started. Crypto Recovery Assets interviewed both of us without turning it into a family trial. They showed, with addresses, that the desk was a recycled pig-butchering stack with a European costume. Pattern evidence from other files made the exchange listen. Every dollar of the $124,000 came back. My brother-in-law was a victim too. The firm was careful with that. They recovered the money and they did not blow up the people who were already hurting. If this happened inside your family, you can still get help without announcing it to the world. They were discreet, thorough, and human.",
+      "My brother-in-law introduced a 'private Swiss desk' that only took clients by referral. There were monthly PDFs on thick letterhead. I sent $124,000 because family vouched and I did not want to look ungrateful. Withdrawals became 'compliance reviews,' then silence. Thanksgiving was ruined before it started. Cipher Shield Chain Recovery interviewed both of us without turning it into a family trial. They showed, with addresses, that the desk was a recycled pig-butchering stack with a European costume. Pattern evidence from other files made the exchange listen. Every dollar of the $124,000 came back. My brother-in-law was a victim too. The firm was careful with that. They recovered the money and they did not blow up the people who were already hurting. If this happened inside your family, you can still get help without announcing it to the world. They were discreet, thorough, and human.",
     date: '2026-10-10',
     verified: true,
     tag: 'FAMILY_REFERRAL_FRAUD'
@@ -1520,7 +1520,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "A visa 'fast-track' consultant told me embassy processing now accepted USDT to skip a backlog. I am not naive about paperwork. I am exhausted by it. I sent $26,800. The portal froze. The consultant blocked me. My interview date was real; the payment was not. I thought I had thrown away the last of my savings and my chance. Crypto Recovery Assets mapped the payment the day I wrote them. The address had been used on other immigration-fee clones. They caught the funds on an exchange corridor still monitored. My $26,800 returned. They wrote, in the closing note, that desperation is not stupidity. I printed that sentence. If you are trying to build a life in another country and someone asks for crypto to 'unlock a file,' stop. Then write this team. They made me feel like a person in a process, not a lost case number. Recovery happened. I am still going to that interview.",
+      "A visa 'fast-track' consultant told me embassy processing now accepted USDT to skip a backlog. I am not naive about paperwork. I am exhausted by it. I sent $26,800. The portal froze. The consultant blocked me. My interview date was real; the payment was not. I thought I had thrown away the last of my savings and my chance. Cipher Shield Chain Recovery mapped the payment the day I wrote them. The address had been used on other immigration-fee clones. They caught the funds on an exchange corridor still monitored. My $26,800 returned. They wrote, in the closing note, that desperation is not stupidity. I printed that sentence. If you are trying to build a life in another country and someone asks for crypto to 'unlock a file,' stop. Then write this team. They made me feel like a person in a process, not a lost case number. Recovery happened. I am still going to that interview.",
     date: '2026-10-11',
     verified: true,
     tag: 'VISA_FEE_SCAM'
@@ -1531,7 +1531,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "The shop that 'fixed' my laptop offered to back up my wallet files so nothing would be lost. I was grateful. Two days later 0.73 BTC was gone. I drove back shaking. They shrugged. Crypto Recovery Assets asked for the service ticket, the timestamps, and the outgoing tx. They did not waste time on theater. They traced the coins off the machine's last session into a known sweeper and onto an exchange deposit. Freeze, wait, return. I have my 0.73 Bitcoin. They also told me, gently, that nobody who fixes a screen needs your seed or your wallet folder. I felt stupid until the investigator said this happens in repair shops more than people admit, which is why victims stay quiet. I am not staying quiet. If a technician was 'helpful' with your crypto, get forensic help the same day. These people got mine back and treated me like a neighbor, not a punchline.",
+      "The shop that 'fixed' my laptop offered to back up my wallet files so nothing would be lost. I was grateful. Two days later 0.73 BTC was gone. I drove back shaking. They shrugged. Cipher Shield Chain Recovery asked for the service ticket, the timestamps, and the outgoing tx. They did not waste time on theater. They traced the coins off the machine's last session into a known sweeper and onto an exchange deposit. Freeze, wait, return. I have my 0.73 Bitcoin. They also told me, gently, that nobody who fixes a screen needs your seed or your wallet folder. I felt stupid until the investigator said this happens in repair shops more than people admit, which is why victims stay quiet. I am not staying quiet. If a technician was 'helpful' with your crypto, get forensic help the same day. These people got mine back and treated me like a neighbor, not a punchline.",
     date: '2026-10-12',
     verified: true,
     tag: 'REPAIR_SHOP_THEFT'
@@ -1542,7 +1542,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I am a teacher. A lump-sum from a closed pension sat in USDC because I was afraid of banks after a prior fraud. A colleague's husband ran a 'staking circle' at barbecues. It felt local. It felt safe. I put in $49,500. For three months the group chat posted green numbers. Then the admin said a validator slash required everyone to recapitalize. Two of us said no. The chat was deleted. I could not face the faculty lounge. Crypto Recovery Assets took our txids as one matter, found the operator's cash-out pattern, and kept our names off anything public. My $49,500 is back. So is the other teacher's. They understood a small town cannot survive a rumor the same way a city can. You can be a careful person and still get taken by someone who sits at your table. That does not make you greedy. It makes you human. This firm knows how to get humans home.",
+      "I am a teacher. A lump-sum from a closed pension sat in USDC because I was afraid of banks after a prior fraud. A colleague's husband ran a 'staking circle' at barbecues. It felt local. It felt safe. I put in $49,500. For three months the group chat posted green numbers. Then the admin said a validator slash required everyone to recapitalize. Two of us said no. The chat was deleted. I could not face the faculty lounge. Cipher Shield Chain Recovery took our txids as one matter, found the operator's cash-out pattern, and kept our names off anything public. My $49,500 is back. So is the other teacher's. They understood a small town cannot survive a rumor the same way a city can. You can be a careful person and still get taken by someone who sits at your table. That does not make you greedy. It makes you human. This firm knows how to get humans home.",
     date: '2026-10-13',
     verified: true,
     tag: 'LOCAL_STAKING_CIRCLE'
@@ -1553,7 +1553,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I am a widower. Six months after the funeral I was lonely in a way I did not have language for. Someone listened, every evening, for a long time, before crypto was ever mentioned. Then there was a joint 'income account' and a reason to send 'just this once.' I sent $83,200. When she vanished I sat in the kitchen with my wife's mug and thought I had betrayed a ghost. A neighbor put Crypto Recovery Assets in my hand and stayed on the porch while I made the first call. They let me tell the story once, slowly. Then they worked the chain like it was a job, not a sermon. Every hop, every reused address, every exchange door they could knock on. The $83,200 came back. I still miss my wife. I do not miss the lie. If you are grieving and someone has made themselves your only light, please hear me: you are not the only one, and the money can still be recovered. These investigators did both things at once—they were kind, and they won.",
+      "I am a widower. Six months after the funeral I was lonely in a way I did not have language for. Someone listened, every evening, for a long time, before crypto was ever mentioned. Then there was a joint 'income account' and a reason to send 'just this once.' I sent $83,200. When she vanished I sat in the kitchen with my wife's mug and thought I had betrayed a ghost. A neighbor put Cipher Shield Chain Recovery in my hand and stayed on the porch while I made the first call. They let me tell the story once, slowly. Then they worked the chain like it was a job, not a sermon. Every hop, every reused address, every exchange door they could knock on. The $83,200 came back. I still miss my wife. I do not miss the lie. If you are grieving and someone has made themselves your only light, please hear me: you are not the only one, and the money can still be recovered. These investigators did both things at once—they were kind, and they won.",
     date: '2026-10-14',
     verified: true,
     tag: 'GRIEF_ROMANCE_SCAM'
@@ -1564,7 +1564,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "After the storm hit our county, a charity page asked for USDT so tents and medicine could move faster than a bank wire. The photos were from our own streets. I sent $22,400 from the small emergency fund I keep for my clinic. Two days later the page was gone and the hospital still had no shipment. I felt like I had stolen from patients. Crypto Recovery Assets treated it as a disaster-charity clone, which they had already seen in other zip codes. They mapped the donations, found the cash-out cluster, and got an exchange hold in place. My $22,400 came back. They never once implied I was naive for wanting to help. If you gave during a crisis and the money vanished, you are not greedy and you are not alone. This team knows how to follow kindness that was weaponized.",
+      "After the storm hit our county, a charity page asked for USDT so tents and medicine could move faster than a bank wire. The photos were from our own streets. I sent $22,400 from the small emergency fund I keep for my clinic. Two days later the page was gone and the hospital still had no shipment. I felt like I had stolen from patients. Cipher Shield Chain Recovery treated it as a disaster-charity clone, which they had already seen in other zip codes. They mapped the donations, found the cash-out cluster, and got an exchange hold in place. My $22,400 came back. They never once implied I was naive for wanting to help. If you gave during a crisis and the money vanished, you are not greedy and you are not alone. This team knows how to follow kindness that was weaponized.",
     date: '2026-10-16',
     verified: true,
     tag: 'DISASTER_CHARITY_CLONE'
@@ -1575,7 +1575,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I scanned a parking QR on a downtown garage ticket. It looked official. It opened a page that asked me to connect a wallet to 'verify payment.' I thought it was a new city system. A drainer took $14,850 in USDC. I sat in the car with the meter still running and called my wife crying. Crypto Recovery Assets had me revoke leftover approvals first so nothing else could leave, then traced the steal through a swap into an exchange deposit that was still warm. The $14,850 is back. They wrote a short note I now keep in the glove box: never connect a wallet to a QR you did not create. I tell every driver I know. You can be careful in every other part of your life and still get hit in a parking garage. These people made me feel like a case, not a punchline.",
+      "I scanned a parking QR on a downtown garage ticket. It looked official. It opened a page that asked me to connect a wallet to 'verify payment.' I thought it was a new city system. A drainer took $14,850 in USDC. I sat in the car with the meter still running and called my wife crying. Cipher Shield Chain Recovery had me revoke leftover approvals first so nothing else could leave, then traced the steal through a swap into an exchange deposit that was still warm. The $14,850 is back. They wrote a short note I now keep in the glove box: never connect a wallet to a QR you did not create. I tell every driver I know. You can be careful in every other part of your life and still get hit in a parking garage. These people made me feel like a case, not a punchline.",
     date: '2026-10-17',
     verified: true,
     tag: 'QR_DRAINER'
@@ -1586,7 +1586,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "A video call showed my son's face and his voice asking me to send 0.61 BTC to 'hold it safe' because he had been in an accident overseas and could not access his bank. I am his mother. Of course I sent it. An hour later my real son texted from work. I dropped the phone. Crypto Recovery Assets did not make me explain the love. They asked for the time, the txid, and a screenshot of the call. They traced the coins, matched the pattern to other deepfake family calls, and reached an exchange before a mixer finished the job. My 0.61 Bitcoin is home. The investigator said, 'They steal the voice of the person you would never refuse.' That sentence let me forgive myself. If a child or a parent calls in panic and wants crypto in the next ten minutes, hang up and call them on a number you already have. Then call this firm if you already sent it. Recovery is possible. I am living proof.",
+      "A video call showed my son's face and his voice asking me to send 0.61 BTC to 'hold it safe' because he had been in an accident overseas and could not access his bank. I am his mother. Of course I sent it. An hour later my real son texted from work. I dropped the phone. Cipher Shield Chain Recovery did not make me explain the love. They asked for the time, the txid, and a screenshot of the call. They traced the coins, matched the pattern to other deepfake family calls, and reached an exchange before a mixer finished the job. My 0.61 Bitcoin is home. The investigator said, 'They steal the voice of the person you would never refuse.' That sentence let me forgive myself. If a child or a parent calls in panic and wants crypto in the next ten minutes, hang up and call them on a number you already have. Then call this firm if you already sent it. Recovery is possible. I am living proof.",
     date: '2026-10-18',
     verified: true,
     tag: 'DEEPFAKE_FAMILY'
@@ -1597,7 +1597,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I am a veteran. A lump from back pay sat in USDT because I did not trust another round of bank fees. A man in a veterans' Facebook group offered a 'disabled-vet yield pool' with screenshots of other soldiers. I put in $61,700. The group went dark on a Sunday. I did not want my unit to know. Crypto Recovery Assets took the case without a speech about pride. They reconstructed every transfer, showed reuse of the pool address against other veteran-targeted pages, and pushed an exchange packet that named the harm clearly. The $61,700 returned. They were careful with my name. I can look at my kids again. If you served and someone used that to empty you, you are not the first and you will not be the last they help. I needed a forensic team that understood dignity. I got one.",
+      "I am a veteran. A lump from back pay sat in USDT because I did not trust another round of bank fees. A man in a veterans' Facebook group offered a 'disabled-vet yield pool' with screenshots of other soldiers. I put in $61,700. The group went dark on a Sunday. I did not want my unit to know. Cipher Shield Chain Recovery took the case without a speech about pride. They reconstructed every transfer, showed reuse of the pool address against other veteran-targeted pages, and pushed an exchange packet that named the harm clearly. The $61,700 returned. They were careful with my name. I can look at my kids again. If you served and someone used that to empty you, you are not the first and you will not be the last they help. I needed a forensic team that understood dignity. I got one.",
     date: '2026-10-19',
     verified: true,
     tag: 'VETERAN_YIELD_SCAM'
@@ -1608,7 +1608,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "We were six months from the wedding. The dress, the hall, the tickets for family flying in—that money was in a wallet because a 'wedding planner' said vendors abroad wanted USDT. She had a real Instagram and a Pinterest board of our colors. I sent $33,600. She vanished the week the florist needed a deposit. I told my fiancé in a parking lot. Crypto Recovery Assets treated a wedding fund like it mattered, because it did. They traced the planner's addresses, found a cash-out still sitting, and kept us updated twice a week so we could decide whether to postpone. We did not postpone. The $33,600 came back in time. If someone is holding your celebration hostage through a wallet, you are not shallow for caring. This team got our day back. I still have their last email printed in the gift box.",
+      "We were six months from the wedding. The dress, the hall, the tickets for family flying in—that money was in a wallet because a 'wedding planner' said vendors abroad wanted USDT. She had a real Instagram and a Pinterest board of our colors. I sent $33,600. She vanished the week the florist needed a deposit. I told my fiancé in a parking lot. Cipher Shield Chain Recovery treated a wedding fund like it mattered, because it did. They traced the planner's addresses, found a cash-out still sitting, and kept us updated twice a week so we could decide whether to postpone. We did not postpone. The $33,600 came back in time. If someone is holding your celebration hostage through a wallet, you are not shallow for caring. This team got our day back. I still have their last email printed in the gift box.",
     date: '2026-10-20',
     verified: true,
     tag: 'WEDDING_FUND_FRAUD'
@@ -1619,7 +1619,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I downloaded what I thought was the real exchange app from an ad at the top of search. The icon was right. The login worked. I completed a 'security selfie' and overnight 2.05 ETH left the actual account on the real site. I had handed them the keys to impersonate me. Crypto Recovery Assets separated the clone-app trail from the exchange takeover, got the security desk a timeline that made sense, and traced the withdrawn ETH to a deposit that could still be frozen. My 2.05 ETH is back. They walked me through app-store links versus ads, hardware keys, and withdrawal allowlists so I sleep. The shame of 'I installed the fake one' is loud. Their voice was louder: this is a factory, not your personal failure. I am telling every person I mine with. Call them the same night.",
+      "I downloaded what I thought was the real exchange app from an ad at the top of search. The icon was right. The login worked. I completed a 'security selfie' and overnight 2.05 ETH left the actual account on the real site. I had handed them the keys to impersonate me. Cipher Shield Chain Recovery separated the clone-app trail from the exchange takeover, got the security desk a timeline that made sense, and traced the withdrawn ETH to a deposit that could still be frozen. My 2.05 ETH is back. They walked me through app-store links versus ads, hardware keys, and withdrawal allowlists so I sleep. The shame of 'I installed the fake one' is loud. Their voice was louder: this is a factory, not your personal failure. I am telling every person I mine with. Call them the same night.",
     date: '2026-10-21',
     verified: true,
     tag: 'FAKE_EXCHANGE_APP'
@@ -1630,7 +1630,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I work nights in a hospital. A man on a shift-work dating app never asked for money until month five. Then there was a 'license' for a medical-device import and a window that would close. I sent $47,900 because I believed we were building a clinic together in his country. When the account died I sat in the break room with my badge still on. A coworker found Crypto Recovery Assets. They let me talk between twelve-hour shifts. They mapped the USDT, tied it to other romance-import files, and did not leak my workplace. The $47,900 is in my account. I still take care of patients. I am not the joke of the floor. If you are exhausted and someone offered you a future, you were targeted for that exhaustion. This firm recovers money and they recover the story you tell yourself at 3 a.m.",
+      "I work nights in a hospital. A man on a shift-work dating app never asked for money until month five. Then there was a 'license' for a medical-device import and a window that would close. I sent $47,900 because I believed we were building a clinic together in his country. When the account died I sat in the break room with my badge still on. A coworker found Cipher Shield Chain Recovery. They let me talk between twelve-hour shifts. They mapped the USDT, tied it to other romance-import files, and did not leak my workplace. The $47,900 is in my account. I still take care of patients. I am not the joke of the floor. If you are exhausted and someone offered you a future, you were targeted for that exhaustion. This firm recovers money and they recover the story you tell yourself at 3 a.m.",
     date: '2026-10-22',
     verified: true,
     tag: 'NIGHT_SHIFT_ROMANCE'
@@ -1641,7 +1641,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "A Telegram channel sold tokenized shares in a 'Lisbon riverside building' with floor plans and a notary PDF. I sent $92,400 because I wanted a real asset after years of coins. The building exists. The shares did not. The notary number belonged to a retired clerk. Crypto Recovery Assets pulled the PDFs apart, matched the deposit wallets to other property-token scams, and found an exchange corridor still open. Every euro of that $92,400 equivalent came back. They were bilingual with my counsel without making me feel like a tourist in my own case. If a beautiful building is being sold to you in a chat, pause. If you already paid, these investigators know the costume. They got me out without lecturing me about greed. I was trying to be conservative. They understood that.",
+      "A Telegram channel sold tokenized shares in a 'Lisbon riverside building' with floor plans and a notary PDF. I sent $92,400 because I wanted a real asset after years of coins. The building exists. The shares did not. The notary number belonged to a retired clerk. Cipher Shield Chain Recovery pulled the PDFs apart, matched the deposit wallets to other property-token scams, and found an exchange corridor still open. Every euro of that $92,400 equivalent came back. They were bilingual with my counsel without making me feel like a tourist in my own case. If a beautiful building is being sold to you in a chat, pause. If you already paid, these investigators know the costume. They got me out without lecturing me about greed. I was trying to be conservative. They understood that.",
     date: '2026-10-23',
     verified: true,
     tag: 'TOKENIZED_PROPERTY'
@@ -1652,7 +1652,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I am a church treasurer. The offering wallet was drained after I approved a 'bookkeeper integration' from an email that used our pastor's exact wording. $38,200 of congregational money. I offered to resign the same afternoon. Crypto Recovery Assets opened a file that treated the church as the victim, not me as the suspect. They traced the approval, the drain, and the peel chain, then wrote a report the board could read without a glossary. The $38,200 returned. I kept the role because the board read their letter. If you hold other people's money and a polished email just emptied it, do not disappear. Get a forensic team that can speak to a board. This one did. They also showed us how to require two people for any new spender. I sleep.",
+      "I am a church treasurer. The offering wallet was drained after I approved a 'bookkeeper integration' from an email that used our pastor's exact wording. $38,200 of congregational money. I offered to resign the same afternoon. Cipher Shield Chain Recovery opened a file that treated the church as the victim, not me as the suspect. They traced the approval, the drain, and the peel chain, then wrote a report the board could read without a glossary. The $38,200 returned. I kept the role because the board read their letter. If you hold other people's money and a polished email just emptied it, do not disappear. Get a forensic team that can speak to a board. This one did. They also showed us how to require two people for any new spender. I sleep.",
     date: '2026-10-24',
     verified: true,
     tag: 'CHURCH_TREASURY'
@@ -1663,7 +1663,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I freelance on a platform that allowed crypto milestones. A 'client' funded an escrow that looked native, then asked me to 'top up gas' to release $19,200 I thought I had already earned. I sent the gas. Both amounts left. I had rent and a child's inhaler on that invoice. Crypto Recovery Assets reconstructed the fake escrow domain, the gas address, and the client sockpuppets. They caught a cash-out. I have the $19,200 plus the gas. They never asked me why I work in crypto invoices. They asked for hashes. If you are a freelancer and an escrow suddenly needs you to pay to get paid, stop. Then write this team. They treated a small invoice like it was a life, because for me it was.",
+      "I freelance on a platform that allowed crypto milestones. A 'client' funded an escrow that looked native, then asked me to 'top up gas' to release $19,200 I thought I had already earned. I sent the gas. Both amounts left. I had rent and a child's inhaler on that invoice. Cipher Shield Chain Recovery reconstructed the fake escrow domain, the gas address, and the client sockpuppets. They caught a cash-out. I have the $19,200 plus the gas. They never asked me why I work in crypto invoices. They asked for hashes. If you are a freelancer and an escrow suddenly needs you to pay to get paid, stop. Then write this team. They treated a small invoice like it was a life, because for me it was.",
     date: '2026-10-25',
     verified: true,
     tag: 'FREELANCER_ESCROW'
@@ -1674,7 +1674,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "A lawyer on a video call said my late aunt had left BTC in a European estate and I needed to pay a 'cross-border release tax' of $27,500 in USDT to receive 4.2 coins. He had letterhead. He had her middle name. I paid because I missed her and I wanted the story to be true. There was no estate. Crypto Recovery Assets started the hour I forwarded the PDF. They flagged the tax address against other inheritance-release wallets, monitored the hops, and froze what they could still reach. My $27,500 came back. They said gently that grief is a door scammers know how to knock on. I did not feel stupid. I felt accompanied through the ugliest week since the funeral. If a stranger is holding a dead relative's coins behind a crypto fee, it is a script. This firm already has the script in a folder.",
+      "A lawyer on a video call said my late aunt had left BTC in a European estate and I needed to pay a 'cross-border release tax' of $27,500 in USDT to receive 4.2 coins. He had letterhead. He had her middle name. I paid because I missed her and I wanted the story to be true. There was no estate. Cipher Shield Chain Recovery started the hour I forwarded the PDF. They flagged the tax address against other inheritance-release wallets, monitored the hops, and froze what they could still reach. My $27,500 came back. They said gently that grief is a door scammers know how to knock on. I did not feel stupid. I felt accompanied through the ugliest week since the funeral. If a stranger is holding a dead relative's coins behind a crypto fee, it is a script. This firm already has the script in a folder.",
     date: '2026-10-26',
     verified: true,
     tag: 'FAKE_INHERITANCE'
@@ -1685,7 +1685,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "A Discord 'allowlist' for an NFT mint asked me to verify a wallet. I was excited. I approved a spender I did not read. In four minutes my ETH and two NFTs I actually cared about were gone—about $54,100. I work in a warehouse. Those NFTs were the first thing I had ever owned that felt like art. Crypto Recovery Assets told me how to kill remaining approvals, then chased the ETH and the marketplace listings in parallel. Weeks later the $54,100 was in my account. They even helped flag the mint site so fewer people from my server would walk in. Nobody on that team laughed at NFTs. They treated my loss like value. If a mint wants a signature before you understand the popup, walk away. If you already signed, these people can still run.",
+      "A Discord 'allowlist' for an NFT mint asked me to verify a wallet. I was excited. I approved a spender I did not read. In four minutes my ETH and two NFTs I actually cared about were gone—about $54,100. I work in a warehouse. Those NFTs were the first thing I had ever owned that felt like art. Cipher Shield Chain Recovery told me how to kill remaining approvals, then chased the ETH and the marketplace listings in parallel. Weeks later the $54,100 was in my account. They even helped flag the mint site so fewer people from my server would walk in. Nobody on that team laughed at NFTs. They treated my loss like value. If a mint wants a signature before you understand the popup, walk away. If you already signed, these people can still run.",
     date: '2026-10-27',
     verified: true,
     tag: 'NFT_MINT_DRAIN'
@@ -1696,7 +1696,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "My father has Parkinson's. A 'bank security officer' stayed on the phone while he moved $72,800 in USDC to a 'safe wallet' they spelled out letter by letter. I found him at the table with the phone still in his hand. Crypto Recovery Assets spoke to both of us on one call so he would not have to repeat the shame. They traced while he rested. They coordinated with the exchange and with our local report so the file matched. The $72,800 came home. They sent a one-page 'no one from a bank will ever ask you to send crypto' sheet in large type. I taped it by his chair. If you are a child watching a parent get walked through a transfer, you are not too late. Call them while the hops are still warm. They were kind to him. That is why I am writing this long.",
+      "My father has Parkinson's. A 'bank security officer' stayed on the phone while he moved $72,800 in USDC to a 'safe wallet' they spelled out letter by letter. I found him at the table with the phone still in his hand. Cipher Shield Chain Recovery spoke to both of us on one call so he would not have to repeat the shame. They traced while he rested. They coordinated with the exchange and with our local report so the file matched. The $72,800 came home. They sent a one-page 'no one from a bank will ever ask you to send crypto' sheet in large type. I taped it by his chair. If you are a child watching a parent get walked through a transfer, you are not too late. Call them while the hops are still warm. They were kind to him. That is why I am writing this long.",
     date: '2026-10-28',
     verified: true,
     tag: 'ELDER_BANK_IMPERSONATION'
@@ -1707,7 +1707,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I sold a motorcycle on a marketplace. The buyer wanted to pay 0.52 BTC through a 'secure buyer vault' with a countdown and a lock icon. I have sold bikes for years. This looked like the new version of escrow. I sent the title photos. He sent nothing that stayed. The 0.52 BTC I had moved into the vault to 'match' was gone. Crypto Recovery Assets rebuilt the clone, matched the infrastructure to earlier vehicle-escrow fakes, and caught an offramp. I have the 0.52 Bitcoin. I also have my Saturday mornings back. They did not mock a grown man for trusting a padlock gif. They asked for the HTML and the tx. If you sell anything expensive and the buyer wants you to park coins in a vault you do not control, do not. If you already did, this is the firm that knows that vault is a set piece.",
+      "I sold a motorcycle on a marketplace. The buyer wanted to pay 0.52 BTC through a 'secure buyer vault' with a countdown and a lock icon. I have sold bikes for years. This looked like the new version of escrow. I sent the title photos. He sent nothing that stayed. The 0.52 BTC I had moved into the vault to 'match' was gone. Cipher Shield Chain Recovery rebuilt the clone, matched the infrastructure to earlier vehicle-escrow fakes, and caught an offramp. I have the 0.52 Bitcoin. I also have my Saturday mornings back. They did not mock a grown man for trusting a padlock gif. They asked for the HTML and the tx. If you sell anything expensive and the buyer wants you to park coins in a vault you do not control, do not. If you already did, this is the firm that knows that vault is a set piece.",
     date: '2026-10-29',
     verified: true,
     tag: 'VEHICLE_ESCROW_CLONE'
@@ -1718,7 +1718,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "A scholarship portal told international students to lock a seat with a USDT 'commitment fee.' I sent $16,400 because the university name was real and the deadline was midnight. The portal was a clone. I was already packing. Crypto Recovery Assets moved the same night I emailed from a hostel. They mapped the fee address to other education-lock scams, pushed an exchange notice, and wrote in a tone my parents could read without panic. The $16,400 returned. I still enrolled—just not through a wallet. They told me deadlines are a pressure tool. I needed someone to say that out loud. If you are a student far from home and a site wants crypto to keep a seat, it is not the registrar. Write this team. They treated my small number like it was a family's entire plan, because it was.",
+      "A scholarship portal told international students to lock a seat with a USDT 'commitment fee.' I sent $16,400 because the university name was real and the deadline was midnight. The portal was a clone. I was already packing. Cipher Shield Chain Recovery moved the same night I emailed from a hostel. They mapped the fee address to other education-lock scams, pushed an exchange notice, and wrote in a tone my parents could read without panic. The $16,400 returned. I still enrolled—just not through a wallet. They told me deadlines are a pressure tool. I needed someone to say that out loud. If you are a student far from home and a site wants crypto to keep a seat, it is not the registrar. Write this team. They treated my small number like it was a family's entire plan, because it was.",
     date: '2026-10-30',
     verified: true,
     tag: 'SCHOLARSHIP_FEE_SCAM'
@@ -1729,7 +1729,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I run a rescue for street dogs. Donations sat in a public wallet so people could see inflows. A cloned site cloned our donate button. Some donors paid the clone. Then a drainer hit our real wallet after I signed a 'transparency plugin.' $29,750 of food and vet money left. I posted an apology I can still barely read. Crypto Recovery Assets ran two threads: the clone donations and the drain. They recovered the $29,750 from the drain and helped us message the clone victims with hashes so those people could open files too. I have never had a vendor care about the animals in the next sentence after the txids. If you run a small charity wallet, you can still get help that does not eat what you raise. They did the work. The dogs ate that week. I am not exaggerating.",
+      "I run a rescue for street dogs. Donations sat in a public wallet so people could see inflows. A cloned site cloned our donate button. Some donors paid the clone. Then a drainer hit our real wallet after I signed a 'transparency plugin.' $29,750 of food and vet money left. I posted an apology I can still barely read. Cipher Shield Chain Recovery ran two threads: the clone donations and the drain. They recovered the $29,750 from the drain and helped us message the clone victims with hashes so those people could open files too. I have never had a vendor care about the animals in the next sentence after the txids. If you run a small charity wallet, you can still get help that does not eat what you raise. They did the work. The dogs ate that week. I am not exaggerating.",
     date: '2026-11-01',
     verified: true,
     tag: 'RESCUE_CHARITY_DRAIN'
@@ -1740,7 +1740,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I am sixty-four and newly retired. A radio guest 'advisor' sold a private REIT that settled in USDC. I put in $108,500 of a lifetime of overtime. Statements arrived on schedule. Then withdrawals required a 'SEC window fee.' I almost paid it. My daughter found Crypto Recovery Assets instead. They showed me the statements were templates. They showed me the deposit wallets were a pig-butchering stack with a radio costume. They got an exchange to hold what was still there. Every dollar of the $108,500 is back. I cried in my kitchen with the radio off. If you are retired and someone sounds like the station you trust, you can still be hunted. These investigators did not make me feel old. They made me feel recovered. I tell my walking group now: no yield that needs a second payment to come home is a yield.",
+      "I am sixty-four and newly retired. A radio guest 'advisor' sold a private REIT that settled in USDC. I put in $108,500 of a lifetime of overtime. Statements arrived on schedule. Then withdrawals required a 'SEC window fee.' I almost paid it. My daughter found Cipher Shield Chain Recovery instead. They showed me the statements were templates. They showed me the deposit wallets were a pig-butchering stack with a radio costume. They got an exchange to hold what was still there. Every dollar of the $108,500 is back. I cried in my kitchen with the radio off. If you are retired and someone sounds like the station you trust, you can still be hunted. These investigators did not make me feel old. They made me feel recovered. I tell my walking group now: no yield that needs a second payment to come home is a yield.",
     date: '2026-11-02',
     verified: true,
     tag: 'RETIREMENT_RADIO_PITCH'
@@ -1751,7 +1751,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "A cousin in another city asked me on WhatsApp to send $24,800 USDT for a hospital admission, then went silent. It was his number—until I learned the SIM had been swapped that morning. I had sent family money to a thief. I could not call my aunt. Crypto Recovery Assets treated a family transfer like a forensic event, not a domestic spat. They traced the USDT, found the cash-out, and helped me explain the SIM swap in a letter I could show the family without sounding like I was accusing my cousin. The $24,800 returned. The cousin was a victim too. The firm was careful with that distinction. If your relative's chat suddenly needs crypto for an emergency, call them on another line first. If you already sent it, these people know how to chase a swapped number's wallet. They gave me my money and they gave me a way to keep my family.",
+      "A cousin in another city asked me on WhatsApp to send $24,800 USDT for a hospital admission, then went silent. It was his number—until I learned the SIM had been swapped that morning. I had sent family money to a thief. I could not call my aunt. Cipher Shield Chain Recovery treated a family transfer like a forensic event, not a domestic spat. They traced the USDT, found the cash-out, and helped me explain the SIM swap in a letter I could show the family without sounding like I was accusing my cousin. The $24,800 returned. The cousin was a victim too. The firm was careful with that distinction. If your relative's chat suddenly needs crypto for an emergency, call them on another line first. If you already sent it, these people know how to chase a swapped number's wallet. They gave me my money and they gave me a way to keep my family.",
     date: '2026-11-03',
     verified: true,
     tag: 'FAMILY_SIMSWAP_CHAT'
@@ -1762,7 +1762,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I keep a seed phrase in a photo album in iCloud because I did not want a paper copy in the house. A phishing page that looked like Apple asked me to 'restore iCloud crypto backup.' I entered the words. 1.18 BTC left while I was still on the page. I am a librarian. I teach people not to click. I clicked. Crypto Recovery Assets did not enjoy the irony. They traced, they froze, they returned my 1.18 Bitcoin. They helped me move to a hardware wallet with a written ritual I can follow when I am tired. The investigator said teachers and librarians get hit because we trust systems that look official. That was the first kind sentence I had heard in two days. If your backup lives in a screenshot, please hear me: screenshots get phished. This team can still pull the coins back if you move fast and you tell the truth about what you typed.",
+      "I keep a seed phrase in a photo album in iCloud because I did not want a paper copy in the house. A phishing page that looked like Apple asked me to 'restore iCloud crypto backup.' I entered the words. 1.18 BTC left while I was still on the page. I am a librarian. I teach people not to click. I clicked. Cipher Shield Chain Recovery did not enjoy the irony. They traced, they froze, they returned my 1.18 Bitcoin. They helped me move to a hardware wallet with a written ritual I can follow when I am tired. The investigator said teachers and librarians get hit because we trust systems that look official. That was the first kind sentence I had heard in two days. If your backup lives in a screenshot, please hear me: screenshots get phished. This team can still pull the coins back if you move fast and you tell the truth about what you typed.",
     date: '2026-11-05',
     verified: true,
     tag: 'ICLOUD_SEED_PHISH'
@@ -1773,7 +1773,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I thought I was buying a small truck for my delivery route through a 'crypto auto broker' with warehouse photos and a VIN. I sent $41,000 USDT. The VIN belonged to a truck in another country. The warehouse was a stock image. I had already given notice at my old job. Crypto Recovery Assets pulled the listing, the VIN, and the payment hashes into one narrative an exchange could act on. They found the broker's cluster and a still-held balance. My $41,000 came back. I kept the new job. I bought a truck the slow way. They told me hope plus a deadline is how this particular fraud is sold. I was not reckless. I was trying to work. If you are changing your life and someone wants the purchase in a wallet this week, pause. If you already paid, write them. They treated my route, my rent, and my name like they belonged to a person. I got to stay a person.",
+      "I thought I was buying a small truck for my delivery route through a 'crypto auto broker' with warehouse photos and a VIN. I sent $41,000 USDT. The VIN belonged to a truck in another country. The warehouse was a stock image. I had already given notice at my old job. Cipher Shield Chain Recovery pulled the listing, the VIN, and the payment hashes into one narrative an exchange could act on. They found the broker's cluster and a still-held balance. My $41,000 came back. I kept the new job. I bought a truck the slow way. They told me hope plus a deadline is how this particular fraud is sold. I was not reckless. I was trying to work. If you are changing your life and someone wants the purchase in a wallet this week, pause. If you already paid, write them. They treated my route, my rent, and my name like they belonged to a person. I got to stay a person.",
     date: '2026-11-07',
     verified: true,
     tag: 'FAKE_VEHICLE_BROKER'
@@ -1784,7 +1784,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "My husband died in March. I am fifty-eight. I found a notebook with a wallet password and a note that said 'for Helen if I go first.' I had never opened an exchange. A man on Facebook who said he was from the same church offered to 'unlock the inheritance wallet' if I sent a small USDT fee to release the freeze. I sent $8,200, then $19,600 more when he said the bank was holding it. I was grieving. I was stupid in the way grief makes you stupid. I sat on the kitchen floor with his mug still in the sink. A neighbor found Crypto Recovery Assets. They never asked me for the seed. They asked for dates, screenshots, and the two hashes. They traced both payments into a cluster already tied to bereavement-unlock scams. An exchange held what was still there. $27,800 came back. They also sat on a call while I wrote down, in my own handwriting, that no one legitimate will ever charge a widow a crypto fee to open her husband's wallet. I keep that paper in the notebook. If you just lost someone and a kind stranger appears with a wallet problem, hang up. If you already paid, write this team. They treated me like a wife, not a mark. I got the money. I got to keep his note without it becoming the last thing I was ashamed of.",
+      "My husband died in March. I am fifty-eight. I found a notebook with a wallet password and a note that said 'for Helen if I go first.' I had never opened an exchange. A man on Facebook who said he was from the same church offered to 'unlock the inheritance wallet' if I sent a small USDT fee to release the freeze. I sent $8,200, then $19,600 more when he said the bank was holding it. I was grieving. I was stupid in the way grief makes you stupid. I sat on the kitchen floor with his mug still in the sink. A neighbor found Cipher Shield Chain Recovery. They never asked me for the seed. They asked for dates, screenshots, and the two hashes. They traced both payments into a cluster already tied to bereavement-unlock scams. An exchange held what was still there. $27,800 came back. They also sat on a call while I wrote down, in my own handwriting, that no one legitimate will ever charge a widow a crypto fee to open her husband's wallet. I keep that paper in the notebook. If you just lost someone and a kind stranger appears with a wallet problem, hang up. If you already paid, write this team. They treated me like a wife, not a mark. I got the money. I got to keep his note without it becoming the last thing I was ashamed of.",
     date: '2026-11-08',
     verified: true,
     tag: 'BEREAVEMENT_UNLOCK_FEE'
@@ -1795,7 +1795,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I pastor a storefront church. We saved $61,400 for a down payment on a building we had already walked through with the kids. A 'Christian escrow' site took crypto so the seller would not have to wait on a wire. The listing photos were our photos. The pastor-to-pastor chat used language I trusted. I sent the $61,400 on a Tuesday. Wednesday the domain was down. I had to tell twelve families we might have given the building away. I could not sleep. Crypto Recovery Assets took the intake at 11 p.m. They rebuilt the clone, matched the wallet to other faith-escrow fakes, and got a compliance desk to freeze an offramp. Six weeks later the $61,400 was in our account. They never mocked the cross in my email signature. They asked whether we wanted the report written in a tone the board could read without panic. We did. We still do not have the building. We have the money and we have a congregation that did not splinter. If your ministry is being asked to settle a property in USDT this week, it is not closing. It is hunting. If you already sent it, these people know how to chase a stolen tithe without turning it into gossip. I am not a crypto person. I am a pastor who got his people home.",
+      "I pastor a storefront church. We saved $61,400 for a down payment on a building we had already walked through with the kids. A 'Christian escrow' site took crypto so the seller would not have to wait on a wire. The listing photos were our photos. The pastor-to-pastor chat used language I trusted. I sent the $61,400 on a Tuesday. Wednesday the domain was down. I had to tell twelve families we might have given the building away. I could not sleep. Cipher Shield Chain Recovery took the intake at 11 p.m. They rebuilt the clone, matched the wallet to other faith-escrow fakes, and got a compliance desk to freeze an offramp. Six weeks later the $61,400 was in our account. They never mocked the cross in my email signature. They asked whether we wanted the report written in a tone the board could read without panic. We did. We still do not have the building. We have the money and we have a congregation that did not splinter. If your ministry is being asked to settle a property in USDT this week, it is not closing. It is hunting. If you already sent it, these people know how to chase a stolen tithe without turning it into gossip. I am not a crypto person. I am a pastor who got his people home.",
     date: '2026-11-08',
     verified: true,
     tag: 'CHURCH_ESCROW_CLONE'
@@ -1806,7 +1806,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "My sister's chemo crowdfund lived in a public USDT address because people overseas could not use our bank. Someone cloned the page. Then a 'platform upgrade' message asked me to approve a new contract so donations would show in real time. I signed it at the hospital. $38,900 left while she was in the chair. I had to tell her the community money was gone. She said she was sorry for being expensive. I will not forget that sentence. Crypto Recovery Assets started the same night. They split the file: the drain, and a notice to donors whose payments had hit the clone. They recovered the $38,900 from the drain. They never asked me to 'stay positive.' They asked for txids and the time on the hospital clock. If you are raising medical money in a public wallet, you can still be hit. If you already were, this firm will treat the number like a life, because it is. My sister finished treatment. The money came back before the next round. I am writing this in the parking garage because I finally have a breath. Thank you is too small, but it is what I have.",
+      "My sister's chemo crowdfund lived in a public USDT address because people overseas could not use our bank. Someone cloned the page. Then a 'platform upgrade' message asked me to approve a new contract so donations would show in real time. I signed it at the hospital. $38,900 left while she was in the chair. I had to tell her the community money was gone. She said she was sorry for being expensive. I will not forget that sentence. Cipher Shield Chain Recovery started the same night. They split the file: the drain, and a notice to donors whose payments had hit the clone. They recovered the $38,900 from the drain. They never asked me to 'stay positive.' They asked for txids and the time on the hospital clock. If you are raising medical money in a public wallet, you can still be hit. If you already were, this firm will treat the number like a life, because it is. My sister finished treatment. The money came back before the next round. I am writing this in the parking garage because I finally have a breath. Thank you is too small, but it is what I have.",
     date: '2026-11-09',
     verified: true,
     tag: 'MEDICAL_CROWDFUND_DRAIN'
@@ -1817,7 +1817,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I farm. I needed a used harvester before harvest. A dealer wanted a $47,200 USDT deposit to hold the machine because 'banks are slow in harvest season.' The serial number checked out on a public listing. The warehouse video had a radio playing a station from my county. I sent it. The dealer vanished. I was going to lose a crop I had already borrowed against. I called my lender in tears. Crypto Recovery Assets asked for the listing, the serial, and the hash—not for a lecture about farmers and the internet. They tied the video to a reused set from other equipment holds. They found a still-liquid balance on an exchange. The $47,200 returned. I rented a machine. I harvested. I did not lose the land. They wrote one paragraph I could show the lender so the story was a crime, not a character flaw. If you are buying iron and someone needs crypto this week to hold it, walk the lot in person. If you already paid, write them while the hops are fresh. They did not make me feel like a rube. They made me feel like a client. That is the difference between panic and a case.",
+      "I farm. I needed a used harvester before harvest. A dealer wanted a $47,200 USDT deposit to hold the machine because 'banks are slow in harvest season.' The serial number checked out on a public listing. The warehouse video had a radio playing a station from my county. I sent it. The dealer vanished. I was going to lose a crop I had already borrowed against. I called my lender in tears. Cipher Shield Chain Recovery asked for the listing, the serial, and the hash—not for a lecture about farmers and the internet. They tied the video to a reused set from other equipment holds. They found a still-liquid balance on an exchange. The $47,200 returned. I rented a machine. I harvested. I did not lose the land. They wrote one paragraph I could show the lender so the story was a crime, not a character flaw. If you are buying iron and someone needs crypto this week to hold it, walk the lot in person. If you already paid, write them while the hops are fresh. They did not make me feel like a rube. They made me feel like a client. That is the difference between panic and a case.",
     date: '2026-11-09',
     verified: true,
     tag: 'FARM_EQUIPMENT_HOLD'
@@ -1828,7 +1828,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I send money home. A 'faster remittance' desk promised my mother USDT in her local wallet in twenty minutes instead of three days. I sent $22,150 from my first year in Canada. The desk was a Telegram handle and a PDF with a maple leaf. Nothing arrived. My mother thought I had stopped loving her. I sat on a bus with my face in my coat. Crypto Recovery Assets took a remittance fraud as seriously as a whale hack. They traced the USDT, matched the desk to other diaspora-speed scams, and got a freeze. The $22,150 came back. They helped me write a message in the language my mother actually reads so she would know I had not abandoned her. If you are new in a country and someone sells you speed plus family guilt, that is the product. If you already sent it, these investigators will chase a small number like it is a household. It was. I got to call her and tell the truth without shame eating the call. I am still sending money home. I am sending it the slow way. I am still her daughter.",
+      "I send money home. A 'faster remittance' desk promised my mother USDT in her local wallet in twenty minutes instead of three days. I sent $22,150 from my first year in Canada. The desk was a Telegram handle and a PDF with a maple leaf. Nothing arrived. My mother thought I had stopped loving her. I sat on a bus with my face in my coat. Cipher Shield Chain Recovery took a remittance fraud as seriously as a whale hack. They traced the USDT, matched the desk to other diaspora-speed scams, and got a freeze. The $22,150 came back. They helped me write a message in the language my mother actually reads so she would know I had not abandoned her. If you are new in a country and someone sells you speed plus family guilt, that is the product. If you already sent it, these investigators will chase a small number like it is a household. It was. I got to call her and tell the truth without shame eating the call. I am still sending money home. I am sending it the slow way. I am still her daughter.",
     date: '2026-11-10',
     verified: true,
     tag: 'REMITTANCE_SPEED_DESK'
@@ -1839,7 +1839,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I am a veteran. I received a disability back-pay lump that I converted to 0.91 BTC because I was afraid of banks after a bad year. A 'VA benefits concierge' on a video call walked me into a 'protected veterans wallet' with a seal that looked official. I typed what they told me to type. The 0.91 BTC left. I have had worse days, but not many. I did not want to tell my wife I had lost the back pay. Crypto Recovery Assets asked for the call time, the address, and nothing that sounded like a password. They traced. They froze. They returned the 0.91 Bitcoin. They never saluted me like a prop. They never asked me to be grateful I was alive so the money shouldn't matter. The money mattered. The marriage mattered. If someone uses your service, your unit, or your benefits office as a costume, hang up and call the real number. If you already moved the coins, call this desk. They treated a veteran's lump sum like wages, because that is what it was. I told my wife the truth after the coins were home. I should have told her first. I am telling you now so you might.",
+      "I am a veteran. I received a disability back-pay lump that I converted to 0.91 BTC because I was afraid of banks after a bad year. A 'VA benefits concierge' on a video call walked me into a 'protected veterans wallet' with a seal that looked official. I typed what they told me to type. The 0.91 BTC left. I have had worse days, but not many. I did not want to tell my wife I had lost the back pay. Cipher Shield Chain Recovery asked for the call time, the address, and nothing that sounded like a password. They traced. They froze. They returned the 0.91 Bitcoin. They never saluted me like a prop. They never asked me to be grateful I was alive so the money shouldn't matter. The money mattered. The marriage mattered. If someone uses your service, your unit, or your benefits office as a costume, hang up and call the real number. If you already moved the coins, call this desk. They treated a veteran's lump sum like wages, because that is what it was. I told my wife the truth after the coins were home. I should have told her first. I am telling you now so you might.",
     date: '2026-11-10',
     verified: true,
     tag: 'VETERAN_BENEFITS_CONCIERGE'
@@ -1850,7 +1850,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "The week before my wedding I moved $33,700 of gift money into a 'vendor escrow' so the venue, florist, and photographer could draw in USDT. The dashboard looked like a wedding app. I was exhausted and happy. Both make you easy. The escrow emptied on a Thursday. I had to call my mother and say the wedding might be a living room. Crypto Recovery Assets started before I had finished crying on the intake. They mapped the app to a reused vendor-escrow kit, pushed the hashes, and recovered the $33,700. We got married. The photos exist. The investigator said joy is a pressure window. I needed that named. They did not make a joke about brides and Bitcoin. They asked for the invoices and the tx. If you are paying a life event in a wallet you do not control, stop. If you already did, write them. They gave me my wedding back. I know how that sounds. It is still true.",
+      "The week before my wedding I moved $33,700 of gift money into a 'vendor escrow' so the venue, florist, and photographer could draw in USDT. The dashboard looked like a wedding app. I was exhausted and happy. Both make you easy. The escrow emptied on a Thursday. I had to call my mother and say the wedding might be a living room. Cipher Shield Chain Recovery started before I had finished crying on the intake. They mapped the app to a reused vendor-escrow kit, pushed the hashes, and recovered the $33,700. We got married. The photos exist. The investigator said joy is a pressure window. I needed that named. They did not make a joke about brides and Bitcoin. They asked for the invoices and the tx. If you are paying a life event in a wallet you do not control, stop. If you already did, write them. They gave me my wedding back. I know how that sounds. It is still true.",
     date: '2026-11-11',
     verified: true,
     tag: 'WEDDING_VENDOR_ESCROW'
@@ -1861,7 +1861,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "My divorce decree awarded me $94,000 in USDC that had been sitting in a joint account. A man who said he was coordinating with 'court crypto disbursement' sent me a portal to claim it. I had a case number. I had a PDF on letterhead. I signed a permit so the funds could 'split cleanly.' $94,000 left my side. I thought my ex had found a new way to hurt me. I thought I would have to go back to court as the fool. Crypto Recovery Assets separated the theft from the family. They showed, with addresses, that the portal was a third party wearing the case number. They recovered the $94,000. They wrote the narrative so my lawyer could file without turning the hearing into a spectacle. If you are in a divorce and anyone new wants a signature to 'unlock your half,' it is not the clerk. If you already signed, this team can still run. They were discreet. They were fast. They let me keep my dignity in a year that had already taken enough of it. I am not friends with my ex. I am solvent. That is the review.",
+      "My divorce decree awarded me $94,000 in USDC that had been sitting in a joint account. A man who said he was coordinating with 'court crypto disbursement' sent me a portal to claim it. I had a case number. I had a PDF on letterhead. I signed a permit so the funds could 'split cleanly.' $94,000 left my side. I thought my ex had found a new way to hurt me. I thought I would have to go back to court as the fool. Cipher Shield Chain Recovery separated the theft from the family. They showed, with addresses, that the portal was a third party wearing the case number. They recovered the $94,000. They wrote the narrative so my lawyer could file without turning the hearing into a spectacle. If you are in a divorce and anyone new wants a signature to 'unlock your half,' it is not the clerk. If you already signed, this team can still run. They were discreet. They were fast. They let me keep my dignity in a year that had already taken enough of it. I am not friends with my ex. I am solvent. That is the review.",
     date: '2026-11-11',
     verified: true,
     tag: 'DIVORCE_DISBURSEMENT_PORTAL'
@@ -1872,7 +1872,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "I teach piano. A year of recital fees and a small grant sat in 2.04 ETH for a studio deposit. A listing agent sent a 'crypto hold' for an apartment I had already visited. The building was real. The agent was not. I sent the 2.04 ETH because I was afraid someone else would take the room. I teach children. I do not gamble. I still lost it. I canceled lessons for two days because I could not look at the kids. Crypto Recovery Assets traced the hold address, matched it to other rental-hold kits in the same city pattern, and caught an exchange deposit. My 2.04 ETH came back. They helped me write a message to the real building so I would not be blacklisted as a no-show. I still live there. I still teach. If a rental needs crypto this afternoon to be fair, it is not a rental. If you already paid, tell this firm the address of the building and the hash. They treated a teacher's deposit like a home, because that is what it was. I played again on Thursday. That is not a small thing.",
+      "I teach piano. A year of recital fees and a small grant sat in 2.04 ETH for a studio deposit. A listing agent sent a 'crypto hold' for an apartment I had already visited. The building was real. The agent was not. I sent the 2.04 ETH because I was afraid someone else would take the room. I teach children. I do not gamble. I still lost it. I canceled lessons for two days because I could not look at the kids. Cipher Shield Chain Recovery traced the hold address, matched it to other rental-hold kits in the same city pattern, and caught an exchange deposit. My 2.04 ETH came back. They helped me write a message to the real building so I would not be blacklisted as a no-show. I still live there. I still teach. If a rental needs crypto this afternoon to be fair, it is not a rental. If you already paid, tell this firm the address of the building and the hash. They treated a teacher's deposit like a home, because that is what it was. I played again on Thursday. That is not a small thing.",
     date: '2026-11-11',
     verified: true,
     tag: 'RENTAL_HOLD_CRYPTO'
@@ -1883,7 +1883,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I run a two-window taco shop. A produce supplier I had used for months started invoicing in USDT 'to skip card fees.' The email was one letter off. I paid $18,650 for a week of food. The truck never came. Friday I had to close early. I told my sister, who works the register, that I might have ended us. Crypto Recovery Assets treated a restaurant invoice like a wire fraud, which it was. They pulled the lookalike domain, the old real invoices, and the new hash into one pack. An exchange held the cash-out. The $18,650 returned. They told me to call vendors on the number on last month's paper, not the number in the new PDF. I laminated that. If you pay suppliers and the payment rail suddenly becomes a wallet, call them on a known line. If you already paid the clone, write this team the same day. They did not talk down to a small kitchen. They got the food money back. We opened Saturday. My sister cried in the walk-in. So did I. Then we cooked.",
+      "I run a two-window taco shop. A produce supplier I had used for months started invoicing in USDT 'to skip card fees.' The email was one letter off. I paid $18,650 for a week of food. The truck never came. Friday I had to close early. I told my sister, who works the register, that I might have ended us. Cipher Shield Chain Recovery treated a restaurant invoice like a wire fraud, which it was. They pulled the lookalike domain, the old real invoices, and the new hash into one pack. An exchange held the cash-out. The $18,650 returned. They told me to call vendors on the number on last month's paper, not the number in the new PDF. I laminated that. If you pay suppliers and the payment rail suddenly becomes a wallet, call them on a known line. If you already paid the clone, write this team the same day. They did not talk down to a small kitchen. They got the food money back. We opened Saturday. My sister cried in the walk-in. So did I. Then we cooked.",
     date: '2026-11-12',
     verified: true,
     tag: 'SUPPLIER_INVOICE_CLONE'
@@ -1894,7 +1894,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'GOOGLE',
     rating: 5,
     content:
-      "My father is seventy-one. A 'pension advisor' on Zoom sold him a crypto annuity that would 'beat inflation for the grandchildren.' He sent $81,300 USDC from a lifetime of teaching. I found out when he asked me how to open the dashboard. There was no dashboard. There was a man who wanted a second payment to 'unlock the coupon.' I flew home. I was angry at him and I was angry at myself. Crypto Recovery Assets put us on one call so he would not have to confess twice. They traced. They documented. They got a freeze. Every dollar of the $81,300 came back. They never used the word greedy. They used the word hunted. My father is proud. Pride is how this sale works. If your parent is being walked into a second crypto payment to release the first, you are not too late. Call these people. They were gentle with him and ruthless with the chain. I got my dad back as a person I was not furious at. That is worth as much as the USDC. I am putting both in this review because both are true.",
+      "My father is seventy-one. A 'pension advisor' on Zoom sold him a crypto annuity that would 'beat inflation for the grandchildren.' He sent $81,300 USDC from a lifetime of teaching. I found out when he asked me how to open the dashboard. There was no dashboard. There was a man who wanted a second payment to 'unlock the coupon.' I flew home. I was angry at him and I was angry at myself. Cipher Shield Chain Recovery put us on one call so he would not have to confess twice. They traced. They documented. They got a freeze. Every dollar of the $81,300 came back. They never used the word greedy. They used the word hunted. My father is proud. Pride is how this sale works. If your parent is being walked into a second crypto payment to release the first, you are not too late. Call these people. They were gentle with him and ruthless with the chain. I got my dad back as a person I was not furious at. That is worth as much as the USDC. I am putting both in this review because both are true.",
     date: '2026-11-12',
     verified: true,
     tag: 'PENSION_ANNUITY_ZOOM'
@@ -1905,7 +1905,7 @@ export const REVIEWS_DATA: Review[] = [
     platform: 'TRUSTPILOT',
     rating: 5,
     content:
-      "I play guitar in bars. A 'label advance' in USDT was going to pay for a van and a week of studio time. The A&R account had photos from a real showcase I had actually played. I sent $26,400 because I have been waiting for someone to say yes since I was twenty. I am thirty-four. The yes was a kit. The van listing I had already messaged went cold. I sat in a parking lot and hated every song I had written. Crypto Recovery Assets did not ask me to be a brand. They asked for the chat, the tx, and the showcase flyer. They matched the 'label' wallets to other musician-advance fakes. They recovered the $26,400. I did not get a label. I got my money and a sentence from the analyst I still have in my notes: hunger is not stupidity. If you make things and someone wants crypto to open a door this week, it is not a door. If you already paid, write them. They treated a working musician's advance like rent, because that is what it was going to be. I played Friday. I played for me. That is the first time in a month that did not feel like a funeral for a career I never had.",
+      "I play guitar in bars. A 'label advance' in USDT was going to pay for a van and a week of studio time. The A&R account had photos from a real showcase I had actually played. I sent $26,400 because I have been waiting for someone to say yes since I was twenty. I am thirty-four. The yes was a kit. The van listing I had already messaged went cold. I sat in a parking lot and hated every song I had written. Cipher Shield Chain Recovery did not ask me to be a brand. They asked for the chat, the tx, and the showcase flyer. They matched the 'label' wallets to other musician-advance fakes. They recovered the $26,400. I did not get a label. I got my money and a sentence from the analyst I still have in my notes: hunger is not stupidity. If you make things and someone wants crypto to open a door this week, it is not a door. If you already paid, write them. They treated a working musician's advance like rent, because that is what it was going to be. I played Friday. I played for me. That is the first time in a month that did not feel like a funeral for a career I never had.",
     date: '2026-11-12',
     verified: true,
     tag: 'FAKE_LABEL_ADVANCE'

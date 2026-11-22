@@ -25,7 +25,7 @@ export const SEO: React.FC<SEOProps> = ({
   noindex = false,
   jsonLd,
 }) => {
-  const siteTitle = "Crypto Recovery Assets";
+  const siteTitle = "Cipher Shield Chain Recovery";
   const brandSuffix = ` | ${siteTitle}`;
   const fullTitle = title
     ? title.includes(siteTitle)
@@ -81,7 +81,7 @@ export const SEO: React.FC<SEOProps> = ({
       <meta name="googlebot" content={robots} />
       <meta name="bingbot" content={robots} />
       <meta name="language" content="English" />
-      <meta name="author" content="Crypto Recovery Assets" />
+      <meta name="author" content="Cipher Shield Chain Recovery" />
       <meta name="geo.region" content="US-NY" />
       <meta name="geo.placename" content="New York" />
 

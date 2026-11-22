@@ -1,4 +1,4 @@
-# Production checklist — Crypto Recovery Asset
+# Production checklist — Cipher Shield Chain Recovery
 
 Use this after every deploy to Hostinger so **intake, admin panel, client portal, email, and messaging** keep working.
 
@@ -18,18 +18,18 @@ Attach the domain only to this Node app (no parallel static site on the same dom
 
 ```env
 NODE_ENV=production
-ADMIN_EMAIL=info@cryptorecoveryasset.com
+ADMIN_EMAIL=info@ciphershieldchain.com
 
 SMTP_HOST=smtp.titan.email
 SMTP_PORT=465
-SMTP_USER=info@cryptorecoveryasset.com
+SMTP_USER=info@ciphershieldchain.com
 SMTP_PASS=your_app_password
 ```
 
 **Required on Hostinger** (cases are erased on every GitHub redeploy without this):
 
 ```env
-CASE_DATA_DIR=/home/u123456789/domains/cryptorecoveryasset.com/data
+CASE_DATA_DIR=/home/u123456789/domains/ciphershieldchain.com/data
 ```
 
 Create that folder in File Manager (under your domain, not inside the Node app clone). New deploys auto-use `../case-data` if unset, but setting `CASE_DATA_DIR` explicitly is safest.
@@ -38,7 +38,7 @@ Do **not** set `VITE_API_BASE_URL` to Firebase unless you intentionally use Func
 
 ## 3. Health check (must pass)
 
-Open: `https://cryptorecoveryasset.com/api/health`
+Open: `https://ciphershieldchain.com/api/health`
 
 Expected JSON includes:
 
@@ -52,7 +52,7 @@ If you see **HTML** instead of JSON, the domain is not on Node — fix Hostinger
 ## 4. Firebase (admin login only)
 
 1. Firebase Console → Authentication → enable **Email/Password**
-2. Create user: `info@cryptorecoveryasset.com` (or your admin email)
+2. Create user: `info@ciphershieldchain.com` (or your admin email)
 3. Admin login: `/admin/login`
 
 Firestore rules are optional for day-to-day ops — **server case file** is the source of truth for:

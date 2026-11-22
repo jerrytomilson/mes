@@ -1,11 +1,11 @@
-export const SITE_URL = "https://cryptorecoveryasset.com";
+export const SITE_URL = "https://ciphershieldchain.com";
 
 /** IndexNow ownership key — file must live at `/{INDEXNOW_KEY}.txt` on the live host. */
 export const INDEXNOW_KEY = "3ef70e5fa77e6c5c243d32496fe3f858";
 export const INDEXNOW_KEY_LOCATION = `${SITE_URL}/${INDEXNOW_KEY}.txt`;
 
 /** Primary contact / admin inbox (privacy, support mailto links) */
-export const CONTACT_EMAIL = "info@cryptorecoveryasset.com";
+export const CONTACT_EMAIL = "info@ciphershieldchain.com";
 
 /**
  * Email API on Firebase (used when Hostinger serves static files only).

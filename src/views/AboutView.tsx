@@ -20,8 +20,8 @@ export const AboutView = ({ onContactClick, onNavigate }: AboutViewProps) => {
   return (
     <div className="pt-32 sm:pt-48 pb-32 px-4 sm:px-6 md:px-12 max-w-[1600px] mx-auto">
       <SEO 
-        title="About Crypto Recovery Assets Investigators" 
-        description="Founded in 2019, Crypto Recovery Assets is a blockchain forensics team that traces stolen crypto, builds exchange freeze packages, and never asks for seed phrases."
+        title="About Cipher Shield Chain Recovery Investigators" 
+        description="Founded in 2019, Cipher Shield Chain Recovery is a blockchain forensics team that traces stolen crypto, builds exchange freeze packages, and never asks for seed phrases."
         keywords="bitcoin recovery expert, hire crypto recovery specialist, crypto recovery agency, blockchain investigation experts, professional crypto recovery"
       />
       {/* Hero Section */}
@@ -34,7 +34,7 @@ export const AboutView = ({ onContactClick, onNavigate }: AboutViewProps) => {
           <span className="text-primary italic text-2xl sm:text-4xl md:text-5xl">CRYPTO RECOVERY SPECIALISTS</span>
         </h1>
         <p className="text-slate-400 text-base sm:text-xl max-w-3xl leading-relaxed font-light">
-          Crypto Recovery Assets was founded in <span className="text-white font-semibold">2019</span> as a chain-analysis desk for theft, scam, and inaccessible-wallet cases. When you hire us, you get investigators who read hops, clusters, and VASP off-ramps — not a call center that asks for your seed phrase.
+          Cipher Shield Chain Recovery was founded in <span className="text-white font-semibold">2019</span> as a chain-analysis desk for theft, scam, and inaccessible-wallet cases. When you hire us, you get investigators who read hops, clusters, and VASP off-ramps — not a call center that asks for your seed phrase.
         </p>
       </div>
 
@@ -43,7 +43,7 @@ export const AboutView = ({ onContactClick, onNavigate }: AboutViewProps) => {
         <div className="bg-slate-950 flex justify-center">
           <img
             src="/about-team.jpg"
-            alt="Crypto Recovery Assets investigators and partners at a recovery operations briefing"
+            alt="Cipher Shield Chain Recovery investigators and partners at a recovery operations briefing"
             width={1024}
             height={1024}
             decoding="async"
@@ -68,7 +68,7 @@ export const AboutView = ({ onContactClick, onNavigate }: AboutViewProps) => {
               In 2019, stolen Bitcoin and USDT were still treated as gone the moment they left a wallet. Victims were told the chain was anonymous. It is not. Every spend is a graph: peel chains, change outputs, mixer entries, bridge burns, and the first KYC deposit that an exchange can actually freeze.
             </p>
             <p>
-              Our founding analysts had already spent years mapping those graphs for incident response. They built Crypto Recovery Assets as a working forensic desk — ingest TxIDs, reconstruct the cluster, identify the regulated off-ramp, and package evidence a compliance team will act on. That protocol is still the core of every case we open.
+              Our founding analysts had already spent years mapping those graphs for incident response. They built Cipher Shield Chain Recovery as a working forensic desk — ingest TxIDs, reconstruct the cluster, identify the regulated off-ramp, and package evidence a compliance team will act on. That protocol is still the core of every case we open.
             </p>
           </div>
         </div>

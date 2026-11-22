@@ -81,8 +81,8 @@ const icoBuffers = await Promise.all(
 await fs.promises.writeFile(path.join(publicDir, "favicon.ico"), pngsToIco(icoBuffers));
 
 const manifest = {
-  name: "Crypto Recovery Assets",
-  short_name: "CRA",
+  name: "Cipher Shield Chain Recovery",
+  short_name: "CSCR",
   icons: [
     { src: "/favicon-192x192.png", sizes: "192x192", type: "image/png", purpose: "any" },
     { src: "/brand-icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },

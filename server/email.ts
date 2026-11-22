@@ -57,9 +57,9 @@ export function getEmailConfig() {
   const RESEND_API_KEY = cleanEnvVar(process.env.RESEND_API_KEY);
   const RESEND_FROM =
     cleanEnvVar(process.env.RESEND_FROM) ||
-    "Crypto Recovery <info@cryptorecoveryasset.com>";
+    "Cipher Shield Chain Recovery <info@ciphershieldchain.com>";
   const ADMIN_EMAIL =
-    cleanEnvVar(process.env.ADMIN_EMAIL) || "info@cryptorecoveryasset.com";
+    cleanEnvVar(process.env.ADMIN_EMAIL) || "info@ciphershieldchain.com";
 
   return {
     SMTP_HOST,
@@ -84,7 +84,7 @@ function isResendSandboxFrom(from: string): boolean {
 
 function buildMessageIdDomain(from: string): string {
   const address = extractAddress(from);
-  const domain = address.split("@")[1] || "cryptorecoveryasset.com";
+  const domain = address.split("@")[1] || "ciphershieldchain.com";
   return domain;
 }
 
@@ -142,8 +142,8 @@ export type EmailAttachment = {
   contentType?: string;
 };
 
-const DEFAULT_FROM_NAME = "Crypto Recovery";
-const TRANSACTIONAL_FROM_NAME = "Crypto Recovery Asset";
+const DEFAULT_FROM_NAME = "Cipher Shield Chain Recovery";
+const TRANSACTIONAL_FROM_NAME = "Cipher Shield Chain Recovery";
 
 export async function dispatchEmail(options: {
   to: string | string[];
@@ -170,7 +170,7 @@ export async function dispatchEmail(options: {
 
   if (provider === "resend" && resendSandboxFrom) {
     throw new Error(
-      "RESEND_FROM uses @resend.dev. Set RESEND_FROM to your verified @cryptorecoveryasset.com sender for better inbox placement."
+      "RESEND_FROM uses @resend.dev. Set RESEND_FROM to your verified @ciphershieldchain.com sender for better inbox placement."
     );
   }
 
@@ -281,7 +281,7 @@ export function logEmailStartup(): void {
     console.log(`[Resend] Ready — ${cfg.RESEND_FROM} → admin ${cfg.ADMIN_EMAIL}`);
     if (isResendSandboxFrom(cfg.RESEND_FROM)) {
       console.warn(
-        "[Resend] Deliverability risk: RESEND_FROM is @resend.dev. Use a verified @cryptorecoveryasset.com sender."
+        "[Resend] Deliverability risk: RESEND_FROM is @resend.dev. Use a verified @ciphershieldchain.com sender."
       );
     }
   } else {

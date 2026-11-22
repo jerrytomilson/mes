@@ -1,6 +1,6 @@
 /** Emails allowed to access the admin case manager (must match firestore.rules). */
 export const ADMIN_EMAILS: string[] = [
-  "info@cryptorecoveryasset.com",
+  "info@ciphershieldchain.com",
   "contact@vr-astrovision.com",
   "admin@forensic.com",
 ];
@@ -11,7 +11,7 @@ export function isAdminEmail(email: string | null | undefined): boolean {
   if (ADMIN_EMAILS.map((e) => e.toLowerCase()).includes(normalized)) {
     return true;
   }
-  if (normalized.endsWith("@cryptorecoveryasset.com")) {
+  if (normalized.endsWith("@ciphershieldchain.com")) {
     return true;
   }
   if (normalized.endsWith("@forensic.com")) {

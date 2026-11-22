@@ -35,7 +35,7 @@ const indexHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Marketing email previews — Crypto Recovery Asset</title>
+  <title>Marketing email previews — Cipher Shield Chain Recovery</title>
   <style>
     body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; }
     li { margin: 12px 0; }

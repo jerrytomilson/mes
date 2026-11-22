@@ -137,7 +137,7 @@ export function buildDocumentPreview(options: {
     currency,
     minimumFractionDigits: 2,
   }).format(options.recoveredAmount);
-  const ref = `CRA-${options.caseId.slice(0, 10).toUpperCase()}-${options.documentType === "funds_confirmation" ? "FRC" : "LCA"}`;
+  const ref = `CSCR-${options.caseId.slice(0, 10).toUpperCase()}-${options.documentType === "funds_confirmation" ? "FRC" : "LCA"}`;
 
   if (options.documentType === "funds_confirmation") {
     return {
@@ -145,7 +145,7 @@ export function buildDocumentPreview(options: {
       reference: ref,
       amountLine: amount,
       paragraphs: [
-        `This confirms that Crypto Recovery Assets Agency has completed asset recovery procedures for case ${options.caseId} on behalf of ${options.clientName}.`,
+        `This confirms that Cipher Shield Chain Recovery Agency has completed asset recovery procedures for case ${options.caseId} on behalf of ${options.clientName}.`,
         `The recovered amount of ${amount} has been verified through forensic trace and exchange compliance channels.`,
         "By signing, the client acknowledges receipt of this confirmation and agrees to follow the next-step instructions provided by the blockchain company / custodial partner for final settlement.",
         "This instrument is issued under the agency’s corporate authentication and compliance certification seals and is retained for audit and verification.",
@@ -159,7 +159,7 @@ export function buildDocumentPreview(options: {
     paragraphs: [
       `This Legal & Compliance Acknowledgement relates to recovery case ${options.caseId} for ${options.clientName}.`,
       "The client confirms that information provided during intake and investigation was accurate to the best of their knowledge, and that recovered funds will be received only through authorised settlement channels.",
-      "The client acknowledges applicable AML/KYC obligations, agrees not to circumvent compliance controls, and authorises Crypto Recovery Assets Agency to retain this signed record for regulatory and dispute-resolution purposes.",
+      "The client acknowledges applicable AML/KYC obligations, agrees not to circumvent compliance controls, and authorises Cipher Shield Chain Recovery Agency to retain this signed record for regulatory and dispute-resolution purposes.",
       "Signing this document does not constitute a guarantee of additional recoveries beyond amounts already confirmed in the Funds Recovery Confirmation.",
     ],
   };

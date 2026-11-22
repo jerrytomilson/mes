@@ -49,7 +49,7 @@ export const AgencySeal = ({ className = "" }: { className?: string }) => {
         letterSpacing="1.4"
       >
         <textPath href={`#${top}`} xlinkHref={`#${top}`} startOffset="50%" textAnchor="middle">
-          CRYPTO RECOVERY ASSETS
+          CIPHER SHIELD CHAIN RECOVERY
         </textPath>
       </text>
       <text

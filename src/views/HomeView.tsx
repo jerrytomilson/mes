@@ -131,7 +131,7 @@ export const HomeView = ({ onNavigate, onIntakeComplete }: HomeViewProps) => {
     } catch (error) {
       console.error('Error submitting form:', error);
       alert(
-        'Something went wrong. Please try again or contact us directly at info@cryptorecoveryasset.com.'
+        'Something went wrong. Please try again or contact us directly at info@ciphershieldchain.com.'
       );
     }
   };
@@ -142,7 +142,7 @@ export const HomeView = ({ onNavigate, onIntakeComplete }: HomeViewProps) => {
         title="Crypto Recovery Service & Blockchain Forensics"
         description="Hire licensed investigators for stolen Bitcoin, Ethereum, and DeFi losses. Fast case intake, on-chain tracing, and exchange freeze support—no seed phrases required."
         keywords="crypto recovery service, cryptocurrency recovery tool, bitcoin recovery expert, scammed crypto recovery, hire crypto recovery specialist, how to recover lost crypto, blockchain forensics"
-        canonical="https://cryptorecoveryasset.com/"
+        canonical="https://ciphershieldchain.com/"
       />
       {/* Hero & Main Viz */}
       <section className="grid grid-cols-1 xl:grid-cols-2 gap-8 sm:gap-16 items-start mb-20 sm:mb-stack-lg">

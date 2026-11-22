@@ -91,10 +91,10 @@ export function emailBrandHeader(): string {
       <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
         <tr>
           <td width="56" valign="middle" style="padding:0 16px 0 0;">
-            <img src="${BRAND_LOGO_URL}" width="48" height="48" alt="Crypto Recovery Asset" style="display:block;border:0;border-radius:10px;" />
+            <img src="${BRAND_LOGO_URL}" width="48" height="48" alt="Cipher Shield Chain Recovery" style="display:block;border:0;border-radius:10px;" />
           </td>
           <td valign="middle">
-            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;color:#ffffff;letter-spacing:-0.3px;">Crypto Recovery <span style="color:#3b82f6;">Asset</span></p>
+            <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:18px;font-weight:bold;color:#ffffff;letter-spacing:-0.3px;">Cipher Shield Chain <span style="color:#3b82f6;">Recovery</span></p>
             <p style="margin:4px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:#94a3b8;">Professional Forensic Analysis &amp; Recovery</p>
           </td>
         </tr>
@@ -110,11 +110,11 @@ export function emailBrandFooter(unsubscribeUrl?: string): string {
 
   return `<tr>
     <td align="center" style="padding:24px 32px;background-color:#f8fafc;border-top:1px solid #e2e8f0;border-radius:0 0 16px 16px;">
-      <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#64748b;">Crypto Recovery Asset</p>
+      <p style="margin:0 0 6px;font-family:Arial,Helvetica,sans-serif;font-size:12px;font-weight:bold;color:#64748b;">Cipher Shield Chain Recovery</p>
       <p style="margin:0 0 10px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.5;color:#94a3b8;">${BUSINESS_ADDRESS_INLINE}</p>
       <p style="margin:0 0 10px;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:1.5;color:#94a3b8;">Email: <a href="mailto:${CONTACT_EMAIL}" style="color:#2563eb;text-decoration:none;">${CONTACT_EMAIL}</a> · Phone: <a href="tel:+${SUPPORT_PHONE_E164}" style="color:#2563eb;text-decoration:none;">${SUPPORT_PHONE_DISPLAY}</a></p>
       ${unsub}
-      <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.5;color:#94a3b8;">© ${new Date().getFullYear()} Crypto Recovery Asset. All rights reserved.<br/>Private &amp; Confidential · Forensic Intelligence Services</p>
+      <p style="margin:0;font-family:Arial,Helvetica,sans-serif;font-size:10px;line-height:1.5;color:#94a3b8;">© ${new Date().getFullYear()} Cipher Shield Chain Recovery. All rights reserved.<br/>Private &amp; Confidential · Forensic Intelligence Services</p>
     </td>
   </tr>`;
 }

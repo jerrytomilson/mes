@@ -25,7 +25,7 @@ function parseInline(text: string): React.ReactNode[] {
     }
     if (m[2] && m[3]) {
       const href = resolveHref(m[3]);
-      const external = href.startsWith("http") && !href.includes("cryptorecoveryasset.com");
+      const external = href.startsWith("http") && !href.includes("ciphershieldchain.com");
       nodes.push(
         <a
           key={key++}

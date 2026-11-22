@@ -11,8 +11,8 @@ import {
 } from 'lucide-react';
 
 const INTELLIGENCE_MAILTO = (() => {
-  const email = 'info@cryptorecoveryasset.com';
-  const subject = 'Intelligence Submission — Crypto Recovery Assets';
+  const email = 'info@ciphershieldchain.com';
+  const subject = 'Intelligence Submission — Cipher Shield Chain Recovery';
   const body = [
     'Please share your intelligence report below.',
     '',
