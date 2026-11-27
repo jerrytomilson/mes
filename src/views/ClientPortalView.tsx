@@ -5,41 +5,18 @@ import {
   ChevronDown, 
   Rocket, 
   Fingerprint, 
-  HelpCircle,
   BarChart3,
   Microscope,
   Cpu,
   Mail,
   User as UserIcon,
-  Zap,
-  Triangle,
-  Square,
-  Circle,
-  Pentagon,
-  Hexagon,
-  Diamond,
-  Octagon,
-  Star,
-  RefreshCw
 } from 'lucide-react';
 import { submitRecoveryCase } from '../lib/submitRecoveryCase';
 import type { IntakeSession } from '../lib/intakeSession';
 import { CRYPTO_CURRENCIES } from '../constants';
-import { motion, AnimatePresence } from 'motion/react';
 import { ReviewsSection } from '../components/ReviewsSection';
 import { WhatsAppSupportPanel } from '../components/WhatsAppSupportPanel';
 import { SeoEnrichment } from '../components/SeoEnrichment';
-
-const SHAPE_POOL = [
-  Triangle,
-  Square,
-  Circle,
-  Pentagon,
-  Hexagon,
-  Diamond,
-  Octagon,
-  Star
-];
 
 interface ClientPortalViewProps {
   onInitiateRecovery: (session: IntakeSession) => void;
@@ -74,79 +51,6 @@ export const ClientPortalView = ({ onInitiateRecovery, onNavigate }: ClientPorta
   });
   const [isCustomNetwork, setIsCustomNetwork] = React.useState(false);
 
-  // Human Verification State
-  const [gridShapes, setGridShapes] = React.useState<{id: number, Icon: any, isTarget: boolean}[]>([]);
-  const [targetIconIndex, setTargetIconIndex] = React.useState(0);
-  const [selectedIds, setSelectedIds] = React.useState<number[]>([]);
-  const [isVerified, setIsVerified] = React.useState(false);
-  const [refreshKey, setRefreshKey] = React.useState(0);
-
-  const generateChallenge = React.useCallback(() => {
-    const targetIdx = Math.floor(Math.random() * SHAPE_POOL.length);
-    const targetIcon = SHAPE_POOL[targetIdx];
-    
-    // Get other icons
-    const otherIcons = SHAPE_POOL.filter((_, i) => i !== targetIdx);
-    const shuffledOthers = [...otherIcons].sort(() => Math.random() - 0.5);
-    
-    // Create grid: 3 targets + 5 unique others = 8 total
-    const grid = [
-      { id: 1, Icon: targetIcon, isTarget: true },
-      { id: 2, Icon: targetIcon, isTarget: true },
-      { id: 3, Icon: targetIcon, isTarget: true },
-      ...shuffledOthers.slice(0, 5).map((Icon, i) => ({ id: i + 4, Icon, isTarget: false }))
-    ].sort(() => Math.random() - 0.5);
-
-    setGridShapes(grid);
-    setTargetIconIndex(targetIdx);
-    setSelectedIds([]);
-    setIsVerified(false);
-  }, []);
-
-  // Initial and Periodic Refresh
-  React.useEffect(() => {
-    generateChallenge();
-    const interval = setInterval(generateChallenge, 60000); // Refresh every 60s
-    return () => clearInterval(interval);
-  }, [generateChallenge, refreshKey]);
-
-  // Visibility Refresh
-  React.useEffect(() => {
-    const handleVisibilityChange = () => {
-      if (document.visibilityState === 'visible') {
-        generateChallenge();
-      }
-    };
-    document.addEventListener('visibilitychange', handleVisibilityChange);
-    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
-  }, [generateChallenge]);
-
-  const handleShapeClick = (id: number) => {
-    if (isVerified) return;
-
-    setSelectedIds(prev => {
-      const newSelection = prev.includes(id) 
-        ? prev.filter(i => i !== id) 
-        : [...prev, id];
-      
-      // Check if correct 3 are selected
-      if (newSelection.length === 3) {
-        const correctIds = gridShapes.filter(s => s.isTarget).map(s => s.id);
-        const isCorrect = newSelection.every(id => correctIds.includes(id));
-        if (isCorrect) {
-          setIsVerified(true);
-        } else {
-          // Pulse red and reset after delay if wrong
-          setTimeout(() => setSelectedIds([]), 500);
-        }
-      } else if (newSelection.length > 3) {
-        return [id];
-      }
-      
-      return newSelection;
-    });
-  };
-
   const resolvedAssetValue =
     typeof assetValue === 'number'
       ? assetValue
@@ -156,10 +60,6 @@ export const ClientPortalView = ({ onInitiateRecovery, onNavigate }: ClientPorta
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!isVerified) {
-      alert("Please complete the human verification process.");
-      return;
-    }
     if (!formData.incidentVector) {
       alert('Please select a service.');
       return;
@@ -602,100 +502,6 @@ export const ClientPortalView = ({ onInitiateRecovery, onNavigate }: ClientPorta
  
         {/* Sidebar */}
         <div className="lg:col-span-4 space-y-8">
-          <div className="glass-panel rounded-2xl p-6 border border-blue-500/20 relative group overflow-hidden">
-            <div className="mb-6 flex justify-between items-start">
-              <div>
-                <div className="flex items-center gap-2 mb-1">
-                  <Lock className="text-blue-400 w-4 h-4" />
-                  <h3 className="font-mono text-xs text-white font-bold tracking-[0.2em] uppercase">HUMAN_AUTH</h3>
-                </div>
-                <p className="text-[10px] text-blue-500/60 font-mono tracking-widest uppercase">NEURAL_GRID_VERIFICATION_REQUIRED</p>
-              </div>
-              <HelpCircle className="w-5 h-5 text-slate-500" />
-            </div>
- 
-            <div className="aspect-square bg-[#05070a] border border-blue-500/30 rounded-xl relative overflow-hidden flex flex-col items-center justify-center p-4">
-              <div className="absolute inset-0 opacity-20 bg-grid-pattern"></div>
-              
-              <div className="relative z-10 w-full h-full flex flex-col items-center justify-center">
-                <div className="mb-4">
-                  <p className="font-mono text-[9px] text-blue-400 uppercase tracking-widest mb-1">SELECT_ALL_INSTANCES_OF:</p>
-                  <div className="flex items-center justify-center gap-2 text-white font-bold">
-                    {(() => {
-                      const TargetIcon = SHAPE_POOL[targetIconIndex];
-                      return <TargetIcon className="w-5 h-5 text-blue-400" />;
-                    })()}
-                    <span className="font-mono text-xs uppercase tracking-tighter">{SHAPE_POOL[targetIconIndex]?.name || 'SHAPE'}</span>
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-4 gap-2 w-full">
-                  {gridShapes.map((shape) => (
-                    <button
-                      key={shape.id}
-                      type="button"
-                      onClick={() => handleShapeClick(shape.id)}
-                      className={`aspect-square flex items-center justify-center border-2 rounded-lg transition-all duration-300 relative group/icon ${
-                        selectedIds.includes(shape.id)
-                          ? isVerified 
-                            ? 'border-emerald-500 bg-emerald-500/20 shadow-[0_0_15px_rgba(16,185,129,0.3)]'
-                            : 'border-blue-500 bg-blue-500/20 shadow-[0_0_10px_#3b82f644]'
-                          : 'border-white/5 bg-white/5 hover:border-white/20'
-                      }`}
-                    >
-                      <shape.Icon className={`w-5 h-5 transition-transform group-hover/icon:scale-110 ${
-                        selectedIds.includes(shape.id)
-                          ? isVerified ? 'text-emerald-400' : 'text-blue-400'
-                          : 'text-slate-600'
-                      }`} />
-                      {selectedIds.includes(shape.id) && !isVerified && (
-                        <motion.div 
-                          layoutId="pulse"
-                          className="absolute inset-0 border-2 border-blue-500/50 rounded-lg animate-ping pointer-events-none"
-                        />
-                      )}
-                    </button>
-                  ))}
-                </div>
-
-                <div className="mt-4 flex items-center justify-between w-full">
-                   <button 
-                    type="button"
-                    onClick={() => {
-                      setRefreshKey(prev => prev + 1);
-                      generateChallenge();
-                    }}
-                    className="flex items-center gap-1.5 text-[9px] font-mono text-blue-500/60 uppercase hover:text-blue-400 transition-colors"
-                   >
-                     <RefreshCw className="w-3 h-3" /> REGENERATE
-                   </button>
-
-                   <AnimatePresence>
-                     {isVerified ? (
-                        <motion.div 
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          className="flex items-center gap-1.5 px-3 py-1 rounded bg-emerald-500/10 border border-emerald-500/30"
-                        >
-                           <Zap className="w-3 h-3 text-emerald-400 shadow-[0_0_8px_#10b981]" />
-                           <span className="text-[9px] font-mono font-bold text-emerald-400 tracking-widest">VERIFIED</span>
-                        </motion.div>
-                     ) : (
-                        <div className="text-[9px] font-mono text-slate-600 uppercase tracking-tighter">
-                          STATUS: AWAITING_{3 - selectedIds.length}_SAMPLES
-                        </div>
-                     )}
-                   </AnimatePresence>
-                </div>
-              </div>
-
-              <div className="absolute bottom-2 left-2 right-2 flex justify-between px-2 pointer-events-none opacity-30">
-                <span className="font-mono text-[8px] text-slate-600 tracking-tighter">SEC_TOKEN: {Math.random().toString(36).substring(7).toUpperCase()}</span>
-                <span className="font-mono text-[8px] text-slate-600 tracking-tighter">AES-256_ACTIVE</span>
-              </div>
-            </div>
-          </div>
- 
           <div className="space-y-4">
             <button 
               form="recoveryForm"

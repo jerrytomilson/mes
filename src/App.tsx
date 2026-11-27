@@ -354,7 +354,7 @@ export default function App() {
     currentView === 'clientPortal';
 
   return (
-    <div className={`min-h-screen ${currentView !== 'home' ? 'cyber-bg' : ''}`}>
+    <div className={`min-h-screen overflow-x-clip ${currentView !== 'home' ? 'cyber-bg' : ''}`}>
       <RouteSEO />
       {showWhatsAppRail && !hideWhatsAppRail && (
         <a
@@ -741,8 +741,6 @@ export default function App() {
         !VIEWS_WITHOUT_SIDEBAR.includes(currentView) && !isSidebarCollapsed ? 'md:ml-72 md:pl-8' : ''
       } ${
         !VIEWS_WITHOUT_SIDEBAR.includes(currentView) && isSidebarCollapsed ? 'md:pl-12' : ''
-      } ${
-        showWhatsAppRail && !hideWhatsAppRail ? 'pr-10' : ''
       }`}>
         <AnimatePresence
           mode={

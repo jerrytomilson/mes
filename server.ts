@@ -282,10 +282,12 @@ async function startServer() {
 
     const { createdAt, ...safeData } = formData;
     const caseId = generateCaseId();
+    const submittedStamp =
+      typeof safeData.timestamp === "string" ? safeData.timestamp : "";
     const createdAtIso =
       typeof createdAt === "string"
         ? createdAt
-        : new Date().toISOString();
+        : submittedStamp || new Date().toISOString();
 
     try {
       appendRecoveryCase({
@@ -313,7 +315,10 @@ async function startServer() {
     });
 
     if (willEmail) {
-      sendRecoveryEmails(safeData, caseId).catch((error) => {
+      sendRecoveryEmails(
+        { ...safeData, timestamp: createdAtIso, phone: safeData.phone },
+        caseId
+      ).catch((error) => {
         console.error("[Email] submit-recovery notify failed:", error);
       });
     }

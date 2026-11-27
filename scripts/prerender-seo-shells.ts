@@ -53,8 +53,8 @@ function buildJsonLd(pathname: string): Record<string, unknown>[] {
       telephone: "+1-401-684-4683",
       email: "info@ciphershieldchain.com",
       sameAs: [
-        "https://www.facebook.com/share/1D9wkP3Hoz/",
-        "https://www.instagram.com/crypto_recovery_forensic_asset/",
+        "https://www.facebook.com/profile.php?id=61590888305326&mibextid=ZbWKwL",
+        "https://www.instagram.com/cipher_shield_chain_recovery?fqnt=dzkyMHBzc3VoZjV5",
       ],
     });
   }

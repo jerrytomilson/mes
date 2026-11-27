@@ -53,12 +53,12 @@ export const SOCIAL_LINKS = [
   {
     id: "facebook",
     label: "Facebook",
-    href: "https://www.facebook.com/share/1D9wkP3Hoz/?mibextid=wwXIfr",
+    href: "https://www.facebook.com/profile.php?id=61590888305326&mibextid=ZbWKwL",
   },
   {
     id: "instagram",
     label: "Instagram",
-    href: "https://www.instagram.com/crypto_recovery_forensic_asset?mdxt=dzkyMHBzc3VoZjV5",
+    href: "https://www.instagram.com/cipher_shield_chain_recovery?fqnt=dzkyMHBzc3VoZjV5",
   },
 ] as const;
 

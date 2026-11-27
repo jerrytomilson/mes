@@ -56,6 +56,24 @@ import { CASE_STAGES, DOCUMENT_TYPES, formatRecoveredAmount } from '../lib/caseS
 import { signInWithPopup, GoogleAuthProvider, onAuthStateChanged, User as FirebaseUser } from 'firebase/auth';
 import { motion, AnimatePresence } from 'motion/react';
 
+function formatCaseFiledAt(value: unknown): string {
+  let date: Date | null = null;
+  if (value && typeof value === 'object' && 'toDate' in value) {
+    date = (value as { toDate: () => Date }).toDate();
+  } else if (value && typeof value === 'object' && 'seconds' in value) {
+    date = new Date(Number((value as { seconds: number }).seconds) * 1000);
+  } else if (typeof value === 'string' || typeof value === 'number') {
+    date = new Date(value);
+  }
+  if (!date || Number.isNaN(date.getTime())) return '—';
+  return date.toLocaleString();
+}
+
+function casePhone(record: { phone?: unknown }): string {
+  const phone = String(record.phone ?? '').trim();
+  return phone || '—';
+}
+
 const CaseManagerView: React.FC = () => {
   const [firestoreCases, setFirestoreCases] = React.useState<AdminCaseRecord[]>([]);
   const [serverCases, setServerCases] = React.useState<AdminCaseRecord[]>(() =>
@@ -660,6 +678,8 @@ const CaseManagerView: React.FC = () => {
                       </div>
                       <h4 className="text-sm font-manrope font-bold text-white truncate max-w-[150px] uppercase">{req.operatorAlias}</h4>
                       <p className="text-[10px] font-mono text-slate-500 lowercase">{req.secureComms}</p>
+                      <p className="text-[10px] font-mono text-slate-400">{casePhone(req)}</p>
+                      <p className="text-[9px] font-mono text-slate-600 uppercase tracking-wide">Filed {formatCaseFiledAt(req.createdAt || req.timestamp)}</p>
                     </div>
                     <ChevronIcon className={`transition-transform group-hover:translate-x-1 ${activeCaseData?.id === req.id ? 'text-blue-500' : 'text-slate-700'}`} size={16} />
                   </button>
@@ -725,6 +745,10 @@ const CaseManagerView: React.FC = () => {
                         <span className="flex items-center gap-2" title="Full Name"><UsersIcon size={12} className="text-blue-500" /> {activeCaseData.operatorAlias}</span>
                         <span className="hidden sm:inline opacity-30">//</span>
                         <span className="text-slate-600 truncate max-w-[150px] sm:max-w-none" title="Email Address">{activeCaseData.secureComms}</span>
+                        <span className="hidden sm:inline opacity-30">//</span>
+                        <span className="normal-case text-slate-300" title="Phone number">{casePhone(activeCaseData)}</span>
+                        <span className="hidden sm:inline opacity-30">//</span>
+                        <span title="Date the form was submitted">Filed {formatCaseFiledAt(activeCaseData.createdAt || activeCaseData.timestamp)}</span>
                       </p>
                     </div>
                     <div className="flex items-center sm:justify-end gap-3 pt-4 sm:pt-0 border-t border-white/5 sm:border-t-0">
