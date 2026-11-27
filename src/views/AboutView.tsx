@@ -43,7 +43,7 @@ export const AboutView = ({ onContactClick, onNavigate }: AboutViewProps) => {
         <div className="bg-slate-950 flex justify-center">
           <img
             src="/about-team.jpg"
-            alt="Cipher Shield Chain Recovery investigators and partners at a recovery operations briefing"
+            alt="Cipher Shield Chain Recovery team at a live recovery operations briefing"
             width={1024}
             height={1024}
             decoding="async"
@@ -51,7 +51,7 @@ export const AboutView = ({ onContactClick, onNavigate }: AboutViewProps) => {
           />
         </div>
         <figcaption className="px-4 sm:px-8 py-4 border-t border-white/10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-          <span className="text-slate-300 text-sm font-medium">The recovery desk — analysts, investigators, and counsel partners.</span>
+          <span className="text-slate-300 text-sm font-medium">Our team — analysts, investigators, and counsel partners.</span>
           <span className="font-fira text-[10px] text-blue-400 uppercase tracking-[0.2em]">Secure · Recover · Rebuild</span>
         </figcaption>
       </figure>
