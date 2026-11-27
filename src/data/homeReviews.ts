@@ -1,53 +1,53 @@
 /** Five newest reviews for the homepage carousel — keep this file small so home JS does not pull ReviewsView. */
 export const HOME_CAROUSEL_REVIEWS = [
   {
-    id: "rev_181",
-    user: "MICHAEL_J_ORF",
-    platform: "TRUSTPILOT",
-    rating: 5,
-    content:
-      "A fake label advance took $26,400 USDT I needed for a van and studio time. Cipher Shield Chain Recovery matched the wallets to other musician-advance fakes and recovered every dollar.",
-    tag: "FAKE_LABEL_ADVANCE",
-    platformType: "TRUSTPILOT" as const,
-  },
-  {
-    id: "rev_180",
-    user: "NOOR_H_AMM",
+    id: "rev_196",
+    user: "ELENA_V_SPK",
     platform: "GOOGLE_REV",
     rating: 5,
     content:
-      "A Zoom 'pension advisor' took $81,300 of my father's teaching savings. Cipher Shield Chain Recovery put us on one call, traced the USDC, and every dollar came home.",
-    tag: "PENSION_ANNUITY_ZOOM",
+      "A fake airline desk took the $24,100 I had saved for my mother's first visit. Cipher Shield Chain Recovery traced the Bitcoin in time. She flew. She held her grandson.",
+    tag: "AIRLINE_VISA_TICKET",
     platformType: "GOOGLE" as const,
   },
   {
-    id: "rev_179",
-    user: "KEVIN_A_PHX",
+    id: "rev_195",
+    user: "RUTH_A_COL",
     platform: "TRUSTPILOT",
     rating: 5,
     content:
-      "A lookalike produce invoice drained $18,650 from my taco shop. Cipher Shield Chain Recovery treated it like wire fraud, froze the cash-out, and we opened Saturday.",
-    tag: "SUPPLIER_INVOICE_CLONE",
+      "A fake diocese audit emptied $29,400 from our church roof fund. Cipher Shield Chain Recovery traced the USDC and the envelopes were back before Sunday.",
+    tag: "CHURCH_ROOF_AUDIT",
     platformType: "TRUSTPILOT" as const,
   },
   {
-    id: "rev_178",
-    user: "ANNA_B_KRK",
+    id: "rev_194",
+    user: "NABIL_H_MIN",
     platform: "GOOGLE_REV",
     rating: 5,
     content:
-      "A fake rental hold took 2.04 ETH I had saved for a studio. Cipher Shield Chain Recovery traced the listing kit and my Ethereum came back. I still teach in that room.",
-    tag: "RENTAL_HOLD_CRYPTO",
+      "A fake bursar email took $11,250 of my daughter's tuition between night deliveries. Cipher Shield Chain Recovery recovered it before her seat dropped.",
+    tag: "TUITION_BURSAR_EMAIL",
     platformType: "GOOGLE" as const,
   },
   {
-    id: "rev_177",
-    user: "JAMES_T_OKC",
+    id: "rev_193",
+    user: "HELEN_C_BUF",
     platform: "TRUSTPILOT",
     rating: 5,
     content:
-      "A fake court portal emptied $94,000 USDC from my divorce award. Cipher Shield Chain Recovery showed it was a third party, recovered the funds, and kept the file discreet.",
-    tag: "DIVORCE_DISBURSEMENT_PORTAL",
+      "After my husband died, a bereavement 'counselor' took $52,000 of the life insurance. Cipher Shield Chain Recovery traced the Bitcoin and the mortgage stayed current.",
+    tag: "BEREAVEMENT_CUSTODY_WALLET",
     platformType: "TRUSTPILOT" as const,
+  },
+  {
+    id: "rev_192",
+    user: "OWEN_B_POR",
+    platform: "GOOGLE_REV",
+    rating: 5,
+    content:
+      "A fake district portal took $9,600 I had tutored all year to buy classroom books. Cipher Shield Chain Recovery recovered it. The books are on the shelf.",
+    tag: "TEACHER_REIMBURSEMENT_PORTAL",
+    platformType: "GOOGLE" as const,
   },
 ];

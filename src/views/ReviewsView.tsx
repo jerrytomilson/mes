@@ -1909,6 +1909,171 @@ export const REVIEWS_DATA: Review[] = [
     date: '2026-11-12',
     verified: true,
     tag: 'FAKE_LABEL_ADVANCE'
+  },
+  {
+    id: 'rev_182',
+    user: 'LINDA_M_TUL',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "My sister's oncologist said the next round would not wait on insurance. I had been saving in USDT because a coworker swore it cleared faster than a wire. A 'patient finance desk' sent a portal that used the hospital's logo and my sister's first name. I sent $38,700 at 1 a.m. between shifts. In the morning the real billing office had never heard of the link. I sat in the parking garage and could not call my sister. I did not want the last thing she heard from me to be that I had lost the treatment money. Cipher Shield Chain Recovery took the case before I had finished crying. They did not ask me to explain the medicine. They asked for the time, the tx, and the fake portal. They traced the USDT into a cluster already tied to hospital-billing kits and caught an exchange deposit that was still sitting. The $38,700 came home in time for the appointment. My sister does not know how close it was, and I am keeping it that way until she is stronger. If you are paying a medical bill in crypto because someone said the hospital prefers it, call the number on the paper wristband first. If you already sent it, these people treated a sister's treatment fund like the emergency it was. I will not forget that.",
+    date: '2026-11-13',
+    verified: true,
+    tag: 'HOSPITAL_BILLING_PORTAL'
+  },
+  {
+    id: 'rev_183',
+    user: 'DANIEL_R_CLT',
+    platform: 'TRUSTPILOT',
+    rating: 5,
+    content:
+      "I am a single father. The $19,850 was three months of child support I had pulled together after a slow winter, plus the deposit on a smaller apartment so my son could have his own room when he stays with me. A 'court payment portal' said the old account was closed and the new one took USDC. It looked like the county site down to the seal. I sent it on my lunch break because I was already late and I did not want a contempt hearing. The real clerk told me the next day that no portal had changed. I picked my son up from school and smiled like nothing was wrong. That night I could not eat. Cipher Shield Chain Recovery opened the file the same evening. They spoke to me like a parent, not a fool. They mapped the payment, matched the portal kit to other family-court fakes, and pushed an exchange hold while I was still packing his overnight bag. The $19,850 returned. He has the room. He does not know the money almost vanished, and that is a mercy I did not think I would get. If a court ever asks you for crypto, it is not the court. If you already paid, write this firm. They gave me back the only thing I had promised him.",
+    date: '2026-11-14',
+    verified: true,
+    tag: 'CHILD_SUPPORT_PORTAL'
+  },
+  {
+    id: 'rev_184',
+    user: 'GRACE_O_LAG',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "I send money home for my mother's blood-pressure medicine. This time it was also the surgeon's deposit for my younger brother's knee, $14,200 in USDT, because the clinic said dollars in crypto arrived before a bank transfer. A helper on WhatsApp had my mother's voice note. I know her voice. I sent it. The real clinic never received a kobo. I called my brother and lied that the transfer was 'processing' because I could not say the word stolen out loud. Cipher Shield Chain Recovery did not make me repeat the shame in English I was too tired to find. They took the hashes, the voice note, and the clinic invoice. They traced the USDT, found the cash-out still inside a KYC window, and the $14,200 came back before the surgery date moved. My brother walked into that clinic on his own feet. My mother still thinks I am the reliable one. I am writing this so another person sending medicine money home does not sit alone with a lie. If the voice note arrives and the wallet address is new, hang up and call the number you already have. If you already sent it, this team knows how to chase a family transfer without turning it into a scandal.",
+    date: '2026-11-15',
+    verified: true,
+    tag: 'FAMILY_MEDICINE_TRANSFER'
+  },
+  {
+    id: 'rev_185',
+    user: 'HAROLD_P_DAY',
+    platform: 'TRUSTPILOT',
+    rating: 5,
+    content:
+      "I am seventy-one. The $27,600 was Christmas for six grandchildren and the property-tax bill I had finally caught up on. A man on the phone said he was from the bank's fraud desk and that my account would be drained by morning unless I moved the balance into a 'safe vault' he spelled out one character at a time. He stayed on the line while I did it in BTC. My daughter found me at the kitchen table with the phone still warm. I could not look at her. Cipher Shield Chain Recovery spoke to both of us so I would not have to tell the story twice. They traced while she made tea. They coordinated with the exchange and with the report she filed so the papers matched. The Bitcoin came home. They also sent a one-page sheet in large type: no bank will ever ask you to send crypto. She taped it beside the phone. If you are a child who just walked in on a parent mid-transfer, you are not too late. Call them while the hops are still warm. They were gentle with an old man who is not stupid. He was hunted. That difference gave me my dignity back with the money.",
+    date: '2026-11-16',
+    verified: true,
+    tag: 'BANK_SAFE_VAULT_CALL'
+  },
+  {
+    id: 'rev_186',
+    user: 'AISHA_K_DET',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "I am a night-shift nurse. The $22,150 was the down payment on a used car so I would stop taking the bus home at 3 a.m. A 'dealership finance' text used the lot's name and a photo of the exact Civic I had test-driven. I sent USDT from the hospital bathroom because the salesman said the car would be gone by morning. The lot had no such text. The car was still on the line and no longer mine. I finished the shift because patients do not care that you were robbed. Cipher Shield Chain Recovery opened the case before I slept. They treated a nurse's car fund like a payroll theft, not a hobby. They traced the payment, tied the text kit to other dealership clones, and froze the cash-out. The $22,150 is back. I bought a plainer car, in person, with a cashier's check, and I drive it home in the dark without looking over my shoulder the same way. If a lot wants crypto to 'hold' a car you already sat in, walk out. If you already sent it between patients, these people will still pick up. They did not make me feel dramatic. They made me feel believed.",
+    date: '2026-11-17',
+    verified: true,
+    tag: 'DEALERSHIP_HOLD_TEXT'
+  },
+  {
+    id: 'rev_187',
+    user: 'SAMUEL_W_OMA',
+    platform: 'TRUSTPILOT',
+    rating: 5,
+    content:
+      "I sold a trailer of cattle and the buyer asked to settle $41,900 in USDC because his bank was 'flagging farm wires.' I have sold cattle my whole life. I have never been asked for a wallet. I did it anyway because the trailer was already on his scale and I wanted my animals paid for before the road got dark. The USDC never landed in any account I control. I had to tell my wife the sale was gone and the cattle were gone. She did not yell. That was worse. Cipher Shield Chain Recovery took the scale ticket, the chat, and the hash the same night. They talked like people who have met a farmer before. They traced the USDC, found it pooled with other livestock-settlement fakes, and caught an exchange deposit before it peeled away. The $41,900 came home. We paid the feed bill. I still sell cattle. I do not take a wallet address on a scale. If someone tells you a farm wire is 'flagged' and crypto is the workaround, load the trailer back up. If you already unloaded it, call this firm. They gave us back a year's work without a lecture.",
+    date: '2026-11-18',
+    verified: true,
+    tag: 'LIVESTOCK_SETTLEMENT'
+  },
+  {
+    id: 'rev_188',
+    user: 'MARIA_S_SAT',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "The $16,400 was my daughter's quinceañera. Dress, hall, the band her grandmother had hummed for months. A 'venue coordinator' sent a new USDT address the week the balance was due and said the old one had been compromised. I paid because I did not want to be the mother who lost the date. The hall had not changed anything. The coordinator was a copied Instagram profile. I told my daughter the DJ was 'still confirming' and then I locked myself in the car. Cipher Shield Chain Recovery did not laugh at a party. They asked for the invoice, the chat, and the tx, and they traced it like rent. They matched the address to other event-vendor drains and got a freeze while the dress was still at the shop. The $16,400 returned. She danced. Her grandmother cried for the right reason. I am writing this in the church parking lot a week later because I can finally breathe. If a vendor changes a crypto address the week of a family day, call the number on the contract you signed in person. If you already sent it, this team will not make your joy sound silly. They brought mine back.",
+    date: '2026-11-19',
+    verified: true,
+    tag: 'QUINCEA_VENDOR_SWAP'
+  },
+  {
+    id: 'rev_189',
+    user: 'JOSEPH_T_BIR',
+    platform: 'TRUSTPILOT',
+    rating: 4,
+    content:
+      "I am a veteran. The $33,200 was back pay I had finally received and moved into BTC because a Facebook group said the bank would garnish it. A 'VSO helper' offered to park it in a protected wallet until the paperwork cleared. He had the right forms. He had the right tone. He did not have the right wallet. I sat with the award letter in my lap and felt like I had failed a version of myself that had already given enough. Cipher Shield Chain Recovery did not salute me or pity me. They investigated. They traced the Bitcoin, tied the helper's infrastructure to other benefits-impersonation cases, and worked the exchange side while I gathered the letters. Recovery took longer than the first estimate because one compliance queue sat still over a holiday. That is why this is four stars, and I am being fair. The $33,200 still came home. The analyst said, 'You were targeted because the money was late and you were tired.' That sentence undid something the theft had done. If anyone offers to 'protect' VA money in a wallet you do not already own, hang up. If you already sent it, start here.",
+    date: '2026-11-20',
+    verified: true,
+    tag: 'VA_BACKPAY_WALLET'
+  },
+  {
+    id: 'rev_190',
+    user: 'FATOU_D_BRX',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "We had been in the new country eleven months. The $12,750 was the apartment deposit, the first month, and the mattresses. A 'relocation agent' who had helped other families in our building sent a USDT address and said the landlord only took crypto now. I recognized her photo. I sent it. The landlord had never met her. We were going to sleep on the floor of a cousin's place and tell the children it was an adventure. I could not say the real sentence. Cipher Shield Chain Recovery took a case from someone who was still learning the language of the forms. They were patient with screenshots, with names spelled two ways, with a timeline I kept mixing up. They traced the USDT, found the same agent kit used on other new arrivals, and the freeze landed before we had to give the cousin a date. The $12,750 came home. We have keys. The children have beds. I am writing this so another family that just arrived does not think a kind face in the hallway is the landlord. If you already paid that face, these people will not talk down to you. They talked to me like a neighbor who had been robbed. That was enough to keep going.",
+    date: '2026-11-21',
+    verified: true,
+    tag: 'RELOCATION_DEPOSIT'
+  },
+  {
+    id: 'rev_191',
+    user: 'PATRICIA_L_MEM',
+    platform: 'TRUSTPILOT',
+    rating: 5,
+    content:
+      "I take care of my neighbor. She has no children nearby and she trusts me with the card for her groceries. A fake 'Medicare refund' email told her to move $18,900 into USDC or the refund would expire and her coverage would lapse. She asked me to help because the letters were small. I helped. I walked her into the theft. When I understood, I wanted to disappear from her kitchen. Cipher Shield Chain Recovery understood immediately that this was not my money and not a simple personal loss. They put both of us on the call so she would not have to be afraid of me. They traced the USDC, explained it to her in short sentences, and coordinated the exchange report while I sat where she could see my hands. The $18,900 returned to her. She still lets me shop. She said, 'You stayed.' I am not sure I deserve that, but the firm made it possible for me to stay. If you help an older person and a refund suddenly needs crypto, stop and call the number on their real card. If you already pressed send, call this team before shame makes you hide. They protected her and they did not prosecute me with their tone. I needed both.",
+    date: '2026-11-22',
+    verified: true,
+    tag: 'CAREGIVER_MEDICARE_REFUND'
+  },
+  {
+    id: 'rev_192',
+    user: 'OWEN_B_POR',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "I teach third grade. The $9,600 was a year of side tutoring I had stacked to replace the classroom books the district would not buy, plus a little cushion so I could say yes when a kid needed a field-trip fee. A 'district reimbursement portal' asked for USDT and used our principal's name. I paid on a Sunday night because I wanted the books in the room on Monday. The district does not reimburse in crypto. I stood in front of twenty-four children and taught fractions like my hands were not shaking. Cipher Shield Chain Recovery took a teacher's book fund as seriously as a wire fraud case, which is what it was. They traced the payment, linked the portal to other school-district clones, and recovered the $9,600. The books are on the shelf. Two kids went on the trip. I did not have to tell the class that the grown-ups had been tricked. If your school ever asks for crypto to 'release' a reimbursement, it is not your school. If you already sent a year's tutoring, these people will still answer. They gave me back the only extra I had, and they let me keep my voice in that room.",
+    date: '2026-11-23',
+    verified: true,
+    tag: 'TEACHER_REIMBURSEMENT_PORTAL'
+  },
+  {
+    id: 'rev_193',
+    user: 'HELEN_C_BUF',
+    platform: 'TRUSTPILOT',
+    rating: 5,
+    content:
+      "My husband died in March. The $52,000 was the life-insurance piece I had not yet learned how to hold. A 'bereavement financial counselor' found me through a forum and said widows were being targeted by banks, so I should move the money into a custody wallet he would watch. He was soft. He used my husband's name correctly. I sent BTC because grief makes you obedient. Three days later the counselor was gone and so was the only money that was supposed to cover the mortgage through the first year without him. I could not tell our son. Cipher Shield Chain Recovery did not make me perform the marriage. They asked for dates and hashes and they let me stop when I needed to stop. They traced the Bitcoin, matched the counselor's wallets to other bereavement kits, and worked the exchange until a freeze held. The money came home. The mortgage is current. Our son still thinks I am simply tired. I am tired. I am also no longer robbed. If someone finds you in the first months after a death and offers a special wallet, they found you on purpose. If you already moved the insurance, call this firm before you decide you cannot be forgiven. They did not ask me to forgive myself. They got the money back. That was the kinder order.",
+    date: '2026-11-24',
+    verified: true,
+    tag: 'BEREAVEMENT_CUSTODY_WALLET'
+  },
+  {
+    id: 'rev_194',
+    user: 'NABIL_H_MIN',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "I drive nights so my daughter can start community college without a loan. The $11,250 was tuition and a used laptop. A 'bursar' email said the payment portal had moved to USDT for international families and that her seat would drop at midnight. I sent it from the parking lot of a warehouse between deliveries. The real bursar had sent nothing. I had to tell my daughter, who is eighteen and already trying not to need me. She said it was okay. It was not okay. Cipher Shield Chain Recovery opened the case while I was still on the road. They traced the USDT, tied the bursar kit to other tuition drains, and the freeze landed before the drop date. The $11,250 is back. She has the laptop. She started classes. I still drive nights, but I am not driving to replace a hole I made. If a college asks a parent for crypto at midnight, it is not the college. If you already paid between deliveries, these people answered a driver. They did not need me to sound educated. They needed the hash. They did the rest, and my daughter did not have to shrink her life to fix my fear.",
+    date: '2026-11-25',
+    verified: true,
+    tag: 'TUITION_BURSAR_EMAIL'
+  },
+  {
+    id: 'rev_195',
+    user: 'RUTH_A_COL',
+    platform: 'TRUSTPILOT',
+    rating: 5,
+    content:
+      "Our church was three Sundays away from paying the roofer. The $29,400 in the building fund was mostly small envelopes from people who do not have small money. A 'diocese audit' message told me, as treasurer, to move the USDC to a compliance wallet or the congregation would be flagged. It used the right letterhead. I moved it because I am the person who is supposed to protect the plate. Then I was the person who had emptied it. I stood in the empty fellowship hall and practiced how to resign. Cipher Shield Chain Recovery treated a church fund like a community theft, which it was, and they did not turn it into a joke about faith. They traced the USDC, showed me the same letterhead used on other congregations, and pushed the exchange while I prepared a honest note for the board. The $29,400 returned before Sunday. The roof is being paid. I am still treasurer because the board read the report and saw a hunt, not a thief. If a letter asks a church to move the plate into crypto, read it out loud to two other people first. If you already did it alone, call this firm before you write the resignation. They gave a room full of envelopes back to the people who folded them.",
+    date: '2026-11-26',
+    verified: true,
+    tag: 'CHURCH_ROOF_AUDIT'
+  },
+  {
+    id: 'rev_196',
+    user: 'ELENA_V_SPK',
+    platform: 'GOOGLE',
+    rating: 5,
+    content:
+      "I saved $24,100 so my mother could fly here for the first time and meet her grandson before her eyes got worse. A 'airline support' chat said the ticket had been flagged and I had to reissue it in BTC within an hour or the visa window would close. The agent knew the flight number. I sent it. There was no flag. There was no ticket. I had to tell my mother, on a bad line, to unpack the small bag she had already set by the door. That is the worst sentence I have ever said. Cipher Shield Chain Recovery did not rush me off the phone when I could not get through the story cleanly. They took the chat, the flight number, and the tx. They traced the Bitcoin, matched the support kit to other travel freezes, and caught the cash-out while the visa window was still open. The $24,100 came home. She flew. She held him. I am writing this after they went to sleep in the next room, because I can hear them and I still do not fully believe I get to. If an airline asks for crypto to 'save' a ticket, it is not the airline. If you already sent the money that was supposed to buy a first meeting, start here. They gave my son his grandmother. I do not have a better way to say what that is worth.",
+    date: '2026-11-27',
+    verified: true,
+    tag: 'AIRLINE_VISA_TICKET'
   }
 
 ];

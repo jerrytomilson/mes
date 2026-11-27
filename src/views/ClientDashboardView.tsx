@@ -56,6 +56,35 @@ export const ClientDashboardView = ({ caseData }: ClientDashboardViewProps) => {
   const [sendingMessage, setSendingMessage] = React.useState(false);
   const [notifications, setNotifications] = React.useState<any[]>(() => resolvedCase?.notifications || []);
   const [isNotificationsOpen, setIsNotificationsOpen] = React.useState(false);
+  const bellRef = React.useRef<HTMLButtonElement>(null);
+  const [notifPanelBox, setNotifPanelBox] = React.useState<{ top: number; maxHeight: number } | null>(null);
+
+  const placeNotificationPanel = React.useCallback(() => {
+    const bell = bellRef.current;
+    if (!bell || window.innerWidth >= 640) {
+      setNotifPanelBox(null);
+      return;
+    }
+    const rect = bell.getBoundingClientRect();
+    const margin = 12;
+    const top = Math.min(rect.bottom + 8, window.innerHeight - 180);
+    setNotifPanelBox({
+      top,
+      maxHeight: Math.max(180, window.innerHeight - top - margin),
+    });
+  }, []);
+
+  React.useEffect(() => {
+    if (!isNotificationsOpen) return;
+    placeNotificationPanel();
+    window.addEventListener('resize', placeNotificationPanel);
+    window.addEventListener('scroll', placeNotificationPanel, true);
+    return () => {
+      window.removeEventListener('resize', placeNotificationPanel);
+      window.removeEventListener('scroll', placeNotificationPanel, true);
+    };
+  }, [isNotificationsOpen, placeNotificationPanel]);
+
   const [unreadCount, setUnreadCount] = React.useState(
     () => (resolvedCase?.notifications || []).filter((n: any) => !n.read).length
   );
@@ -503,8 +532,14 @@ export const ClientDashboardView = ({ caseData }: ClientDashboardViewProps) => {
         <div className="flex items-center gap-4">
           <div className="relative">
             <button 
+              ref={bellRef}
               type="button"
-              onClick={() => setIsNotificationsOpen(!isNotificationsOpen)}
+              onClick={() => {
+                setIsNotificationsOpen((open) => {
+                  if (!open) placeNotificationPanel();
+                  return !open;
+                });
+              }}
               className={`p-3 rounded-xl border transition-all relative group ${
                 unreadCount > 0 ? 'bg-blue-600/10 border-blue-500 text-blue-400' : 'bg-white/5 border-white/10 text-slate-500 hover:text-white'
               }`}
@@ -528,12 +563,17 @@ export const ClientDashboardView = ({ caseData }: ClientDashboardViewProps) => {
                     className="fixed inset-0 z-40"
                   />
                   <motion.div 
-                    initial={{ opacity: 0, y: 10, scale: 0.95 }}
-                    animate={{ opacity: 1, y: 0, scale: 1 }}
-                    exit={{ opacity: 0, y: 10, scale: 0.95 }}
-                    className="absolute right-0 mt-4 w-[320px] sm:w-[400px] glass-panel border border-white/10 rounded-2xl shadow-2xl z-50 overflow-hidden"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 10 }}
+                    style={
+                      notifPanelBox && window.innerWidth < 640
+                        ? { top: notifPanelBox.top, maxHeight: notifPanelBox.maxHeight }
+                        : undefined
+                    }
+                    className="fixed inset-x-3 z-50 flex flex-col glass-panel border border-white/10 rounded-2xl shadow-2xl overflow-hidden sm:absolute sm:inset-x-auto sm:right-0 sm:top-auto sm:mt-4 sm:w-[400px] sm:max-h-none"
                   >
-                    <div className="p-4 border-b border-white/5 bg-slate-950/60 flex items-center justify-between">
+                    <div className="p-4 border-b border-white/5 bg-slate-950/60 flex items-center justify-between gap-3 shrink-0">
                       <h3 className="font-mono text-[10px] font-bold text-white uppercase tracking-widest flex items-center gap-2">
                         <Inbox size={12} className="text-blue-500" /> Notifications
                       </h3>
@@ -547,7 +587,7 @@ export const ClientDashboardView = ({ caseData }: ClientDashboardViewProps) => {
                         </button>
                       )}
                     </div>
-                    <div className="max-h-[400px] overflow-y-auto custom-scrollbar p-2 space-y-2">
+                    <div className="min-h-0 flex-1 overflow-y-auto custom-scrollbar p-2 space-y-2 sm:max-h-[400px] sm:flex-none">
                       {notifications.length === 0 ? (
                         <div className="py-12 text-center">
                           <p className="text-[10px] font-mono text-slate-600 uppercase tracking-widest">No notifications detected</p>
@@ -574,10 +614,10 @@ export const ClientDashboardView = ({ caseData }: ClientDashboardViewProps) => {
                                  <Info size={14} />}
                               </div>
                               <div className="flex-1 min-w-0">
-                                <p className={`text-[11px] font-bold uppercase tracking-wide mb-0.5 ${notif.read ? 'text-slate-400' : 'text-white'}`}>
+                                <p className={`text-[11px] font-bold uppercase tracking-wide mb-0.5 break-words ${notif.read ? 'text-slate-400' : 'text-white'}`}>
                                   {notif.title}
                                 </p>
-                                <p className="text-[10px] text-slate-400 font-manrope leading-relaxed line-clamp-2">
+                                <p className="text-[10px] text-slate-400 font-manrope leading-relaxed break-words">
                                   {notif.message}
                                 </p>
                                 <p className="text-[8px] font-mono text-slate-600 mt-2 uppercase">
