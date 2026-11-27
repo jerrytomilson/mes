@@ -290,7 +290,7 @@ export const ServicesView = ({ onServiceClick }: ServicesViewProps) => {
             border: "border-error/20",
             stats: { 'Detection Rate': 'Real-time', 'Legal Nexus': 'Interpol API' },
             points: ['Stolen Crypto Recovery', 'Direct Node Intervention', 'Legal Nexus Support'],
-            action: 'BEGIN SHIELD',
+            action: 'BEGIN RECOVERY',
             success: '< 8m Response'
           },
           {
