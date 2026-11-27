@@ -155,15 +155,13 @@ export const HomeView = ({ onNavigate, onIntakeComplete }: HomeViewProps) => {
             <span className="font-fira text-[11px] sm:text-xs md:text-[13px] font-bold text-blue-200 tracking-widest uppercase">SYSTEM ACTIVE: {traceCount.toLocaleString()} TRACES</span>
           </div>
           
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+          <h1 
             className="font-manrope text-white text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight uppercase"
           >
             Elite <br/>
             <span className="text-white text-glow-blue">Crypto Recovery</span><br/>
             <span className="text-blue-500">& Forensic Service</span>
-          </motion.h1>
+          </h1>
           
           <p className="text-lg text-slate-400 leading-relaxed max-w-xl">
             As a leading <span className="text-blue-400 font-bold">crypto recovery service</span>, we use military-grade chain analysis to track, freeze, and recover misappropriated assets across <span className="text-blue-400 font-fira text-sm">34+ blockchain networks</span>. Hire a <span className="text-white font-semibold">bitcoin recovery expert</span> today.

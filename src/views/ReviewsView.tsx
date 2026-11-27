@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
 import { 
   BadgeCheck, 
   Search, 
@@ -2082,19 +2081,33 @@ interface ReviewsViewProps {
   onNavigate: (view: string) => void;
 }
 
+const PAGE_SIZE = 12;
+
 export const ReviewsView: React.FC<ReviewsViewProps> = ({ onNavigate }) => {
   const [filter, setFilter] = React.useState<'ALL' | 'GOOGLE' | 'TRUSTPILOT'>('ALL');
   const [searchQuery, setSearchQuery] = React.useState('');
+  const [visibleCount, setVisibleCount] = React.useState(PAGE_SIZE);
 
-  const filteredReviews = REVIEWS_DATA
-    .filter(rev => {
-      const matchesPlatform = filter === 'ALL' || rev.platform === filter;
-      const matchesSearch = rev.content.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                            rev.user.toLowerCase().includes(searchQuery.toLowerCase());
-      return matchesPlatform && matchesSearch;
-    })
-    // Newest reviews first
-    .sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+  const filteredReviews = React.useMemo(() => {
+    const q = searchQuery.toLowerCase();
+    return REVIEWS_DATA
+      .filter((rev) => {
+        const matchesPlatform = filter === 'ALL' || rev.platform === filter;
+        const matchesSearch =
+          !q ||
+          rev.content.toLowerCase().includes(q) ||
+          rev.user.toLowerCase().includes(q);
+        return matchesPlatform && matchesSearch;
+      })
+      .sort((a, b) => b.date.localeCompare(a.date) || b.id.localeCompare(a.id));
+  }, [filter, searchQuery]);
+
+  React.useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [filter, searchQuery]);
+
+  const visibleReviews = filteredReviews.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredReviews.length;
 
   return (
     <main className="pt-36 sm:pt-40 pb-24 px-6 lg:px-12 max-w-[1400px] mx-auto min-h-screen">
@@ -2166,17 +2179,11 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onNavigate }) => {
         </div>
       </div>
 
-      {/* Reviews Grid */}
+      {/* Reviews Grid — paint first page immediately; no staggered delays */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <AnimatePresence mode="popLayout">
-          {filteredReviews.map((review, i) => (
-            <motion.div
-              layout
+          {visibleReviews.map((review) => (
+            <div
               key={review.id}
-              initial={{ opacity: 0, scale: 0.92, y: 10 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.92, y: -10 }}
-              transition={{ duration: 0.3, delay: i * 0.05 }}
               className={`glass-panel p-8 rounded-2xl border relative group flex flex-col ${
                 review.platform === 'GOOGLE' ? 'border-blue-500/10 hover:border-blue-500/30' : 'border-emerald-500/10 hover:border-emerald-500/30'
               }`}
@@ -2232,10 +2239,21 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onNavigate }) => {
                     VIEW_SOURCE <ExternalLink className="w-2.5 h-2.5" />
                  </button>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </AnimatePresence>
       </div>
+
+      {hasMore && (
+        <div className="mt-12 flex justify-center">
+          <button
+            type="button"
+            onClick={() => setVisibleCount((n) => n + PAGE_SIZE)}
+            className="px-8 py-3 bg-white/5 border border-white/10 text-white font-mono text-[10px] font-bold uppercase tracking-[0.2em] rounded-lg hover:bg-blue-600 hover:border-blue-500 transition-all"
+          >
+            LOAD_MORE_REVIEWS ({filteredReviews.length - visibleCount} remaining)
+          </button>
+        </div>
+      )}
 
       {/* Empty State */}
       {filteredReviews.length === 0 && (

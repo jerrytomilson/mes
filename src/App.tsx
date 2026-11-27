@@ -23,12 +23,12 @@ import { FooterSocialLinks } from './components/SocialIcons';
 import { RouteSEO } from './components/RouteSEO';
 import { HomeView } from './views/HomeView';
 import { ClientPortalView } from './views/ClientPortalView';
-import { RecoveryConfirmationView } from './views/RecoveryConfirmationView';
-import { CaseLookupView } from './views/CaseLookupView';
 import {
   ServicesView,
   IntelligenceView,
   ClientDashboardView,
+  RecoveryConfirmationView,
+  CaseLookupView,
   ChainTraceabilityView,
   ExchangeRecoveryView,
   LegalEnforcementView,
@@ -49,6 +49,7 @@ import {
   CaseManagerView,
   prefetchPrimaryViews,
   prefetchClientWorkspace,
+  prefetchViewChunk,
 } from './views/lazyViews';
 import { trackMetaPageView } from './lib/adsTracking';
 import {
@@ -163,16 +164,20 @@ const NavLink = ({
   children, 
   active = false, 
   to,
-  onClick 
+  onClick,
+  onIntent,
 }: { 
   children: React.ReactNode; 
   active?: boolean;
   to: string;
   onClick?: () => void;
+  onIntent?: () => void;
 }) => (
   <Link 
     to={to}
     onClick={onClick}
+    onMouseEnter={onIntent}
+    onFocus={onIntent}
     className={`font-manrope text-sm font-bold tracking-widest uppercase transition-colors cursor-pointer ${
       active ? 'text-blue-500' : 'text-slate-400 hover:text-blue-400'
     }`}
@@ -221,12 +226,23 @@ export default function App() {
   }, []);
 
   React.useEffect(() => {
+    let idleId: number | undefined;
+    let timeoutId: number | undefined;
     const warm = () => {
       prefetchPrimaryViews();
-      void import('./lib/firebase');
     };
-    const t = window.setTimeout(warm, 120);
-    return () => window.clearTimeout(t);
+    const ric = window.requestIdleCallback;
+    if (typeof ric === 'function') {
+      idleId = ric(warm, { timeout: 4000 });
+    } else {
+      timeoutId = window.setTimeout(warm, 2500);
+    }
+    return () => {
+      if (idleId !== undefined && typeof window.cancelIdleCallback === 'function') {
+        window.cancelIdleCallback(idleId);
+      }
+      if (timeoutId !== undefined) window.clearTimeout(timeoutId);
+    };
   }, []);
 
   // Handle initial route
@@ -298,6 +314,27 @@ export default function App() {
       view === 'clientPortal'
     ) {
       prefetchClientWorkspace();
+    } else if (
+      view === 'about' ||
+      view === 'services' ||
+      view === 'faq' ||
+      view === 'reviews' ||
+      view === 'blog' ||
+      view === 'tools' ||
+      view === 'intelligence' ||
+      view === 'submitReview' ||
+      view === 'privacyPolicy' ||
+      view === 'termsOfService' ||
+      view === 'chainTraceability' ||
+      view === 'exchangeRecovery' ||
+      view === 'legalEnforcement' ||
+      view === 'riskMonitoring' ||
+      view === 'iso27001' ||
+      view === 'soc2' ||
+      view === 'gdpr' ||
+      view === 'amlkyc'
+    ) {
+      prefetchViewChunk(view);
     }
     setCurrentView(view);
     closeMobileMenu();
@@ -402,11 +439,11 @@ export default function App() {
               <span className="font-fira text-[11px] text-blue-400 animate-pulse">● SECURING NODE 8.21.03...</span>
             </div>
             <NavLink to="/" active={currentView === 'home'} onClick={() => handleNavClick('home')}>Home</NavLink>
-            <NavLink to="/about" active={currentView === 'about'} onClick={() => handleNavClick('about')}>About</NavLink>
-            <NavLink to="/services" active={currentView === 'services'} onClick={() => handleNavClick('services')}>Services</NavLink>
-            <NavLink to="/blog" active={currentView === 'blog'} onClick={() => handleNavClick('blog')}>Blog</NavLink>
-            <NavLink to="/reviews" active={currentView === 'reviews'} onClick={() => handleNavClick('reviews')}>Reviews</NavLink>
-            <NavLink to="/faq" active={currentView === 'faq'} onClick={() => handleNavClick('faq')}>FAQ</NavLink>
+            <NavLink to="/about" active={currentView === 'about'} onClick={() => handleNavClick('about')} onIntent={() => prefetchViewChunk('about')}>About</NavLink>
+            <NavLink to="/services" active={currentView === 'services'} onClick={() => handleNavClick('services')} onIntent={() => prefetchViewChunk('services')}>Services</NavLink>
+            <NavLink to="/blog" active={currentView === 'blog'} onClick={() => handleNavClick('blog')} onIntent={() => prefetchViewChunk('blog')}>Blog</NavLink>
+            <NavLink to="/reviews" active={currentView === 'reviews'} onClick={() => handleNavClick('reviews')} onIntent={() => prefetchViewChunk('reviews')}>Reviews</NavLink>
+            <NavLink to="/faq" active={currentView === 'faq'} onClick={() => handleNavClick('faq')} onIntent={() => prefetchViewChunk('faq')}>FAQ</NavLink>
             <NavLink to="/contact" active={currentView === 'clientPortal'} onClick={() => handleNavClick('clientPortal')}>Contact</NavLink>
             
             <Link 
@@ -754,46 +791,26 @@ export default function App() {
         >
           <motion.div
             key={currentView}
-            initial={
-              currentView === 'recoveryConfirmation' ||
-              currentView === 'clientDashboard' ||
-              currentView === 'caseLookup'
-                ? false
-                : { opacity: 0, y: 8 }
-            }
+            initial={false}
             animate={{ opacity: 1, y: 0 }}
-            exit={
-              currentView === 'recoveryConfirmation' ||
-              currentView === 'clientDashboard' ||
-              currentView === 'caseLookup'
-                ? undefined
-                : { opacity: 0 }
-            }
-            transition={{
-              duration:
-                currentView === 'recoveryConfirmation' ||
-                currentView === 'clientDashboard' ||
-                currentView === 'caseLookup'
-                  ? 0
-                  : 0.1,
-            }}
+            transition={{ duration: 0 }}
           >
             <Suspense
               fallback={
-                currentView === 'clientDashboard' ||
-                currentView === 'recoveryConfirmation' ||
-                currentView === 'caseLookup' ? (
-                  <div className="min-h-screen pt-32 sm:pt-40 px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto" aria-busy="true">
-                    <div className="h-8 w-48 bg-white/5 rounded-lg mb-6 animate-pulse" />
-                    <div className="h-40 rounded-2xl bg-white/5 border border-white/5 animate-pulse" />
-                    <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="h-32 rounded-2xl bg-white/5 animate-pulse" />
-                      <div className="h-32 rounded-2xl bg-white/5 animate-pulse" />
-                    </div>
+                <div
+                  className="min-h-screen pt-32 sm:pt-40 px-4 sm:px-6 lg:px-12 max-w-[1400px] mx-auto"
+                  aria-busy="true"
+                  aria-label="Loading page"
+                >
+                  <div className="h-8 w-48 max-w-full bg-white/5 rounded-lg mb-6 animate-pulse" />
+                  <div className="h-4 w-72 max-w-full bg-white/5 rounded mb-8 animate-pulse" />
+                  <div className="h-40 rounded-2xl bg-white/5 border border-white/5 animate-pulse" />
+                  <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="h-32 rounded-2xl bg-white/5 animate-pulse" />
+                    <div className="h-32 rounded-2xl bg-white/5 animate-pulse" />
+                    <div className="h-32 rounded-2xl bg-white/5 animate-pulse hidden lg:block" />
                   </div>
-                ) : (
-                  <div className="min-h-[40vh]" aria-hidden="true" />
-                )
+                </div>
               }
             >
             {currentView === 'home' && (

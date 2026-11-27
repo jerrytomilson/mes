@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion } from 'motion/react';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import { 
   Newspaper, 
@@ -522,21 +522,11 @@ export const BlogView = () => {
         </div>
       </div>
 
-      {/* Dynamic Grid Layout */}
+      {/* Dynamic Grid Layout — no staggered delays (large feeds felt blank for seconds) */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-8 mb-32">
-        <AnimatePresence mode="popLayout">
-          {filteredPosts.map((post, idx) => (
-            <motion.article
-              layout
+          {filteredPosts.slice(0, 24).map((post, idx) => (
+            <article
               key={post.id}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95 }}
-              transition={{ 
-                duration: 0.4, 
-                delay: idx * 0.1,
-                layout: { duration: 0.3 }
-              }}
               className={`group relative flex flex-col glass-panel border border-white/5 rounded-3xl overflow-hidden hover:border-blue-500/30 transition-all duration-500 ${
                 idx === 0 ? 'xl:col-span-8' : 'xl:col-span-4'
               }`}
@@ -618,9 +608,8 @@ export const BlogView = () => {
               {/* Hover Glow Effect */}
               <div className="absolute inset-0 bg-blue-600/0 group-hover:bg-blue-600/[0.02] transition-colors pointer-events-none"></div>
               </Link>
-            </motion.article>
+            </article>
           ))}
-        </AnimatePresence>
       </div>
 
       {/* Professional CTA Section */}

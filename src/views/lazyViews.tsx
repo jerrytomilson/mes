@@ -88,26 +88,106 @@ export function prefetchClientWorkspace(): void {
   void import("./RecoveryConfirmationView");
 }
 
-/** Warm common page chunks after first paint so nav is instant. */
+/**
+ * Warm only high-traffic page chunks after idle.
+ * Avoid prefetching Blog/Tools/certs — those bundles are huge and starve first paint.
+ */
 export function prefetchPrimaryViews(): void {
-  prefetchClientWorkspace();
   void import("./AboutView");
   void import("./ServicesView");
   void import("./FAQView");
   void import("./ReviewsView");
   void import("./CaseLookupView");
-  void import("./IntelligenceView");
-  void import("./BlogView");
-  void import("./SubmitReviewView");
-  void import("./ToolsView");
-  void import("./ChainTraceabilityView");
-  void import("./ExchangeRecoveryView");
-  void import("./LegalEnforcementView");
-  void import("./RiskMonitoringView");
-  void import("./ISO27001View");
-  void import("./SOC2View");
-  void import("./GDPRView");
-  void import("./AMLKYCView");
-  void import("./PrivacyPolicyView");
-  void import("./TermsOfServiceView");
+}
+
+/** Prefetch a single route chunk on intent (hover / focus). */
+export function prefetchViewChunk(
+  view:
+    | "about"
+    | "services"
+    | "faq"
+    | "reviews"
+    | "blog"
+    | "tools"
+    | "intelligence"
+    | "submitReview"
+    | "privacyPolicy"
+    | "termsOfService"
+    | "chainTraceability"
+    | "exchangeRecovery"
+    | "legalEnforcement"
+    | "riskMonitoring"
+    | "iso27001"
+    | "soc2"
+    | "gdpr"
+    | "amlkyc"
+    | "clientDashboard"
+    | "recoveryConfirmation"
+    | "caseLookup"
+): void {
+  switch (view) {
+    case "about":
+      void import("./AboutView");
+      break;
+    case "services":
+      void import("./ServicesView");
+      break;
+    case "faq":
+      void import("./FAQView");
+      break;
+    case "reviews":
+      void import("./ReviewsView");
+      break;
+    case "blog":
+      void import("./BlogView");
+      break;
+    case "tools":
+      void import("./ToolsView");
+      break;
+    case "intelligence":
+      void import("./IntelligenceView");
+      break;
+    case "submitReview":
+      void import("./SubmitReviewView");
+      break;
+    case "privacyPolicy":
+      void import("./PrivacyPolicyView");
+      break;
+    case "termsOfService":
+      void import("./TermsOfServiceView");
+      break;
+    case "chainTraceability":
+      void import("./ChainTraceabilityView");
+      break;
+    case "exchangeRecovery":
+      void import("./ExchangeRecoveryView");
+      break;
+    case "legalEnforcement":
+      void import("./LegalEnforcementView");
+      break;
+    case "riskMonitoring":
+      void import("./RiskMonitoringView");
+      break;
+    case "iso27001":
+      void import("./ISO27001View");
+      break;
+    case "soc2":
+      void import("./SOC2View");
+      break;
+    case "gdpr":
+      void import("./GDPRView");
+      break;
+    case "amlkyc":
+      void import("./AMLKYCView");
+      break;
+    case "clientDashboard":
+      void import("./ClientDashboardView");
+      break;
+    case "recoveryConfirmation":
+      void import("./RecoveryConfirmationView");
+      break;
+    case "caseLookup":
+      void import("./CaseLookupView");
+      break;
+  }
 }
