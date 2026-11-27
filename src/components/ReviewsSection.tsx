@@ -88,20 +88,20 @@ export const ReviewsSection: React.FC<ReviewsSectionProps> = ({ onSeeMore }) => 
                 style={{ opacity: opaque ? 1 : 0 }}
               >
                 <div>
-                  <div className="flex items-center justify-between mb-6">
-                    <div className="flex items-center gap-2">
+                  <div className="flex items-center justify-between gap-3 mb-6">
+                    <div className="flex items-center gap-2 min-w-0">
                       <div
-                        className={`w-8 h-8 rounded flex items-center justify-center text-white ${
+                        className={`w-8 h-8 shrink-0 rounded flex items-center justify-center text-white ${
                           review.platformType === 'GOOGLE' ? 'bg-blue-600' : 'bg-emerald-500'
                         }`}
                       >
                         <BadgeCheck className="w-5 h-5" />
                       </div>
-                      <span className="text-[11px] font-bold text-white tracking-widest font-mono uppercase">
+                      <span className="text-[10px] sm:text-[11px] font-bold text-white tracking-widest font-mono uppercase truncate">
                         {review.platform}
                       </span>
                     </div>
-                    <div className="flex gap-0.5">
+                    <div className="flex gap-0.5 shrink-0">
                       {[...Array(review.rating)].map((_, i) => (
                         <div
                           key={i}

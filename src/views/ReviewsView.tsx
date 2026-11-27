@@ -2185,15 +2185,15 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onNavigate }) => {
                 <Quote className="w-12 h-12 text-white" />
               </div>
 
-              <div className="flex items-center justify-between mb-8">
-                <div className="flex items-center gap-3">
-                  <div className={`w-10 h-10 rounded-lg flex items-center justify-center text-white shadow-lg ${
+              <div className="flex items-start justify-between gap-3 mb-8">
+                <div className="flex items-center gap-3 min-w-0 flex-1">
+                  <div className={`w-10 h-10 shrink-0 rounded-lg flex items-center justify-center text-white shadow-lg ${
                     review.platform === 'GOOGLE' ? 'bg-blue-600' : 'bg-emerald-500'
                   }`}>
                     {review.platform === 'GOOGLE' ? <MessageSquare className="w-5 h-5" /> : <BadgeCheck className="w-5 h-5" />}
                   </div>
-                  <div>
-                    <p className="text-white font-manrope font-black text-sm uppercase tracking-tighter">{review.user}</p>
+                  <div className="min-w-0">
+                    <p className="text-white font-manrope font-black text-sm uppercase tracking-tighter truncate">{review.user}</p>
                     <div className="flex gap-0.5 mt-0.5">
                       {[...Array(5)].map((_, i) => (
                         <Star key={i} className={`w-2.5 h-2.5 ${i < review.rating ? (review.platform === 'GOOGLE' ? 'text-blue-500 fill-blue-500' : 'text-emerald-500 fill-emerald-500') : 'text-slate-700'}`} />
@@ -2201,10 +2201,10 @@ export const ReviewsView: React.FC<ReviewsViewProps> = ({ onNavigate }) => {
                     </div>
                   </div>
                 </div>
-                <div className={`text-[10px] font-mono font-bold tracking-widest px-2 py-1 rounded bg-white/5 border ${
+                <div className={`shrink-0 max-w-[42%] sm:max-w-none text-[9px] sm:text-[10px] font-mono font-bold tracking-widest px-2 py-1 rounded bg-white/5 border whitespace-nowrap ${
                   review.platform === 'GOOGLE' ? 'text-blue-400 border-blue-500/20' : 'text-emerald-400 border-emerald-500/20'
                 }`}>
-                  {review.platform}
+                  {review.platform === 'TRUSTPILOT' ? 'TRUSTPILOT' : 'GOOGLE'}
                 </div>
               </div>
 
